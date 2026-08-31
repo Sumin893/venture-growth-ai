@@ -1,0 +1,91 @@
+.card {
+  padding: 26px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  color: #6b7b99;
+}
+
+.title h2 {
+  margin: 0;
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  align-items: center;
+  gap: 28px;
+}
+
+.gauge {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  aspect-ratio: 1;
+}
+
+.gauge svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.gaugeTrack,
+.gaugeValue {
+  fill: none;
+  stroke-width: 14;
+}
+
+.gaugeTrack {
+  stroke: #dfe9fb;
+}
+
+.gaugeValue {
+  stroke: var(--primary);
+  stroke-linecap: round;
+}
+
+.gauge strong {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.gauge span {
+  position: relative;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 22px;
+}
+
+.ranks {
+  display: grid;
+  gap: 8px;
+}
+
+.ranks span {
+  color: var(--muted);
+}
+
+.ranks strong {
+  margin-bottom: 12px;
+  font-size: 34px;
+}
+
+@media (max-width: 720px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+}

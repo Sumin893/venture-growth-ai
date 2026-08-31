@@ -1,0 +1,42 @@
+:root {
+  --background: #f7fbff;
+  --surface: #ffffff;
+  --surface-soft: #f2f7ff;
+  --line: #d9e4f4;
+  --line-strong: #b9cae5;
+  --text: #08183a;
+  --muted: #5d6d8a;
+  --primary: #0a5be8;
+  --primary-dark: #063fa7;
+  --success: #13a35b;
+  --warning: #e86f20;
+  --danger: #dc3545;
+  --shadow: 0 14px 36px rgba(12, 50, 102, 0.09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(10, 91, 232, 0.35);
+  outline-offset: 2px;
+}

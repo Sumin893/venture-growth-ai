@@ -1,0 +1,18 @@
+.wrap {
+  padding: 80px min(6vw, 96px);
+}
+
+.wrap h1 {
+  margin: 0 0 14px;
+}
+
+.wrap p {
+  max-width: 620px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.wrap a {
+  color: var(--primary);
+  font-weight: 600;
+}

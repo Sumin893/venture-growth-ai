@@ -1,0 +1,98 @@
+.card {
+  padding: 26px;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.industry {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.ranking {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ranking li {
+  display: grid;
+  gap: 8px;
+}
+
+.ranking a {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.ranking strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.ranking em {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.current a {
+  border-color: #bfd6ff;
+  background: #f0f6ff;
+}
+
+.ellipsis {
+  justify-self: center;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+
+.empty {
+  margin: 20px 0;
+  color: var(--muted);
+}
+
+.stats {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.stats div {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.stats dt {
+  color: var(--muted);
+}
+
+.stats dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .ranking a {
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+  }
+}

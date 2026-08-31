@@ -1,0 +1,61 @@
+.card {
+  padding: 26px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.header h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.list {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.list svg {
+  margin-top: 1px;
+}
+
+.list li:last-child {
+  border-bottom: 0;
+}
+
+.list strong {
+  display: block;
+}
+
+.list span {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.ok {
+  color: var(--success);
+}
+
+.dim {
+  color: #91a0b8;
+}
