@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, MagnifyingGlass } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react";
 import { useCompanySearch } from "@/hooks/useCompanySearch";
 import styles from "./CompanySearch.module.css";
 
@@ -14,7 +14,6 @@ export function CompanySearch() {
   return (
     <div className={styles.wrap} id="companies">
       <label className={styles.searchBox}>
-        <MagnifyingGlass size={25} weight="duotone" aria-hidden />
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
@@ -52,9 +51,9 @@ export function CompanySearch() {
 
 function SearchGlyph() {
   return (
-    <svg className={styles.searchGlyph} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <circle cx="10.5" cy="10.5" r="6.25" />
-      <path d="M15.25 15.25L20 20" />
+    <svg className={styles.searchGlyph} viewBox="0 0 28 28" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="7.2" />
+      <path d="M17.4 17.4L23 23" />
     </svg>
   );
 }

@@ -5,7 +5,7 @@
 
 .searchBox {
   display: grid;
-  grid-template-columns: 34px 1fr 64px;
+  grid-template-columns: 1fr 64px;
   align-items: center;
   min-height: 74px;
   border: 2px solid var(--primary);
@@ -13,27 +13,26 @@
   background: #fff;
   box-shadow: 0 18px 45px rgba(7, 63, 167, 0.11);
   color: #8795af;
-  overflow: hidden;
+  overflow: visible;
   transition: border-color 180ms ease, box-shadow 180ms ease;
-}
-
-.searchBox svg:first-child {
-  margin-left: 26px;
 }
 
 .searchBox input {
   width: 100%;
   min-width: 0;
   border: 0;
-  padding: 0 16px 0 28px;
+  padding: 0 20px 0 34px;
   color: var(--text);
   font-size: 22px;
   outline: none;
 }
 
 .searchBox button {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  flex: 0 0 52px;
   width: 52px;
   height: 52px;
   line-height: 1;
@@ -46,9 +45,10 @@
 }
 
 .searchGlyph {
+  flex: 0 0 28px;
   display: block;
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   overflow: visible;
   fill: none;
   stroke: currentColor;
@@ -148,12 +148,12 @@
 
 @media (max-width: 720px) {
   .searchBox {
-    grid-template-columns: 26px 1fr 52px;
+    grid-template-columns: 1fr 52px;
     min-height: 62px;
   }
 
   .searchBox input {
-    padding-left: 18px;
+    padding-left: 22px;
     font-size: 17px;
   }
 

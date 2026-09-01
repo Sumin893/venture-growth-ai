@@ -50,36 +50,36 @@
   font-weight: 500;
 }
 
-.bubble0 { left: 4%; top: 13%; animation-delay: -1s; }
-.bubble1 { left: 78%; top: 13%; animation-delay: -2s; }
-.bubble2 { left: 85%; top: 28%; animation-delay: -3s; }
-.bubble3 { left: 5%; top: 31%; animation-delay: -4s; }
-.bubble4 { left: 72%; top: 58%; animation-delay: -5s; }
-.bubble5 { left: 17%; top: 8%; animation-delay: -6s; }
-.bubble6 { left: 88%; top: 48%; animation-delay: -1.5s; }
-.bubble7 { left: 2%; top: 51%; animation-delay: -2.5s; }
-.bubble8 { left: 63%; top: 7%; animation-delay: -3.5s; }
-.bubble9 { left: 56%; top: 77%; animation-delay: -4.5s; }
-.bubble10 { left: 18%; top: 78%; animation-delay: -5.5s; }
-.bubble11 { left: 34%; top: 6%; animation-delay: -6.5s; }
-.bubble12 { left: 89%; top: 15%; animation-delay: -1.2s; }
-.bubble13 { left: 75%; top: 38%; animation-delay: -2.2s; }
-.bubble14 { left: 7%; top: 88%; animation-delay: -3.2s; }
-.bubble15 { left: 77%; top: 84%; animation-delay: -4.2s; }
-.bubble16 { left: 14%; top: 42%; animation-delay: -5.2s; }
-.bubble17 { left: 48%; top: 70%; animation-delay: -6.2s; }
-.bubble18 { left: 87%; top: 72%; animation-delay: -1.8s; }
-.bubble19 { left: 28%; top: 88%; animation-delay: -2.8s; }
-.bubble20 { left: 1%; top: 64%; animation-delay: -3.8s; }
-.bubble21 { left: 91%; top: 58%; animation-delay: -4.8s; }
-.bubble22 { left: 26%; top: 13%; animation-delay: -5.8s; }
-.bubble23 { left: 66%; top: 66%; animation-delay: -6.8s; }
+.bubble0 { left: 4%; top: 15%; animation-delay: -1s; }
+.bubble1 { left: 80%; top: 14%; animation-delay: -2s; }
+.bubble2 { left: 87%; top: 31%; animation-delay: -3s; }
+.bubble3 { left: 5%; top: 32%; animation-delay: -4s; }
+.bubble4 { left: 82%; top: 49%; animation-delay: -5s; }
+.bubble5 { left: 11%; top: 8%; animation-delay: -6s; }
+.bubble6 { left: 88%; top: 65%; animation-delay: -1.5s; }
+.bubble7 { left: 2%; top: 50%; animation-delay: -2.5s; }
+.bubble8 { left: 76%; top: 5%; animation-delay: -3.5s; }
+.bubble9 { left: 55%; top: 79%; animation-delay: -4.5s; }
+.bubble10 { left: 22%; top: 82%; animation-delay: -5.5s; }
+.bubble11 { left: 84%; top: 23%; animation-delay: -6.5s; }
+.bubble12 { left: 91%; top: 11%; animation-delay: -1.2s; }
+.bubble13 { left: 78%; top: 38%; animation-delay: -2.2s; }
+.bubble14 { left: 6%; top: 87%; animation-delay: -3.2s; }
+.bubble15 { left: 73%; top: 85%; animation-delay: -4.2s; }
+.bubble16 { left: 13%; top: 42%; animation-delay: -5.2s; }
+.bubble17 { left: 41%; top: 82%; animation-delay: -6.2s; }
+.bubble18 { left: 91%; top: 76%; animation-delay: -1.8s; }
+.bubble19 { left: 32%; top: 88%; animation-delay: -2.8s; }
+.bubble20 { left: 1%; top: 65%; animation-delay: -3.8s; }
+.bubble21 { left: 85%; top: 57%; animation-delay: -4.8s; }
+.bubble22 { left: 3%; top: 75%; animation-delay: -5.8s; }
+.bubble23 { left: 66%; top: 75%; animation-delay: -6.8s; }
 .bubble24 { left: 15%; top: 60%; animation-delay: -1.4s; }
-.bubble25 { left: 82%; top: 6%; animation-delay: -2.4s; }
-.bubble26 { left: 42%; top: 84%; animation-delay: -3.4s; }
-.bubble27 { left: 3%; top: 22%; animation-delay: -4.4s; }
-.bubble28 { left: 91%; top: 82%; animation-delay: -5.4s; }
-.bubble29 { left: 45%; top: 6%; animation-delay: -6.4s; }
+.bubble25 { left: 88%; top: 5%; animation-delay: -2.4s; }
+.bubble26 { left: 47%; top: 89%; animation-delay: -3.4s; }
+.bubble27 { left: 3%; top: 23%; animation-delay: -4.4s; }
+.bubble28 { left: 81%; top: 82%; animation-delay: -5.4s; }
+.bubble29 { left: 63%; top: 86%; animation-delay: -6.4s; }
 
 @keyframes float {
   0%, 100% { translate: 0 0; }
