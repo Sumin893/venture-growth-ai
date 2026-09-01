@@ -23,9 +23,13 @@ export function nullable(value: string | undefined): string | number | null {
 }
 
 export function boolish(value: string | undefined): number | null {
-  if (value === undefined || value === "") return null;
-  if (value === "1" || value.toLowerCase() === "true" || value === "예") return 1;
-  if (value === "0" || value.toLowerCase() === "false" || value === "아니오") return 0;
+  if (value === undefined || value.trim() === "") return null;
+
+  const normalized = value.trim().toLowerCase();
+
+  if (["1", "true", "yes", "y"].includes(normalized)) return 1;
+  if (["0", "false", "no", "n"].includes(normalized)) return 0;
+
   return null;
 }
 

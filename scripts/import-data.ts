@@ -24,28 +24,36 @@ async function main() {
     await connection.beginTransaction();
 
     for (const row of selected) {
-      const companyId = Number(row["선정번호"]);
-      const basic = latestBasic.get(companyId);
-      const companyName = row["업체명"];
-      await upsert(
-        connection,
-        "companies",
-        {
-          company_id: companyId,
-          company_name: companyName,
-          search_name: normalizeSearchName(companyName),
-          founded_year: nullable(basic?.founded_year ?? row["설립연도"]),
-          company_age: nullable(basic?.company_age ?? row["기업연령"]),
-          venture_type: basic?.venture_type ?? row["벤처확인유형"] ?? null,
-          venture_renewal: basic?.venture_renewal ?? row["신규_재확인"] ?? null,
-          industry: basic?.industry ?? row["산업"] ?? null,
-          sub_industry: basic?.sub_industry ?? row["세부산업"] ?? null,
-          industry_code: basic?.industry_code ?? null,
-          region: basic?.region ?? row["지역"] ?? null,
-          macro_region: basic?.macro_region ?? row["권역"] ?? null,
-          id_confidence: basic?.id_confidence ?? row["상호식별성"] ?? null,
-          has_dart: boolish(basic?.has_dart)
-        },
+  const companyId = Number(row.company_id);
+  const basic = latestBasic.get(companyId);
+
+  const companyName = row.company_name?.trim();
+
+  if (!companyName) {
+    throw new Error(
+      `companies_300.csv에 company_name이 없습니다. company_id=${row.company_id}`
+    );
+  }
+
+  await upsert(
+    connection,
+    "companies",
+    {
+      company_id: companyId,
+      company_name: companyName,
+      search_name: normalizeSearchName(companyName),
+      founded_year: nullable(basic?.founded_year),
+      company_age: nullable(basic?.company_age),
+      venture_type: basic?.venture_type ?? null,
+      venture_renewal: basic?.venture_renewal ?? null,
+      industry: basic?.industry ?? null,
+      sub_industry: basic?.sub_industry ?? null,
+      industry_code: basic?.industry_code ?? null,
+      region: basic?.region ?? null,
+      macro_region: basic?.macro_region ?? null,
+      id_confidence: basic?.id_confidence ?? null,
+      has_dart: boolish(basic?.has_dart)
+    },
         ["company_name", "search_name", "founded_year", "company_age", "venture_type", "venture_renewal", "industry", "sub_industry", "industry_code", "region", "macro_region", "id_confidence", "has_dart"]
       );
     }
