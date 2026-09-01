@@ -1,6 +1,8 @@
 # Growth AI
-
 혁신·벤처기업 300개를 대상으로 재무, 특허, 고용, 뉴스 이벤트, 산업 데이터를 종합해 성장 가능성을 보여주는 Next.js 풀스택 MVP입니다.
+<img width="959" height="468" alt="image" src="https://github.com/user-attachments/assets/33e7e3b3-625a-46f1-a130-e64bba51fd7d" />
+<img width="950" height="467" alt="image" src="https://github.com/user-attachments/assets/15e03bde-4e71-431a-8908-fdab6eae866d" />
+
 
 ## Stack
 
