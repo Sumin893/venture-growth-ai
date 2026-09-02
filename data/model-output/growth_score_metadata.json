@@ -1,0 +1,54 @@
+{
+  "model_version": "v1.0",
+  "evaluation_population": 300,
+  "score_min": 0,
+  "score_max": 100,
+  "output_clip_min": 2.0,
+  "output_clip_max": 98.0,
+  "calculated_at": "2026-09-02",
+  "dimensions": {
+    "financial": "재무 성장성",
+    "patent": "특허·기술 경쟁력",
+    "employment": "조직·고용 성장성",
+    "news_event": "뉴스·Growth Event",
+    "industry": "산업·시장 성장성"
+  },
+  "dimension_weights": {
+    "financial": 0.3,
+    "patent": 0.2,
+    "employment": 0.2,
+    "news_event": 0.15,
+    "industry": 0.15
+  },
+  "dimension_as_of": {
+    "financial": "기업별 최신 확보 회계연도(FY2021~2024, financial_latest_year 참조)",
+    "patent": "2024-12-31 (완전 관측 연도, 18개월 공개시차 반영)",
+    "employment": "2026-07 기준 최근 12개월 (NPS 월별)",
+    "news_event": "2026-08 기준 최근 12/24개월",
+    "industry": "2024 (통계 최신 연도)"
+  },
+  "normalization": "동일 산업 내 백분위(순위 기반, NaN 제외). industry 영역은 전체 기준.",
+  "missing_policy": "결측 영역은 0점이 아니라 NULL 처리 후 잔여 영역 가중치 재정규화. 데이터 커버리지는 coverage_score 로 별도 제공(점수에 미반영). *_data_available 은 수집/관측 여부이며, 유효 피처 2개 미만이면 available=1 이어도 해당 영역 score 는 NULL 일 수 있음.",
+  "heuristic_parameters": {
+    "note": "아래 값은 v1.0 heuristic(설계값)이며 데이터로 학습된 최적값이 아님 — backtest 후 보정 예정",
+    "dimension_weights": {
+      "financial": 0.3,
+      "patent": 0.2,
+      "employment": 0.2,
+      "news_event": 0.15,
+      "industry": 0.15
+    },
+    "new_patent_activity_bonus": 3.0,
+    "min_features_per_dimension": 2,
+    "cagr_min_years": 2
+  },
+  "grade_bounds_top_fraction": {
+    "S": 0.1,
+    "A": 0.3,
+    "B": 0.6,
+    "C": 0.85,
+    "D": 1.0
+  },
+  "score_scaling": "종합점수는 50 중심 1.8배 스트레치(clip (2.0, 98.0)) — 순위·백분위·등급과 기여도 합 정합성 유지",
+  "score_meaning": "분석 대상 기업군 내 상대적 성장 모멘텀 종합 점수 (미래 성장 확률 아님)"
+}

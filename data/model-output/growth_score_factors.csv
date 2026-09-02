@@ -1,0 +1,1797 @@
+﻿company_id,category,feature_name,feature_value,contribution,direction,description
+78,patent,patent_count_3y,6.0,3.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 29% 수준입니다.
+78,employment,employee_growth_6m,0.1509,3.7,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 16% 수준입니다.
+78,patent,registered_ratio_mature,1.0,3.5,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+78,employment,employee_growth_acceleration,-0.1509,-1.7,negative,고용 증가 가속도가 동일 산업 내 하위 18% 수준에 그칩니다.
+78,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+78,industry,industry_rd_growth_1y,0.0998,-1.4,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+101,patent,patent_count_3y,23.0,4.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 5% 수준입니다.
+101,financial,revenue_cagr_best,1.5463,3.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 19% 수준입니다.
+101,patent,patent_momentum,1.0,3.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 27% 수준입니다.
+101,employment,net_hiring_rate_6m,-0.2222,-3.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 14% 수준에 그칩니다.
+101,financial,operating_margin_change_1y,-0.7713,-3.2,negative,영업이익률 개선폭이 동일 산업 내 하위 11% 수준에 그칩니다.
+101,financial,asset_growth_1y,-0.3289,-3.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+102,patent,patent_momentum,2.0,5.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+102,patent,patent_count_3y,22.0,4.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+102,financial,operating_margin_change_1y,0.3355,2.6,positive,영업이익률 개선폭이 동일 산업 내 상위 18% 수준입니다.
+102,financial,asset_growth_1y,-0.2158,-2.5,negative,최근 1년 자산 성장률이 동일 산업 내 하위 19% 수준에 그칩니다.
+102,employment,employee_growth_acceleration,-0.1804,-2.1,negative,고용 증가 가속도가 동일 산업 내 하위 11% 수준에 그칩니다.
+102,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+103,employment,employee_growth_6m,0.2222,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 7% 수준입니다.
+103,employment,net_hiring_rate_6m,0.2143,4.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 5% 수준입니다.
+103,financial,revenue_cagr_best,1.4495,3.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 22% 수준입니다.
+103,financial,revenue_growth_1y,-0.3714,-6.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+103,financial,operating_margin_change_1y,-3.0818,-4.0,negative,영업이익률 개선폭이 동일 산업 내 하위 1% 수준에 그칩니다.
+103,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+104,financial,asset_growth_1y,1.4987,2.9,positive,최근 1년 자산 성장률이 동일 산업 내 상위 15% 수준입니다.
+104,financial,revenue_growth_1y,0.6412,2.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 32% 수준입니다.
+104,financial,operating_margin_change_1y,0.1879,2.4,positive,영업이익률 개선폭이 동일 산업 내 상위 20% 수준입니다.
+104,employment,employee_growth_6m,-0.2857,-4.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 7% 수준에 그칩니다.
+104,employment,net_hiring_rate_6m,-0.338,-4.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+104,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+105,financial,operating_margin_change_1y,0.1028,1.8,positive,영업이익률 개선폭이 동일 산업 내 상위 27% 수준입니다.
+105,news_event,growth_event_12m_count,8.0,1.1,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 34% 수준입니다.
+105,industry,industry_startup_rate_latest,0.1509,1.0,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+105,patent,patent_count_3y,0.0,-9.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+105,financial,revenue_cagr_best,-0.1631,-4.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+105,financial,revenue_growth_1y,-0.093,-4.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+106,financial,asset_growth_1y,2.4941,8.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 10% 수준입니다.
+106,financial,liabilities_to_assets,0.0751,7.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+106,patent,patent_count_3y,9.0,3.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 18% 수준입니다.
+106,financial,operating_margin,-299.1228,-6.6,negative,영업이익률이 동일 산업 내 하위 1% 수준에 그칩니다.
+106,employment,employee_growth_6m,-0.1875,-4.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 11% 수준에 그칩니다.
+106,employment,net_hiring_rate_6m,-0.7253,-4.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+107,financial,revenue_growth_1y,2.004,6.2,positive,최근 1년 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+107,employment,employee_growth_6m,0.375,5.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+107,financial,operating_margin_change_1y,7.2575,4.5,positive,영업이익률 개선폭이 동일 산업 내 상위 6% 수준입니다.
+107,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+107,patent,patent_count_3y,0.0,-3.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+107,patent,registered_ratio_mature,0.0,-2.9,negative,특허 등록 전환율이 동일 산업 내 하위 9% 수준에 그칩니다.
+108,patent,patent_count_3y,9.0,3.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 18% 수준입니다.
+108,news_event,growth_event_12m_count,31.0,2.3,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 16% 수준입니다.
+108,patent,patent_momentum,0.9,2.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 35% 수준입니다.
+108,financial,revenue_growth_1y,-0.1843,-6.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+108,employment,net_hiring_rate_6m,-0.0729,-2.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 28% 수준에 그칩니다.
+108,employment,employee_growth_6m,-0.0889,-1.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 32% 수준에 그칩니다.
+109,financial,revenue_growth_1y,2.608,5.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 8% 수준입니다.
+109,patent,patent_count_3y,72.0,5.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+109,patent,patent_momentum,1.8125,4.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+109,financial,asset_growth_1y,-0.2285,-2.7,negative,최근 1년 자산 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+109,financial,operating_margin,-4.9654,-1.9,negative,영업이익률이 동일 산업 내 하위 16% 수준에 그칩니다.
+109,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+110,financial,operating_margin_change_1y,0.84,3.0,positive,영업이익률 개선폭이 동일 산업 내 상위 13% 수준입니다.
+110,financial,asset_growth_1y,0.9479,2.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 22% 수준입니다.
+110,financial,operating_margin,0.1272,2.1,positive,영업이익률이 동일 산업 내 상위 11% 수준입니다.
+110,patent,patent_count_3y,0.0,-6.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+110,financial,revenue_cagr_best,-0.2902,-5.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 2% 수준에 그칩니다.
+110,patent,registered_ratio_mature,0.0,-4.9,negative,특허 등록 전환율이 동일 산업 내 하위 9% 수준에 그칩니다.
+111,patent,patent_momentum,1.0,3.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 27% 수준입니다.
+111,employment,employee_growth_6m,0.0714,2.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 30% 수준입니다.
+111,employment,net_hiring_rate_6m,0.0714,2.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 28% 수준입니다.
+111,patent,registered_ratio_mature,0.0,-2.9,negative,특허 등록 전환율이 동일 산업 내 하위 9% 수준에 그칩니다.
+111,news_event,growth_event_12m_count,0.0,-2.8,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 9% 수준에 그칩니다.
+111,financial,operating_margin_change_1y,-0.2976,-2.6,negative,영업이익률 개선폭이 동일 산업 내 하위 18% 수준에 그칩니다.
+112,financial,revenue_growth_1y,2.5237,5.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 11% 수준입니다.
+112,financial,revenue_cagr_best,11.695,5.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 2% 수준입니다.
+112,patent,patent_count_3y,40.0,5.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+112,financial,asset_growth_1y,-0.5219,-4.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+112,financial,operating_margin,-5.0597,-2.0,negative,영업이익률이 동일 산업 내 하위 14% 수준에 그칩니다.
+112,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+113,patent,patent_count_3y,12.0,4.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 12% 수준입니다.
+113,financial,revenue_cagr_best,1.6124,3.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 16% 수준입니다.
+113,employment,employee_growth_slope,0.0147,2.2,positive,고용 증가 추세가 동일 산업 내 상위 19% 수준입니다.
+113,financial,liabilities_to_assets,3.6189,-3.8,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+113,financial,operating_margin_change_1y,-0.1787,-2.2,negative,영업이익률 개선폭이 동일 산업 내 하위 23% 수준에 그칩니다.
+113,financial,asset_growth_1y,-0.1414,-2.1,negative,최근 1년 자산 성장률이 동일 산업 내 하위 24% 수준에 그칩니다.
+114,financial,revenue_growth_1y,1.25,5.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+114,patent,patent_count_3y,8.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+114,news_event,investment_event_24m_count,26.0,2.3,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 7% 수준입니다.
+114,financial,operating_margin_change_1y,-2.2444,-4.5,negative,영업이익률 개선폭이 동일 산업 내 하위 6% 수준에 그칩니다.
+114,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+114,financial,operating_margin,-6.4444,-2.7,negative,영업이익률이 동일 산업 내 하위 9% 수준에 그칩니다.
+115,financial,revenue_growth_1y,8.4952,7.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+115,patent,patent_count_3y,17.0,5.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 9% 수준입니다.
+115,patent,patent_momentum,1.2632,5.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 20% 수준입니다.
+115,employment,employee_growth_6m,-0.375,-5.7,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 5% 수준에 그칩니다.
+115,financial,liabilities_to_assets,6.4253,-4.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+115,employment,net_hiring_rate_6m,-0.3333,-4.5,negative,최근 6개월 순채용률이 동일 산업 내 하위 7% 수준에 그칩니다.
+116,employment,employee_growth_acceleration,0.1344,2.0,positive,고용 증가 가속도가 동일 산업 내 상위 14% 수준입니다.
+116,employment,employee_volatility,0.039,1.3,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+116,employment,employee_growth_6m,0.0435,1.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 39% 수준입니다.
+116,patent,patent_count_3y,0.0,-9.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+116,financial,revenue_growth_1y,-0.3669,-6.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+116,financial,revenue_cagr_best,-0.0507,-3.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 19% 수준에 그칩니다.
+117,financial,revenue_cagr_best,2.2748,4.1,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 12% 수준입니다.
+117,patent,patent_momentum,1.2,3.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 23% 수준입니다.
+117,financial,liabilities_to_assets,0.0375,3.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+117,financial,operating_margin_change_1y,-2.4782,-3.8,negative,영업이익률 개선폭이 동일 산업 내 하위 4% 수준에 그칩니다.
+117,financial,asset_growth_1y,-0.4053,-3.4,negative,최근 1년 자산 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+117,financial,operating_margin,-5.667,-2.1,negative,영업이익률이 동일 산업 내 하위 11% 수준에 그칩니다.
+118,financial,asset_growth_1y,0.3233,2.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 35% 수준입니다.
+118,industry,industry_startup_rate_latest,0.1509,1.0,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+118,industry,industry_revenue_growth_1y,0.0678,0.7,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 42% 수준입니다.
+118,patent,patent_count_3y,0.0,-9.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+118,financial,revenue_cagr_best,-0.2765,-8.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 5% 수준에 그칩니다.
+118,financial,liabilities_to_assets,0.9166,-5.2,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+119,patent,patent_momentum,3.0,10.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 11% 수준입니다.
+119,patent,new_ipc_count_1y,1.0,1.7,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 24% 수준입니다.
+119,industry,industry_startup_rate_latest,0.1509,1.4,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+119,employment,employee_growth_6m,-1.0,-7.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+119,employment,net_hiring_rate_6m,-1.1905,-6.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 1% 수준에 그칩니다.
+119,employment,employee_growth_slope,-0.1504,-4.8,negative,고용 증가 추세가 동일 산업 내 하위 3% 수준에 그칩니다.
+120,financial,operating_margin_change_1y,0.1812,2.6,positive,영업이익률 개선폭이 동일 산업 내 상위 23% 수준입니다.
+120,financial,asset_growth_1y,0.3655,2.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 28% 수준입니다.
+120,financial,operating_margin,0.0464,1.9,positive,영업이익률이 동일 산업 내 상위 20% 수준입니다.
+120,employment,employee_growth_slope,-0.1785,-13.8,negative,고용 증가 추세가 동일 산업 내 하위 1% 수준에 그칩니다.
+120,financial,revenue_growth_1y,-0.3428,-7.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+120,employment,employee_volatility,1.2329,-6.9,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+121,financial,asset_growth_1y,1.0561,2.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 19% 수준입니다.
+121,financial,operating_margin_change_1y,0.1574,2.0,positive,영업이익률 개선폭이 동일 산업 내 상위 25% 수준입니다.
+121,industry,industry_startup_rate_latest,0.1509,1.0,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+121,patent,patent_count_3y,0.0,-6.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+121,patent,registered_ratio_mature,0.0,-4.9,negative,특허 등록 전환율이 동일 산업 내 하위 9% 수준에 그칩니다.
+121,financial,revenue_cagr_best,0.1026,-2.6,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 26% 수준에 그칩니다.
+122,employment,employee_growth_acceleration,0.1891,2.2,positive,고용 증가 가속도가 동일 산업 내 상위 9% 수준입니다.
+122,patent,registered_ratio_mature,1.0,2.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+122,patent,patent_count_3y,5.0,1.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 33% 수준입니다.
+122,financial,revenue_growth_1y,0.0306,-3.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+122,employment,employee_growth_6m,-0.1316,-3.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 20% 수준에 그칩니다.
+122,employment,employee_growth_slope,-0.0546,-2.8,negative,고용 증가 추세가 동일 산업 내 하위 11% 수준에 그칩니다.
+123,patent,registered_ratio_mature,1.0,2.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+123,news_event,high_intensity_event_12m_count,6.0,1.5,positive,고강도 성장 이벤트가 동일 산업 내 상위 13% 수준입니다.
+123,news_event,contract_event_12m_count,7.0,1.3,positive,수주·계약 이벤트가 동일 산업 내 상위 1% 수준입니다.
+123,financial,revenue_growth_1y,-0.2861,-5.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+123,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+123,patent,patent_count_3y,0.0,-3.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+124,financial,asset_growth_1y,3.6055,5.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+124,financial,liabilities_to_assets,0.0523,4.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+124,employment,employee_growth_6m,0.1333,4.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 18% 수준입니다.
+124,patent,patent_count_3y,0.0,-11.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+124,financial,operating_margin_change_1y,-1.4375,-5.0,negative,영업이익률 개선폭이 동일 산업 내 하위 8% 수준에 그칩니다.
+124,financial,revenue_growth_1y,0.0805,-3.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 35% 수준에 그칩니다.
+125,financial,liabilities_to_assets,0.0632,11.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+125,news_event,growth_event_12m_count,40.0,2.5,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 13% 수준입니다.
+125,news_event,investment_event_24m_count,5.0,2.1,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 10% 수준입니다.
+125,financial,operating_margin,-2.3202,-6.5,negative,영업이익률이 동일 산업 내 하위 20% 수준에 그칩니다.
+125,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+125,employment,employee_growth_6m,-0.1846,-3.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 14% 수준에 그칩니다.
+126,patent,patent_momentum,6.0,8.5,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 3% 수준입니다.
+126,financial,operating_margin,0.2706,5.6,positive,영업이익률이 동일 산업 내 상위 3% 수준입니다.
+126,financial,liabilities_to_assets,0.2241,4.4,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+126,news_event,growth_event_12m_count,1.0,-1.6,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 26% 수준에 그칩니다.
+126,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+126,industry,industry_rd_growth_1y,0.0998,-1.4,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+127,financial,liabilities_to_assets,0.0407,4.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+127,employment,employee_growth_slope,0.0398,3.4,positive,고용 증가 추세가 동일 산업 내 상위 3% 수준입니다.
+127,patent,new_ipc_count_1y,2.0,3.2,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 15% 수준입니다.
+127,patent,patent_count_3y,1.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 38% 수준에 그칩니다.
+127,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+127,industry,industry_rd_growth_1y,0.0998,-1.4,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+128,patent,patent_momentum,4.5,7.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 8% 수준입니다.
+128,employment,employee_growth_6m,0.7188,6.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+128,employment,net_hiring_rate_6m,0.513,5.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+128,employment,employee_volatility,0.231,-1.6,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+128,industry,industry_employee_growth_1y,0.0085,-1.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+128,industry,industry_rd_growth_1y,0.0998,-1.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+129,patent,registered_ratio_mature,1.0,2.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+129,news_event,growth_event_12m_count,22.0,1.5,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 28% 수준입니다.
+129,news_event,technology_rnd_event_12m_count,4.0,1.2,positive,기술·R&D 이벤트가 동일 산업 내 상위 7% 수준입니다.
+129,financial,revenue_growth_1y,-0.2318,-6.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 11% 수준에 그칩니다.
+129,patent,patent_momentum,0.0,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+129,financial,liabilities_to_assets,0.9008,-3.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+130,patent,patent_momentum,6.0,8.0,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 3% 수준입니다.
+130,financial,revenue_growth_1y,0.8791,5.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 23% 수준입니다.
+130,patent,patent_count_3y,9.0,4.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 18% 수준입니다.
+130,employment,employee_growth_6m,-0.4375,-6.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+130,employment,net_hiring_rate_6m,-0.2812,-4.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 9% 수준에 그칩니다.
+130,employment,employee_growth_slope,-0.0745,-3.5,negative,고용 증가 추세가 동일 산업 내 하위 9% 수준에 그칩니다.
+131,employment,employee_growth_6m,0.1667,7.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+131,employment,net_hiring_rate_6m,0.1519,6.3,positive,최근 6개월 순채용률이 동일 산업 내 상위 11% 수준입니다.
+131,employment,employee_growth_slope,0.0236,5.3,positive,고용 증가 추세가 동일 산업 내 상위 9% 수준입니다.
+131,patent,patent_count_3y,0.0,-17.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+131,industry,industry_employee_growth_1y,0.0085,-2.5,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+131,industry,industry_rd_growth_1y,0.0998,-2.5,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+132,patent,registered_ratio_mature,1.0,3.5,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+132,employment,employee_growth_6m,0.0625,1.9,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 32% 수준입니다.
+132,employment,employee_growth_slope,0.0127,1.9,positive,고용 증가 추세가 동일 산업 내 상위 23% 수준입니다.
+132,patent,patent_count_3y,0.0,-6.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+132,financial,revenue_growth_1y,-0.1089,-5.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+132,news_event,growth_event_12m_count,0.0,-3.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 9% 수준에 그칩니다.
+133,patent,registered_ratio_mature,1.0,4.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+133,financial,liabilities_to_assets,0.2228,2.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+133,financial,operating_margin,0.0625,2.2,positive,영업이익률이 동일 산업 내 상위 16% 수준입니다.
+133,patent,patent_count_3y,0.0,-7.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+133,financial,revenue_cagr_best,0.0434,-3.5,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+133,financial,revenue_growth_1y,0.054,-3.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 30% 수준에 그칩니다.
+134,financial,revenue_growth_1y,0.7191,3.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 27% 수준입니다.
+134,patent,patent_count_3y,8.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+134,patent,patent_momentum,0.6316,1.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 38% 수준입니다.
+134,news_event,growth_event_12m_count,1.0,-1.6,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 26% 수준에 그칩니다.
+134,industry,industry_employee_growth_1y,0.0085,-1.4,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+134,industry,industry_rd_growth_1y,0.0998,-1.4,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+135,patent,patent_count_3y,9.0,4.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 18% 수준입니다.
+135,financial,operating_margin,0.1644,2.7,positive,영업이익률이 동일 산업 내 상위 7% 수준입니다.
+135,patent,registered_ratio_mature,1.0,2.4,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+135,patent,patent_momentum,0.0,-4.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+135,employment,net_hiring_rate_6m,-0.0545,-1.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 32% 수준에 그칩니다.
+135,industry,industry_employee_growth_1y,0.0085,-1.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+136,employment,net_hiring_rate_6m,0.1636,3.7,positive,최근 6개월 순채용률이 동일 산업 내 상위 9% 수준입니다.
+136,employment,employee_growth_6m,0.1176,3.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 22% 수준입니다.
+136,financial,revenue_growth_1y,0.6437,2.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 30% 수준입니다.
+136,patent,patent_momentum,0.0,-4.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+136,financial,operating_margin_change_1y,-0.1702,-2.0,negative,영업이익률 개선폭이 동일 산업 내 하위 25% 수준에 그칩니다.
+136,financial,asset_growth_1y,-0.0924,-1.7,negative,최근 1년 자산 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+138,financial,revenue_growth_1y,0.8021,4.2,positive,최근 1년 매출 성장률이 동일 산업 내 상위 25% 수준입니다.
+138,financial,asset_growth_1y,1.6307,3.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 12% 수준입니다.
+138,employment,employee_growth_6m,0.1,2.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 24% 수준입니다.
+138,patent,patent_momentum,0.0,-4.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+138,news_event,growth_event_12m_count,0.0,-3.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 9% 수준에 그칩니다.
+138,employment,employee_growth_slope,-0.0259,-2.6,negative,고용 증가 추세가 동일 산업 내 하위 13% 수준에 그칩니다.
+139,financial,operating_margin,0.7021,12.4,positive,영업이익률이 동일 산업 내 상위 1% 수준입니다.
+139,financial,liabilities_to_assets,0.2849,7.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+139,employment,employee_growth_acceleration,0.0769,1.7,positive,고용 증가 가속도가 동일 산업 내 상위 24% 수준입니다.
+139,patent,patent_count_3y,0.0,-7.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+139,employment,net_hiring_rate_6m,-0.1579,-3.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 18% 수준에 그칩니다.
+139,employment,employee_growth_slope,-0.0187,-2.4,negative,고용 증가 추세가 동일 산업 내 하위 21% 수준에 그칩니다.
+140,financial,revenue_growth_1y,5.41,9.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+140,financial,liabilities_to_assets,0.0521,5.4,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+140,financial,operating_margin_change_1y,3.9853,5.0,positive,영업이익률 개선폭이 동일 산업 내 상위 11% 수준입니다.
+140,patent,patent_momentum,0.0,-4.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+140,patent,registered_ratio_mature,0.0,-3.7,negative,특허 등록 전환율이 동일 산업 내 하위 9% 수준에 그칩니다.
+140,financial,operating_margin,-1.1897,-2.0,negative,영업이익률이 동일 산업 내 하위 26% 수준에 그칩니다.
+141,financial,asset_growth_1y,9.3486,5.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 1% 수준입니다.
+141,financial,operating_margin,0.0257,1.6,positive,영업이익률이 동일 산업 내 상위 30% 수준입니다.
+141,industry,industry_startup_rate_latest,0.1509,1.2,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+141,patent,patent_count_3y,0.0,-11.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+141,employment,employee_growth_6m,-0.1667,-4.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 16% 수준에 그칩니다.
+141,financial,liabilities_to_assets,0.9008,-4.1,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+142,financial,revenue_growth_1y,1.7944,5.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+142,financial,asset_growth_1y,5.7339,4.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+142,patent,new_ipc_count_1y,2.0,3.2,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 15% 수준입니다.
+142,patent,patent_count_3y,1.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 38% 수준에 그칩니다.
+142,employment,net_hiring_rate_6m,-0.1053,-2.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 24% 수준에 그칩니다.
+142,employment,employee_growth_6m,-0.0909,-2.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 30% 수준에 그칩니다.
+143,patent,patent_count_3y,12.0,5.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 12% 수준입니다.
+143,financial,liabilities_to_assets,0.018,4.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+143,patent,patent_momentum,0.6,1.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 42% 수준입니다.
+143,financial,revenue_growth_1y,0.0366,-3.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 27% 수준에 그칩니다.
+143,news_event,growth_event_12m_count,0.0,-2.8,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 9% 수준에 그칩니다.
+143,financial,asset_growth_1y,-0.1393,-1.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 26% 수준에 그칩니다.
+144,financial,revenue_growth_1y,20.4697,9.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+144,financial,asset_growth_1y,8.3889,5.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 3% 수준입니다.
+144,patent,patent_count_3y,5.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 33% 수준입니다.
+144,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+144,financial,liabilities_to_assets,0.8047,-3.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+144,employment,net_hiring_rate_6m,-0.0615,-2.1,negative,최근 6개월 순채용률이 동일 산업 내 하위 30% 수준에 그칩니다.
+145,financial,liabilities_to_assets,0.226,8.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+145,employment,net_hiring_rate_6m,0.1043,3.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 18% 수준입니다.
+145,financial,operating_margin,0.0114,2.9,positive,영업이익률이 동일 산업 내 상위 39% 수준입니다.
+145,patent,patent_momentum,0.0,-4.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+145,industry,industry_employee_growth_1y,0.0085,-1.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+145,industry,industry_rd_growth_1y,0.0998,-1.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+146,employment,employee_growth_6m,0.1818,4.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 11% 수준입니다.
+146,employment,net_hiring_rate_6m,0.1419,3.3,positive,최근 6개월 순채용률이 동일 산업 내 상위 14% 수준입니다.
+146,patent,patent_count_3y,8.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+146,financial,revenue_growth_1y,-0.0931,-4.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+146,news_event,growth_event_12m_count,0.0,-3.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 9% 수준에 그칩니다.
+146,financial,revenue_cagr_best,0.126,-2.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+147,employment,employee_growth_6m,0.3571,5.7,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 5% 수준입니다.
+147,financial,revenue_cagr_best,2.8074,5.3,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+147,financial,revenue_growth_1y,1.6927,5.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+147,patent,patent_count_3y,1.0,-3.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 38% 수준에 그칩니다.
+147,employment,employee_growth_acceleration,-0.4786,-3.0,negative,고용 증가 가속도가 동일 산업 내 하위 3% 수준에 그칩니다.
+147,financial,liabilities_to_assets,0.7512,-1.9,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+148,financial,operating_margin_change_1y,0.4659,3.3,positive,영업이익률 개선폭이 동일 산업 내 상위 15% 수준입니다.
+148,industry,industry_startup_rate_latest,0.1509,1.2,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+148,industry,industry_revenue_growth_1y,0.0678,0.8,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 42% 수준입니다.
+148,patent,patent_count_3y,0.0,-11.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+148,financial,revenue_cagr_best,-0.0561,-4.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 16% 수준에 그칩니다.
+148,financial,asset_growth_1y,-0.4208,-4.2,negative,최근 1년 자산 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+149,financial,revenue_cagr_best,5.4031,5.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 5% 수준입니다.
+149,employment,employee_growth_acceleration,0.2308,3.0,positive,고용 증가 가속도가 동일 산업 내 상위 3% 수준입니다.
+149,financial,asset_growth_1y,0.5115,2.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 24% 수준입니다.
+149,employment,employee_growth_6m,-0.2308,-5.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 9% 수준에 그칩니다.
+149,patent,patent_momentum,0.0,-4.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+149,financial,operating_margin_change_1y,-0.5856,-3.5,negative,영업이익률 개선폭이 동일 산업 내 하위 13% 수준에 그칩니다.
+150,employment,employee_volatility,0.0345,1.8,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+150,employment,employee_growth_slope,0.0054,1.6,positive,고용 증가 추세가 동일 산업 내 상위 32% 수준입니다.
+150,industry,industry_startup_rate_latest,0.1509,1.2,positive,소속 산업 창업률이 전체 산업 대비 상위 25% 수준입니다.
+150,patent,patent_count_3y,0.0,-11.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 15% 수준에 그칩니다.
+150,financial,asset_growth_1y,-0.4828,-5.5,negative,최근 1년 자산 성장률이 동일 산업 내 하위 3% 수준에 그칩니다.
+150,financial,liabilities_to_assets,1.0864,-5.1,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+151,financial,revenue_cagr_best,1.2317,4.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 7% 수준입니다.
+151,patent,patent_count_3y,14.0,3.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 15% 수준입니다.
+151,employment,employee_growth_slope,0.0379,2.6,positive,고용 증가 추세가 동일 산업 내 상위 14% 수준입니다.
+151,patent,patent_momentum,0.1111,-4.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 20% 수준에 그칩니다.
+151,employment,employee_growth_6m,-0.0887,-4.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 12% 수준에 그칩니다.
+151,financial,liabilities_to_assets,3.0509,-3.8,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+251,employment,employee_growth_6m,0.3125,4.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 10% 수준입니다.
+251,employment,net_hiring_rate_6m,0.2586,3.5,positive,최근 6개월 순채용률이 동일 산업 내 상위 11% 수준입니다.
+251,employment,employee_growth_slope,0.0438,2.9,positive,고용 증가 추세가 동일 산업 내 상위 9% 수준입니다.
+251,patent,patent_momentum,0.4286,-3.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 27% 수준에 그칩니다.
+251,financial,asset_growth_1y,-0.1959,-3.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+251,financial,operating_margin_change_1y,-0.9395,-3.0,negative,영업이익률 개선폭이 동일 산업 내 하위 13% 수준에 그칩니다.
+252,patent,patent_momentum,4.0,6.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 7% 수준입니다.
+252,financial,revenue_growth_1y,2.3386,5.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 8% 수준입니다.
+252,financial,operating_margin_change_1y,0.6586,2.6,positive,영업이익률 개선폭이 동일 산업 내 상위 18% 수준입니다.
+252,employment,employee_growth_6m,-0.1111,-4.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 10% 수준에 그칩니다.
+252,employment,net_hiring_rate_6m,-0.1176,-3.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 13% 수준에 그칩니다.
+252,patent,registered_ratio_mature,0.5,-2.9,negative,특허 등록 전환율이 동일 산업 내 하위 10% 수준에 그칩니다.
+253,patent,patent_momentum,3.3333,5.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 13% 수준입니다.
+253,patent,patent_count_3y,18.0,4.4,positive,최근 3년 특허 출원이 동일 산업 내 상위 9% 수준입니다.
+253,financial,revenue_growth_1y,1.1002,4.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+253,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+253,employment,employee_growth_slope,-0.0002,-1.3,negative,고용 증가 추세가 동일 산업 내 하위 32% 수준에 그칩니다.
+253,financial,operating_margin,-0.9698,-0.9,negative,영업이익률이 동일 산업 내 하위 33% 수준에 그칩니다.
+254,patent,patent_momentum,6.0,7.0,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 1% 수준입니다.
+254,financial,revenue_growth_1y,0.9744,3.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 25% 수준입니다.
+254,financial,revenue_cagr_best,0.5407,3.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+254,financial,operating_margin_change_1y,-0.0882,-2.0,negative,영업이익률 개선폭이 동일 산업 내 하위 25% 수준에 그칩니다.
+254,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+254,financial,liabilities_to_assets,0.6876,-1.2,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+255,patent,registered_ratio_mature,1.0,1.9,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+255,industry,industry_rd_growth_1y,0.2941,1.4,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+255,financial,operating_margin,0.0206,0.8,positive,영업이익률이 동일 산업 내 상위 35% 수준입니다.
+255,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+255,patent,patent_count_3y,0.0,-4.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+255,employment,net_hiring_rate_6m,-0.3478,-4.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+256,patent,patent_count_3y,17.0,4.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 11% 수준입니다.
+256,financial,operating_margin_change_1y,1.1299,3.7,positive,영업이익률 개선폭이 동일 산업 내 상위 13% 수준입니다.
+256,financial,asset_growth_1y,0.1868,1.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 36% 수준입니다.
+256,financial,revenue_growth_1y,-0.1075,-5.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+256,patent,registered_ratio_mature,0.2,-3.2,negative,특허 등록 전환율이 동일 산업 내 하위 6% 수준에 그칩니다.
+256,employment,employee_growth_slope,-0.0464,-3.2,negative,고용 증가 추세가 동일 산업 내 하위 5% 수준에 그칩니다.
+257,patent,patent_count_3y,39.0,5.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+257,patent,patent_momentum,1.7,3.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 27% 수준입니다.
+257,financial,revenue_cagr_best,0.5152,2.6,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 26% 수준입니다.
+257,financial,revenue_growth_1y,0.1004,-2.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 30% 수준에 그칩니다.
+257,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+257,financial,asset_growth_1y,-0.0407,-1.7,negative,최근 1년 자산 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+258,financial,revenue_cagr_best,0.5929,3.5,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+258,news_event,growth_event_12m_count,37.0,2.9,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 7% 수준입니다.
+258,financial,revenue_growth_1y,0.8073,2.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 30% 수준입니다.
+258,financial,liabilities_to_assets,0.812,-2.4,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+258,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+258,patent,patent_count_3y,5.0,-1.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 41% 수준에 그칩니다.
+259,patent,registered_ratio_mature,1.0,5.7,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+259,employment,employee_growth_acceleration,0.2255,4.4,positive,고용 증가 가속도가 동일 산업 내 상위 5% 수준입니다.
+259,employment,employee_growth_6m,0.1081,3.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 33% 수준입니다.
+259,patent,patent_count_3y,1.0,-9.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+259,industry,industry_revenue_growth_1y,0.0344,-3.7,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+259,employment,employee_growth_slope,0.0037,-0.7,negative,고용 증가 추세가 동일 산업 내 하위 45% 수준에 그칩니다.
+260,financial,asset_growth_1y,1.9627,3.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 3% 수준입니다.
+260,financial,revenue_cagr_best,0.5353,2.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 23% 수준입니다.
+260,financial,liabilities_to_assets,0.1981,2.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+260,patent,patent_momentum,0.2727,-3.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 23% 수준에 그칩니다.
+260,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+260,employment,employee_growth_slope,-0.0036,-1.7,negative,고용 증가 추세가 동일 산업 내 하위 26% 수준에 그칩니다.
+262,employment,employee_growth_6m,0.3333,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 7% 수준입니다.
+262,employment,net_hiring_rate_6m,0.2727,3.9,positive,최근 6개월 순채용률이 동일 산업 내 상위 7% 수준입니다.
+262,patent,patent_count_3y,13.0,3.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+262,financial,liabilities_to_assets,0.7987,-5.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+262,patent,registered_ratio_mature,0.3333,-3.0,negative,특허 등록 전환율이 동일 산업 내 하위 8% 수준에 그칩니다.
+262,financial,revenue_cagr_best,0.169,-2.6,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 39% 수준에 그칩니다.
+263,patent,patent_momentum,4.0,6.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 7% 수준입니다.
+263,employment,employee_growth_6m,0.7419,5.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+263,employment,net_hiring_rate_6m,0.6279,4.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+263,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+263,employment,employee_volatility,0.2571,-1.6,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+263,news_event,high_intensity_event_12m_count,0.0,-0.5,negative,고강도 성장 이벤트가 동일 산업 내 하위 37% 수준에 그칩니다.
+264,financial,revenue_cagr_best,1.6505,11.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+264,financial,liabilities_to_assets,0.0527,7.7,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+264,patent,patent_momentum,3.0,4.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 18% 수준입니다.
+264,employment,employee_growth_6m,-0.1429,-4.8,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 5% 수준에 그칩니다.
+264,employment,net_hiring_rate_6m,-0.1525,-3.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 9% 수준에 그칩니다.
+264,financial,operating_margin,-2.7219,-3.6,negative,영업이익률이 동일 산업 내 하위 20% 수준에 그칩니다.
+265,employment,net_hiring_rate_6m,0.2655,3.7,positive,최근 6개월 순채용률이 동일 산업 내 상위 9% 수준입니다.
+265,employment,employee_growth_6m,0.2353,3.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 17% 수준입니다.
+265,news_event,investment_event_24m_count,6.0,2.3,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 7% 수준입니다.
+265,financial,revenue_growth_1y,-0.3677,-7.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+265,financial,operating_margin_change_1y,-3.0981,-4.7,negative,영업이익률 개선폭이 동일 산업 내 하위 4% 수준에 그칩니다.
+265,financial,asset_growth_1y,-0.1533,-3.1,negative,최근 1년 자산 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+266,patent,patent_count_3y,45.0,5.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+266,patent,patent_momentum,2.6538,3.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 23% 수준입니다.
+266,employment,employee_growth_6m,0.1667,2.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 24% 수준입니다.
+266,financial,liabilities_to_assets,4.6913,-4.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+266,financial,revenue_growth_1y,-0.0676,-3.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 23% 수준에 그칩니다.
+266,financial,asset_growth_1y,-0.2728,-3.4,negative,최근 1년 자산 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+267,financial,revenue_growth_1y,4.5722,7.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+267,financial,operating_margin_change_1y,22.2878,4.7,positive,영업이익률 개선폭이 동일 산업 내 상위 4% 수준입니다.
+267,financial,liabilities_to_assets,0.1281,4.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+267,patent,patent_momentum,0.4286,-3.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 27% 수준에 그칩니다.
+267,financial,operating_margin,-6.6135,-2.6,negative,영업이익률이 동일 산업 내 하위 12% 수준에 그칩니다.
+267,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+268,financial,liabilities_to_assets,0.1928,13.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+268,patent,patent_count_3y,8.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 29% 수준입니다.
+268,industry,industry_rd_growth_1y,0.2941,1.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+268,employment,employee_growth_6m,0.0,-3.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 26% 수준에 그칩니다.
+268,employment,employee_growth_slope,-0.0222,-3.1,negative,고용 증가 추세가 동일 산업 내 하위 14% 수준에 그칩니다.
+268,industry,industry_revenue_growth_1y,0.0344,-2.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+269,financial,revenue_growth_1y,9.0268,7.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+269,financial,operating_margin_change_1y,88.57,4.9,positive,영업이익률 개선폭이 동일 산업 내 상위 1% 수준입니다.
+269,financial,asset_growth_1y,0.8682,3.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 13% 수준입니다.
+269,patent,patent_count_3y,0.0,-11.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+269,patent,new_ipc_count_1y,0.0,-2.6,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 21% 수준에 그칩니다.
+269,employment,employee_growth_6m,0.0,-2.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 26% 수준에 그칩니다.
+270,financial,revenue_growth_1y,28.5041,6.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+270,financial,revenue_cagr_best,6.0009,5.3,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+270,financial,asset_growth_1y,1.5103,3.6,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+270,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+270,news_event,growth_event_12m_count,1.0,-1.4,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 29% 수준에 그칩니다.
+270,patent,new_ipc_count_1y,0.0,-1.3,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 21% 수준에 그칩니다.
+271,patent,patent_count_3y,22.0,5.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+271,financial,revenue_cagr_best,0.8009,5.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+271,financial,asset_growth_1y,0.7702,3.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 15% 수준입니다.
+271,employment,net_hiring_rate_6m,-0.2791,-4.6,negative,최근 6개월 순채용률이 동일 산업 내 하위 7% 수준에 그칩니다.
+271,employment,employee_growth_6m,0.0,-3.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 26% 수준에 그칩니다.
+271,employment,employee_growth_slope,-0.0214,-2.9,negative,고용 증가 추세가 동일 산업 내 하위 16% 수준에 그칩니다.
+272,financial,liabilities_to_assets,0.0068,3.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+272,patent,patent_count_3y,10.0,3.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 19% 수준입니다.
+272,financial,asset_growth_1y,0.9299,3.2,positive,최근 1년 자산 성장률이 동일 산업 내 상위 10% 수준입니다.
+272,financial,revenue_growth_1y,-0.5885,-6.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+272,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+272,financial,revenue_cagr_best,-0.4984,-5.3,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+273,patent,patent_momentum,3.75,5.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 11% 수준입니다.
+273,financial,revenue_growth_1y,1.2734,4.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+273,financial,operating_margin_change_1y,16.1274,3.6,positive,영업이익률 개선폭이 동일 산업 내 상위 6% 수준입니다.
+273,financial,revenue_cagr_best,-0.0423,-4.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 9% 수준에 그칩니다.
+273,financial,asset_growth_1y,-0.4831,-4.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+273,financial,operating_margin,-14.5514,-2.5,negative,영업이익률이 동일 산업 내 하위 3% 수준에 그칩니다.
+274,financial,liabilities_to_assets,0.0028,5.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+274,patent,patent_count_3y,15.0,4.0,positive,최근 3년 특허 출원이 동일 산업 내 상위 13% 수준입니다.
+274,patent,patent_momentum,1.3846,2.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 30% 수준입니다.
+274,financial,operating_margin_change_1y,-2.3494,-4.5,negative,영업이익률 개선폭이 동일 산업 내 하위 6% 수준에 그칩니다.
+274,financial,operating_margin,-6.6975,-2.7,negative,영업이익률이 동일 산업 내 하위 10% 수준에 그칩니다.
+274,patent,registered_ratio_mature,0.5556,-2.7,negative,특허 등록 전환율이 동일 산업 내 하위 12% 수준에 그칩니다.
+275,patent,new_ipc_count_1y,3.0,2.2,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 25% 수준입니다.
+275,industry,industry_rd_growth_1y,0.2941,1.4,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+275,employment,employee_volatility,0.0266,1.3,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+275,patent,patent_count_3y,1.0,-8.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+275,news_event,growth_event_12m_count,0.0,-2.6,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 12% 수준에 그칩니다.
+275,financial,revenue_cagr_best,0.1251,-2.0,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 31% 수준에 그칩니다.
+276,patent,patent_momentum,1.8,3.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 25% 수준입니다.
+276,financial,asset_growth_1y,0.5886,2.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 22% 수준입니다.
+276,patent,patent_count_3y,8.0,2.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 29% 수준입니다.
+276,employment,employee_growth_6m,-0.0833,-3.8,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 15% 수준에 그칩니다.
+276,financial,revenue_growth_1y,0.0193,-3.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 27% 수준에 그칩니다.
+276,employment,net_hiring_rate_6m,-0.0857,-3.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 17% 수준에 그칩니다.
+277,patent,patent_momentum,3.0,4.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 18% 수준입니다.
+277,employment,employee_growth_6m,0.283,4.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 12% 수준입니다.
+277,financial,revenue_growth_1y,1.0361,3.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 23% 수준입니다.
+277,patent,registered_ratio_mature,0.0,-3.5,negative,특허 등록 전환율이 동일 산업 내 하위 1% 수준에 그칩니다.
+277,patent,patent_count_3y,2.0,-2.6,negative,최근 3년 특허 출원이 동일 산업 내 하위 26% 수준에 그칩니다.
+277,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+278,employment,employee_growth_6m,0.5,7.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+278,employment,net_hiring_rate_6m,0.4286,6.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 3% 수준입니다.
+278,employment,employee_growth_slope,0.0639,4.8,positive,고용 증가 추세가 동일 산업 내 상위 3% 수준입니다.
+278,patent,patent_count_3y,0.0,-16.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+278,employment,employee_growth_acceleration,-0.2841,-3.8,negative,고용 증가 가속도가 동일 산업 내 하위 1% 수준에 그칩니다.
+278,patent,new_ipc_count_1y,0.0,-3.7,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 21% 수준에 그칩니다.
+279,employment,employee_growth_slope,0.0204,1.9,positive,고용 증가 추세가 동일 산업 내 상위 28% 수준입니다.
+279,industry,industry_rd_growth_1y,0.2941,1.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+279,financial,liabilities_to_assets,0.4486,1.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+279,financial,revenue_growth_1y,-0.1165,-6.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+279,financial,asset_growth_1y,-0.0831,-3.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 24% 수준에 그칩니다.
+279,patent,registered_ratio_mature,0.6923,-2.8,negative,특허 등록 전환율이 동일 산업 내 하위 17% 수준에 그칩니다.
+280,patent,patent_count_3y,9.0,4.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 22% 수준입니다.
+280,industry,industry_rd_growth_1y,0.2941,1.9,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+280,industry,industry_employee_growth_1y,0.0208,0.6,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 42% 수준입니다.
+280,employment,employee_growth_6m,-1.0,-8.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+280,employment,net_hiring_rate_6m,-2.0,-7.1,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+280,employment,employee_growth_slope,-0.1255,-5.7,negative,고용 증가 추세가 동일 산업 내 하위 3% 수준에 그칩니다.
+281,patent,registered_ratio_mature,1.0,3.7,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+281,financial,operating_margin,0.0891,2.2,positive,영업이익률이 동일 산업 내 상위 16% 수준입니다.
+281,employment,employee_growth_slope,0.0252,2.2,positive,고용 증가 추세가 동일 산업 내 상위 24% 수준입니다.
+281,patent,patent_count_3y,0.0,-8.9,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+281,financial,revenue_cagr_best,0.0261,-4.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+281,financial,revenue_growth_1y,-0.064,-4.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+282,employment,employee_volatility,0.0,5.8,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+282,industry,industry_rd_growth_1y,0.2941,1.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+282,financial,asset_growth_1y,0.1068,1.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 38% 수준입니다.
+282,employment,net_hiring_rate_6m,-0.0769,-9.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 19% 수준에 그칩니다.
+282,financial,revenue_growth_1y,-0.172,-5.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+282,financial,revenue_cagr_best,-0.0123,-4.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+283,financial,operating_margin,0.1942,6.0,positive,영업이익률이 동일 산업 내 상위 7% 수준입니다.
+283,employment,employee_growth_slope,0.02,1.7,positive,고용 증가 추세가 동일 산업 내 상위 30% 수준입니다.
+283,industry,industry_rd_growth_1y,0.2941,1.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+283,financial,revenue_cagr_best,0.03,-8.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+283,patent,patent_momentum,0.0,-6.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+283,patent,patent_count_3y,1.0,-3.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+284,employment,employee_growth_6m,0.125,2.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 29% 수준입니다.
+284,employment,employee_growth_acceleration,0.2156,2.3,positive,고용 증가 가속도가 동일 산업 내 상위 8% 수준입니다.
+284,financial,liabilities_to_assets,0.2702,2.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+284,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+284,financial,revenue_cagr_best,0.041,-2.9,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 23% 수준에 그칩니다.
+284,patent,patent_count_3y,2.0,-2.6,negative,최근 3년 특허 출원이 동일 산업 내 하위 26% 수준에 그칩니다.
+285,financial,asset_growth_1y,0.3591,4.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 31% 수준입니다.
+285,financial,liabilities_to_assets,0.4053,4.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+285,patent,registered_ratio_mature,1.0,3.7,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+285,financial,operating_margin,-1.91,-4.1,negative,영업이익률이 동일 산업 내 하위 24% 수준에 그칩니다.
+285,patent,patent_count_3y,4.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 35% 수준에 그칩니다.
+285,employment,employee_growth_6m,0.0,-3.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 26% 수준에 그칩니다.
+286,employment,employee_growth_slope,0.0373,2.5,positive,고용 증가 추세가 동일 산업 내 상위 16% 수준입니다.
+286,financial,revenue_growth_1y,0.7949,2.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 32% 수준입니다.
+286,industry,industry_rd_growth_1y,0.2941,1.4,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+286,employment,employee_growth_6m,-0.0667,-3.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 18% 수준에 그칩니다.
+286,news_event,growth_event_12m_count,0.0,-2.9,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 12% 수준에 그칩니다.
+286,employment,net_hiring_rate_6m,-0.0659,-2.6,negative,최근 6개월 순채용률이 동일 산업 내 하위 21% 수준에 그칩니다.
+287,financial,revenue_growth_1y,2.0313,6.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 11% 수준입니다.
+287,financial,operating_margin_change_1y,0.609,3.0,positive,영업이익률 개선폭이 동일 산업 내 상위 20% 수준입니다.
+287,employment,net_hiring_rate_6m,0.1714,2.6,positive,최근 6개월 순채용률이 동일 산업 내 상위 21% 수준입니다.
+287,financial,liabilities_to_assets,1.0683,-3.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+287,employment,employee_growth_slope,-0.0332,-2.8,negative,고용 증가 추세가 동일 산업 내 하위 11% 수준에 그칩니다.
+287,patent,registered_ratio_mature,0.6667,-2.5,negative,특허 등록 전환율이 동일 산업 내 하위 15% 수준에 그칩니다.
+288,financial,operating_margin,0.2084,2.8,positive,영업이익률이 동일 산업 내 상위 5% 수준입니다.
+288,financial,revenue_growth_1y,0.4109,1.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 39% 수준입니다.
+288,employment,employee_volatility,0.0202,1.7,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+288,industry,industry_revenue_growth_1y,0.0344,-2.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+288,patent,patent_momentum,0.75,-1.4,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 42% 수준에 그칩니다.
+288,employment,employee_growth_6m,0.0417,-1.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 39% 수준에 그칩니다.
+289,patent,patent_momentum,5.4,6.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 4% 수준입니다.
+289,financial,revenue_growth_1y,1.8102,5.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+289,financial,operating_margin_change_1y,2.1514,3.2,positive,영업이익률 개선폭이 동일 산업 내 상위 11% 수준입니다.
+289,financial,asset_growth_1y,-0.4538,-3.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 3% 수준에 그칩니다.
+289,financial,liabilities_to_assets,2.327,-3.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+289,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+290,employment,employee_growth_acceleration,0.1,1.8,positive,고용 증가 가속도가 동일 산업 내 상위 16% 수준입니다.
+290,employment,employee_growth_6m,0.1,1.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 35% 수준입니다.
+290,employment,net_hiring_rate_6m,0.0976,1.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 35% 수준입니다.
+290,patent,patent_count_3y,0.0,-11.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+290,financial,revenue_growth_1y,-0.5826,-6.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+290,financial,revenue_cagr_best,-0.4193,-5.0,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+291,financial,revenue_growth_1y,1.5108,5.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+291,financial,asset_growth_1y,0.5096,2.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 27% 수준입니다.
+291,patent,registered_ratio_mature,1.0,1.9,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+291,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+291,patent,patent_count_3y,0.0,-4.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+291,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+292,patent,patent_count_3y,29.0,4.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 5% 수준입니다.
+292,financial,asset_growth_1y,1.0039,3.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+292,news_event,growth_event_12m_count,60.0,3.3,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 1% 수준입니다.
+292,financial,liabilities_to_assets,2.2432,-3.4,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+292,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+292,financial,revenue_growth_1y,0.1688,-1.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 37% 수준에 그칩니다.
+293,employment,net_hiring_rate_6m,0.1685,4.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 23% 수준입니다.
+293,employment,employee_growth_slope,0.0337,4.2,positive,고용 증가 추세가 동일 산업 내 상위 18% 수준입니다.
+293,news_event,growth_event_12m_count,25.0,2.6,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 12% 수준입니다.
+293,financial,revenue_growth_1y,0.1179,-2.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 32% 수준에 그칩니다.
+293,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+293,financial,asset_growth_1y,-0.0763,-1.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 27% 수준에 그칩니다.
+294,employment,employee_volatility,0.0,5.8,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+294,financial,revenue_growth_1y,0.7825,2.5,positive,최근 1년 매출 성장률이 동일 산업 내 상위 35% 수준입니다.
+294,financial,revenue_cagr_best,0.4831,2.1,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 34% 수준입니다.
+294,patent,patent_count_3y,0.0,-13.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+294,employment,net_hiring_rate_6m,0.0,-4.8,negative,최근 6개월 순채용률이 동일 산업 내 하위 34% 수준에 그칩니다.
+294,patent,new_ipc_count_1y,0.0,-3.1,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 21% 수준에 그칩니다.
+295,financial,revenue_cagr_best,0.6439,3.8,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+295,employment,employee_growth_acceleration,0.6398,2.6,positive,고용 증가 가속도가 동일 산업 내 상위 1% 수준입니다.
+295,patent,patent_count_3y,8.0,2.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 29% 수준입니다.
+295,employment,employee_growth_6m,-0.8387,-5.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+295,financial,revenue_growth_1y,-0.1433,-4.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+295,employment,net_hiring_rate_6m,-2.025,-4.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 1% 수준에 그칩니다.
+296,employment,employee_growth_6m,0.4872,4.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 5% 수준입니다.
+296,patent,patent_momentum,3.0,4.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 18% 수준입니다.
+296,employment,net_hiring_rate_6m,0.3579,4.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 5% 수준입니다.
+296,financial,revenue_cagr_best,-0.1285,-4.7,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 7% 수준에 그칩니다.
+296,industry,industry_revenue_growth_1y,0.0344,-2.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+296,employment,employee_volatility,0.211,-1.5,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+297,employment,employee_growth_6m,0.2353,4.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 17% 수준입니다.
+297,employment,net_hiring_rate_6m,0.2034,3.3,positive,최근 6개월 순채용률이 동일 산업 내 상위 19% 수준입니다.
+297,employment,employee_growth_slope,0.0424,3.3,positive,고용 증가 추세가 동일 산업 내 상위 11% 수준입니다.
+297,patent,patent_momentum,0.0,-6.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+297,financial,revenue_growth_1y,-0.3253,-6.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+297,patent,patent_count_3y,0.0,-5.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+298,patent,registered_ratio_mature,1.0,2.2,positive,특허 등록 전환율이 동일 산업 내 상위 24% 수준입니다.
+298,industry,industry_rd_growth_1y,0.2941,1.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+298,employment,employee_volatility,0.0406,1.4,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+298,patent,patent_momentum,0.0,-6.9,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+298,financial,revenue_growth_1y,-0.322,-6.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 11% 수준에 그칩니다.
+298,employment,employee_growth_6m,-0.125,-5.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 7% 수준에 그칩니다.
+299,financial,operating_margin_change_1y,0.1742,1.6,positive,영업이익률 개선폭이 동일 산업 내 상위 30% 수준입니다.
+299,industry,industry_rd_growth_1y,0.2941,1.4,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 25% 수준입니다.
+299,employment,employee_growth_slope,0.0165,1.3,positive,고용 증가 추세가 동일 산업 내 상위 32% 수준입니다.
+299,financial,liabilities_to_assets,1.1412,-3.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+299,patent,patent_momentum,0.4286,-3.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 27% 수준에 그칩니다.
+299,financial,revenue_cagr_best,0.0434,-2.6,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 26% 수준에 그칩니다.
+300,employment,employee_growth_6m,0.2727,3.9,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+300,employment,net_hiring_rate_6m,0.2308,3.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 15% 수준입니다.
+300,employment,employee_growth_slope,0.028,2.0,positive,고용 증가 추세가 동일 산업 내 상위 22% 수준입니다.
+300,patent,patent_momentum,0.0,-5.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 10% 수준에 그칩니다.
+300,patent,registered_ratio_mature,0.1667,-3.4,negative,특허 등록 전환율이 동일 산업 내 하위 3% 수준에 그칩니다.
+300,patent,patent_count_3y,1.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+401,patent,registered_ratio_mature,1.0,4.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+401,employment,employee_growth_acceleration,0.6786,3.1,positive,고용 증가 가속도가 동일 산업 내 상위 1% 수준입니다.
+401,financial,asset_growth_1y,0.3879,3.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 25% 수준입니다.
+401,patent,patent_count_3y,0.0,-8.9,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+401,employment,employee_growth_6m,-0.2857,-6.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+401,financial,liabilities_to_assets,0.8428,-4.4,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+402,financial,revenue_growth_1y,4.1,4.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+402,patent,patent_count_3y,8.0,3.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+402,financial,asset_growth_1y,0.6309,3.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 13% 수준입니다.
+402,employment,net_hiring_rate_6m,-0.2278,-3.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 12% 수준에 그칩니다.
+402,employment,employee_growth_6m,-0.0714,-2.5,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 27% 수준에 그칩니다.
+402,employment,employee_growth_slope,-0.0265,-2.1,negative,고용 증가 추세가 동일 산업 내 하위 20% 수준에 그칩니다.
+403,financial,liabilities_to_assets,0.0179,12.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+403,patent,patent_count_3y,15.0,4.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 5% 수준입니다.
+403,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+403,financial,asset_growth_1y,-0.2356,-6.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+403,patent,registered_ratio_mature,0.5625,-1.5,negative,특허 등록 전환율이 동일 산업 내 하위 29% 수준에 그칩니다.
+403,employment,employee_growth_slope,-0.0143,-1.2,negative,고용 증가 추세가 동일 산업 내 하위 33% 수준에 그칩니다.
+404,patent,patent_momentum,3.0,4.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 16% 수준입니다.
+404,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+404,news_event,investment_event_24m_count,3.0,2.0,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 13% 수준입니다.
+404,financial,asset_growth_1y,-0.7002,-9.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+404,financial,operating_margin,-98.4289,-6.3,negative,영업이익률이 동일 산업 내 하위 3% 수준에 그칩니다.
+404,patent,registered_ratio_mature,0.0,-3.2,negative,특허 등록 전환율이 동일 산업 내 하위 5% 수준에 그칩니다.
+405,patent,patent_momentum,3.0,4.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 16% 수준입니다.
+405,financial,revenue_cagr_best,1.3515,3.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+405,financial,revenue_growth_1y,2.3097,3.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 23% 수준입니다.
+405,employment,employee_growth_6m,-0.1333,-3.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 18% 수준에 그칩니다.
+405,financial,asset_growth_1y,-0.3398,-3.2,negative,최근 1년 자산 성장률이 동일 산업 내 하위 11% 수준에 그칩니다.
+405,employment,net_hiring_rate_6m,-0.2143,-3.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 15% 수준에 그칩니다.
+406,patent,patent_momentum,6.0,6.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 3% 수준입니다.
+406,employment,employee_growth_6m,1.5,5.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+406,employment,net_hiring_rate_6m,1.0244,4.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+406,financial,liabilities_to_assets,0.6496,-6.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+406,employment,employee_growth_slope,-0.0655,-3.4,negative,고용 증가 추세가 동일 산업 내 하위 3% 수준에 그칩니다.
+406,patent,registered_ratio_mature,0.0,-3.2,negative,특허 등록 전환율이 동일 산업 내 하위 5% 수준에 그칩니다.
+407,financial,liabilities_to_assets,0.0464,3.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+407,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+407,patent,registered_ratio_mature,1.0,2.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+407,financial,revenue_growth_1y,-0.3874,-7.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+407,financial,operating_margin_change_1y,-3.3279,-4.6,negative,영업이익률 개선폭이 동일 산업 내 하위 4% 수준에 그칩니다.
+407,financial,asset_growth_1y,-0.5002,-4.2,negative,최근 1년 자산 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+408,financial,revenue_growth_1y,6.4509,6.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 12% 수준입니다.
+408,financial,operating_margin_change_1y,62.4187,4.9,positive,영업이익률 개선폭이 동일 산업 내 상위 1% 수준입니다.
+408,industry,industry_employee_growth_1y,0.0774,2.8,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+408,news_event,growth_event_12m_count,0.0,-3.5,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 8% 수준에 그칩니다.
+408,financial,operating_margin,-6.7414,-2.1,negative,영업이익률이 동일 산업 내 하위 19% 수준에 그칩니다.
+408,patent,patent_count_3y,3.0,-1.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 37% 수준에 그칩니다.
+409,financial,revenue_growth_1y,2.2598,4.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 26% 수준입니다.
+409,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+409,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+409,patent,patent_count_3y,0.0,-11.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+409,financial,liabilities_to_assets,0.7906,-3.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+409,patent,new_ipc_count_1y,0.0,-1.4,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 34% 수준에 그칩니다.
+410,employment,employee_growth_6m,0.4444,4.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 5% 수준입니다.
+410,employment,net_hiring_rate_6m,0.3429,3.8,positive,최근 6개월 순채용률이 동일 산업 내 상위 7% 수준입니다.
+410,employment,employee_growth_slope,0.0276,3.4,positive,고용 증가 추세가 동일 산업 내 상위 3% 수준입니다.
+410,financial,asset_growth_1y,-0.5826,-12.5,negative,최근 1년 자산 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+410,financial,liabilities_to_assets,0.6224,-3.9,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+410,employment,employee_growth_acceleration,-0.25,-2.5,negative,고용 증가 가속도가 동일 산업 내 하위 3% 수준에 그칩니다.
+411,financial,asset_growth_1y,2.8431,8.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+411,patent,patent_momentum,1.5,3.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 32% 수준입니다.
+411,employment,employee_growth_6m,0.1714,2.7,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 25% 수준입니다.
+411,financial,liabilities_to_assets,5.3192,-9.9,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+411,financial,operating_margin,-14.36,-4.8,negative,영업이익률이 동일 산업 내 하위 14% 수준에 그칩니다.
+411,employment,employee_growth_acceleration,-0.2238,-2.3,negative,고용 증가 가속도가 동일 산업 내 하위 8% 수준에 그칩니다.
+412,patent,patent_count_3y,16.0,6.0,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+412,employment,employee_growth_6m,0.3077,5.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 10% 수준입니다.
+412,financial,revenue_cagr_best,1.2288,4.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 17% 수준입니다.
+412,financial,revenue_growth_1y,-0.1184,-4.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+412,financial,operating_margin_change_1y,-1.5054,-3.6,negative,영업이익률 개선폭이 동일 산업 내 하위 12% 수준에 그칩니다.
+412,patent,patent_momentum,0.5,-2.5,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 35% 수준에 그칩니다.
+413,employment,employee_growth_6m,0.4,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 8% 수준입니다.
+413,employment,net_hiring_rate_6m,0.3529,4.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 5% 수준입니다.
+413,employment,employee_growth_slope,0.0211,2.3,positive,고용 증가 추세가 동일 산업 내 상위 18% 수준입니다.
+413,financial,revenue_growth_1y,0.0481,-2.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 34% 수준에 그칩니다.
+413,financial,liabilities_to_assets,0.7505,-2.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+413,financial,asset_growth_1y,-0.0153,-1.1,negative,최근 1년 자산 성장률이 동일 산업 내 하위 39% 수준에 그칩니다.
+414,financial,operating_margin_change_1y,27.4042,4.4,positive,영업이익률 개선폭이 동일 산업 내 상위 7% 수준입니다.
+414,financial,liabilities_to_assets,0.1034,3.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+414,financial,revenue_growth_1y,1.7009,3.2,positive,최근 1년 매출 성장률이 동일 산업 내 상위 31% 수준입니다.
+414,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+414,financial,asset_growth_1y,-0.5501,-4.5,negative,최근 1년 자산 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+414,patent,patent_count_3y,1.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+415,financial,liabilities_to_assets,0.0833,9.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+415,patent,patent_momentum,4.0,5.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 10% 수준입니다.
+415,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+415,financial,asset_growth_1y,-0.3148,-9.3,negative,최근 1년 자산 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+415,employment,employee_growth_6m,-0.1667,-4.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 12% 수준에 그칩니다.
+415,employment,net_hiring_rate_6m,-0.12,-2.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 18% 수준에 그칩니다.
+416,financial,revenue_growth_1y,6.9782,6.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+416,financial,operating_margin_change_1y,24.1729,3.8,positive,영업이익률 개선폭이 동일 산업 내 상위 12% 수준입니다.
+416,employment,employee_growth_slope,0.0275,3.2,positive,고용 증가 추세가 동일 산업 내 상위 5% 수준입니다.
+416,patent,registered_ratio_mature,0.0,-3.2,negative,특허 등록 전환율이 동일 산업 내 하위 5% 수준에 그칩니다.
+416,financial,asset_growth_1y,-0.2464,-3.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+416,financial,operating_margin,-4.1643,-1.5,negative,영업이익률이 동일 산업 내 하위 28% 수준에 그칩니다.
+417,patent,patent_count_3y,7.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+417,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+417,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+417,financial,liabilities_to_assets,2.0874,-3.8,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+417,financial,revenue_cagr_best,0.0729,-3.5,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+417,patent,patent_momentum,0.5455,-1.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 38% 수준에 그칩니다.
+418,patent,patent_count_3y,7.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+418,employment,employee_growth_acceleration,0.4939,2.5,positive,고용 증가 가속도가 동일 산업 내 상위 3% 수준입니다.
+418,news_event,investment_event_24m_count,9.0,2.5,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 4% 수준입니다.
+418,financial,liabilities_to_assets,1.1562,-4.5,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+418,financial,asset_growth_1y,-0.3264,-3.7,negative,최근 1년 자산 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+418,financial,operating_margin,-57.8788,-3.0,negative,영업이익률이 동일 산업 내 하위 6% 수준에 그칩니다.
+419,patent,patent_count_3y,9.0,4.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 11% 수준입니다.
+419,news_event,investment_event_24m_count,6.0,2.2,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 10% 수준입니다.
+419,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+419,financial,revenue_growth_1y,-0.3864,-5.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 7% 수준에 그칩니다.
+419,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+419,financial,operating_margin_change_1y,-1.5337,-3.3,negative,영업이익률 개선폭이 동일 산업 내 하위 10% 수준에 그칩니다.
+420,patent,patent_momentum,4.5,6.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 8% 수준입니다.
+420,patent,patent_count_3y,8.0,3.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+420,employment,employee_growth_slope,0.0267,2.9,positive,고용 증가 추세가 동일 산업 내 상위 10% 수준입니다.
+420,patent,registered_ratio_mature,0.375,-2.8,negative,특허 등록 전환율이 동일 산업 내 하위 11% 수준에 그칩니다.
+420,financial,revenue_cagr_best,0.1895,-1.9,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 33% 수준에 그칩니다.
+420,financial,revenue_growth_1y,0.0527,-1.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 36% 수준에 그칩니다.
+421,financial,asset_growth_1y,10.2315,4.9,positive,최근 1년 자산 성장률이 동일 산업 내 상위 1% 수준입니다.
+421,patent,patent_count_3y,9.0,4.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 11% 수준입니다.
+421,financial,revenue_growth_1y,1.2541,2.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 34% 수준입니다.
+421,patent,patent_momentum,0.375,-3.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 28% 수준에 그칩니다.
+421,news_event,growth_event_12m_count,0.0,-3.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 8% 수준에 그칩니다.
+421,employment,employee_growth_slope,-0.0316,-2.5,negative,고용 증가 추세가 동일 산업 내 하위 16% 수준에 그칩니다.
+422,financial,operating_margin_change_1y,35.6783,4.6,positive,영업이익률 개선폭이 동일 산업 내 상위 4% 수준입니다.
+422,financial,asset_growth_1y,4.3097,4.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+422,patent,patent_count_3y,9.0,4.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 11% 수준입니다.
+422,financial,operating_margin,-19.2947,-2.6,negative,영업이익률이 동일 산업 내 하위 12% 수준에 그칩니다.
+422,employment,net_hiring_rate_6m,-0.0343,-1.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 29% 수준에 그칩니다.
+422,employment,employee_growth_6m,0.0,-1.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 37% 수준에 그칩니다.
+423,patent,patent_count_3y,11.0,4.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+423,financial,revenue_cagr_best,1.7467,4.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 10% 수준입니다.
+423,employment,employee_growth_6m,0.2941,4.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 12% 수준입니다.
+423,financial,revenue_growth_1y,-0.3772,-5.5,negative,최근 1년 매출 성장률이 동일 산업 내 하위 9% 수준에 그칩니다.
+423,financial,operating_margin_change_1y,-2.1318,-3.5,negative,영업이익률 개선폭이 동일 산업 내 하위 7% 수준에 그칩니다.
+423,patent,registered_ratio_mature,0.0,-3.2,negative,특허 등록 전환율이 동일 산업 내 하위 5% 수준에 그칩니다.
+424,news_event,growth_event_12m_count,95.0,3.0,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 6% 수준입니다.
+424,news_event,investment_event_24m_count,44.0,2.6,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 1% 수준입니다.
+424,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+424,patent,patent_momentum,0.0,-6.5,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+424,patent,patent_count_3y,1.0,-4.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+424,financial,operating_margin,-36.0095,-2.3,negative,영업이익률이 동일 산업 내 하위 8% 수준에 그칩니다.
+425,news_event,growth_event_12m_count,115.0,3.1,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 4% 수준입니다.
+425,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+425,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+425,financial,revenue_growth_1y,-0.2485,-5.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+425,financial,revenue_cagr_best,-0.1453,-4.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+425,financial,asset_growth_1y,-0.3087,-2.6,negative,최근 1년 자산 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+426,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+426,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+426,financial,revenue_cagr_best,0.4113,1.5,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 37% 수준입니다.
+426,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+426,employment,employee_growth_6m,-0.1111,-3.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 21% 수준에 그칩니다.
+426,financial,liabilities_to_assets,0.8515,-3.1,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+427,financial,revenue_growth_1y,4.7796,4.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+427,financial,revenue_cagr_best,1.141,3.1,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 21% 수준입니다.
+427,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+427,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+427,employment,net_hiring_rate_6m,-0.3896,-4.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 1% 수준에 그칩니다.
+427,employment,employee_growth_6m,-0.2,-4.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 10% 수준에 그칩니다.
+428,financial,revenue_growth_1y,24.4418,9.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+428,financial,asset_growth_1y,7.3158,5.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 4% 수준입니다.
+428,financial,liabilities_to_assets,0.0328,5.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+428,patent,patent_momentum,0.0,-6.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+428,employment,employee_growth_6m,-0.25,-5.7,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 5% 수준에 그칩니다.
+428,employment,net_hiring_rate_6m,-0.3103,-4.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+429,employment,employee_growth_6m,0.2667,3.9,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+429,employment,net_hiring_rate_6m,0.2526,3.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 12% 수준입니다.
+429,employment,employee_growth_slope,0.0241,2.8,positive,고용 증가 추세가 동일 산업 내 상위 12% 수준입니다.
+429,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+429,financial,revenue_cagr_best,0.1344,-5.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+429,financial,liabilities_to_assets,0.6607,-4.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+430,patent,patent_momentum,2.0,3.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 24% 수준입니다.
+430,financial,asset_growth_1y,1.6895,3.2,positive,최근 1년 자산 성장률이 동일 산업 내 상위 11% 수준입니다.
+430,financial,operating_margin,0.3517,2.6,positive,영업이익률이 동일 산업 내 상위 1% 수준입니다.
+430,industry,industry_company_growth_1y,-0.0463,-1.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 25% 수준에 그칩니다.
+430,financial,operating_margin_change_1y,0.0323,-0.6,negative,영업이익률 개선폭이 동일 산업 내 하위 43% 수준에 그칩니다.
+430,patent,new_ipc_count_1y,0.0,-0.6,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 34% 수준에 그칩니다.
+431,patent,patent_momentum,3.0,8.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 16% 수준입니다.
+431,industry,industry_employee_growth_1y,0.0774,4.1,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+431,patent,registered_ratio_mature,1.0,3.8,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+431,employment,employee_growth_6m,-0.0909,-4.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 25% 수준에 그칩니다.
+431,employment,net_hiring_rate_6m,-0.0923,-4.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 24% 수준에 그칩니다.
+431,employment,employee_growth_acceleration,-0.0909,-2.2,negative,고용 증가 가속도가 동일 산업 내 하위 27% 수준에 그칩니다.
+432,financial,operating_margin,0.2147,3.2,positive,영업이익률이 동일 산업 내 상위 3% 수준입니다.
+432,financial,liabilities_to_assets,0.1955,2.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+432,patent,patent_momentum,1.5,2.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 32% 수준입니다.
+432,financial,revenue_growth_1y,0.0363,-4.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 26% 수준에 그칩니다.
+432,patent,patent_count_3y,2.0,-2.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 28% 수준에 그칩니다.
+432,industry,industry_company_growth_1y,-0.0463,-1.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 25% 수준에 그칩니다.
+433,financial,revenue_cagr_best,2.3319,10.6,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+433,employment,employee_growth_6m,0.2,3.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 21% 수준입니다.
+433,employment,employee_growth_slope,0.027,3.1,positive,고용 증가 추세가 동일 산업 내 상위 7% 수준입니다.
+433,patent,patent_count_3y,0.0,-11.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+433,financial,liabilities_to_assets,0.8911,-7.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+433,news_event,growth_event_12m_count,0.0,-2.8,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 8% 수준에 그칩니다.
+434,news_event,growth_event_12m_count,80.0,2.8,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 8% 수준입니다.
+434,financial,liabilities_to_assets,0.1235,2.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+434,financial,asset_growth_1y,0.4017,2.4,positive,최근 1년 자산 성장률이 동일 산업 내 상위 20% 수준입니다.
+434,financial,revenue_cagr_best,-0.8939,-5.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 2% 수준에 그칩니다.
+434,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+434,financial,revenue_growth_1y,-0.1892,-4.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+435,financial,revenue_growth_1y,8.643,7.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 7% 수준입니다.
+435,patent,patent_count_3y,20.0,6.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+435,financial,operating_margin_change_1y,14.9673,3.2,positive,영업이익률 개선폭이 동일 산업 내 상위 18% 수준입니다.
+435,employment,employee_growth_6m,-0.1538,-3.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 16% 수준에 그칩니다.
+435,employment,employee_growth_slope,-0.0514,-3.2,negative,고용 증가 추세가 동일 산업 내 하위 5% 수준에 그칩니다.
+435,financial,asset_growth_1y,-0.2394,-2.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 23% 수준에 그칩니다.
+436,financial,liabilities_to_assets,0.0389,4.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+436,employment,employee_growth_6m,0.2353,3.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 16% 수준입니다.
+436,patent,registered_ratio_mature,1.0,3.4,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+436,patent,patent_count_3y,0.0,-7.6,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+436,financial,revenue_growth_1y,0.0382,-3.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+436,financial,operating_margin_change_1y,-0.1425,-3.0,negative,영업이익률 개선폭이 동일 산업 내 하위 21% 수준에 그칩니다.
+437,employment,employee_growth_6m,0.2143,3.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 18% 수준입니다.
+437,employment,net_hiring_rate_6m,0.1895,3.1,positive,최근 6개월 순채용률이 동일 산업 내 상위 16% 수준입니다.
+437,employment,employee_growth_slope,0.024,2.6,positive,고용 증가 추세가 동일 산업 내 상위 14% 수준입니다.
+437,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+437,financial,revenue_growth_1y,-0.1184,-4.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+437,patent,patent_count_3y,1.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+438,patent,patent_momentum,6.0,8.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 3% 수준입니다.
+438,financial,liabilities_to_assets,0.008,7.2,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+438,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+438,financial,revenue_growth_1y,-1.0,-11.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+438,financial,asset_growth_1y,-0.2151,-3.3,negative,최근 1년 자산 성장률이 동일 산업 내 하위 27% 수준에 그칩니다.
+438,patent,patent_count_3y,3.0,-1.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 37% 수준에 그칩니다.
+439,patent,patent_momentum,1.5,2.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 32% 수준입니다.
+439,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+439,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+439,employment,employee_growth_6m,-0.2143,-4.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 8% 수준에 그칩니다.
+439,employment,net_hiring_rate_6m,-0.338,-4.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+439,news_event,growth_event_12m_count,0.0,-2.8,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 8% 수준에 그칩니다.
+440,financial,revenue_cagr_best,8.3153,6.5,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 2% 수준입니다.
+440,financial,revenue_growth_1y,5.2425,5.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+440,patent,patent_momentum,1.8,4.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 26% 수준입니다.
+440,industry,industry_company_growth_1y,-0.0463,-1.3,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 25% 수준에 그칩니다.
+440,financial,operating_margin,-2.599,-0.7,negative,영업이익률이 동일 산업 내 하위 39% 수준에 그칩니다.
+440,patent,new_ipc_count_1y,0.0,-0.7,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 34% 수준에 그칩니다.
+441,industry,industry_employee_growth_1y,0.0774,2.6,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+441,financial,operating_margin,0.0683,2.5,positive,영업이익률이 동일 산업 내 상위 10% 수준입니다.
+441,industry,industry_revenue_growth_1y,0.073,2.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+441,patent,patent_count_3y,0.0,-13.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+441,financial,revenue_cagr_best,0.1258,-3.7,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 21% 수준에 그칩니다.
+441,financial,revenue_growth_1y,0.0445,-3.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 31% 수준에 그칩니다.
+442,financial,revenue_growth_1y,12.76,7.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+442,patent,patent_count_3y,8.0,4.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+442,financial,operating_margin_change_1y,26.0593,4.1,positive,영업이익률 개선폭이 동일 산업 내 상위 10% 수준입니다.
+442,patent,patent_momentum,0.4286,-3.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 32% 수준에 그칩니다.
+442,employment,employee_growth_acceleration,-0.2284,-2.4,negative,고용 증가 가속도가 동일 산업 내 하위 5% 수준에 그칩니다.
+442,financial,operating_margin,-4.8207,-2.0,negative,영업이익률이 동일 산업 내 하위 21% 수준에 그칩니다.
+443,financial,operating_margin,0.1454,6.3,positive,영업이익률이 동일 산업 내 상위 6% 수준입니다.
+443,financial,revenue_cagr_best,0.4235,6.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 29% 수준입니다.
+443,industry,industry_employee_growth_1y,0.0774,2.6,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+443,financial,liabilities_to_assets,0.7784,-6.5,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+443,patent,patent_momentum,0.0,-6.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+443,patent,patent_count_3y,0.0,-5.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+444,patent,patent_momentum,6.0,7.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 3% 수준입니다.
+444,financial,revenue_cagr_best,0.4233,4.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 33% 수준입니다.
+444,employment,net_hiring_rate_6m,0.233,3.8,positive,최근 6개월 순채용률이 동일 산업 내 상위 14% 수준입니다.
+444,patent,patent_count_3y,3.0,-1.7,negative,최근 3년 특허 출원이 동일 산업 내 하위 37% 수준에 그칩니다.
+444,industry,industry_company_growth_1y,-0.0463,-1.2,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 25% 수준에 그칩니다.
+445,patent,patent_momentum,3.0,5.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 16% 수준입니다.
+445,financial,asset_growth_1y,0.4393,3.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 18% 수준입니다.
+445,industry,industry_employee_growth_1y,0.0774,2.6,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+445,financial,revenue_cagr_best,0.1325,-3.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+445,patent,patent_count_3y,2.0,-2.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 28% 수준에 그칩니다.
+445,employment,employee_growth_6m,0.0,-1.7,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 37% 수준에 그칩니다.
+446,financial,asset_growth_1y,0.3946,2.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 23% 수준입니다.
+446,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+446,employment,employee_volatility,0.035,2.1,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+446,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+446,patent,patent_count_3y,0.0,-4.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+446,employment,employee_growth_slope,-0.0242,-3.6,negative,고용 증가 추세가 동일 산업 내 하위 22% 수준에 그칩니다.
+447,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+447,industry,industry_revenue_growth_1y,0.073,2.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+447,news_event,high_intensity_event_12m_count,2.0,1.3,positive,고강도 성장 이벤트가 동일 산업 내 상위 18% 수준입니다.
+447,patent,patent_count_3y,0.0,-11.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 8% 수준에 그칩니다.
+447,employment,employee_growth_6m,-0.2639,-5.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+447,employment,net_hiring_rate_6m,-0.2375,-3.6,negative,최근 6개월 순채용률이 동일 산업 내 하위 10% 수준에 그칩니다.
+448,patent,patent_count_3y,7.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+448,industry,industry_employee_growth_1y,0.0774,2.2,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+448,patent,registered_ratio_mature,1.0,2.1,positive,특허 등록 전환율이 동일 산업 내 상위 21% 수준입니다.
+448,financial,revenue_cagr_best,-0.0133,-4.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 10% 수준에 그칩니다.
+448,financial,revenue_growth_1y,-0.0077,-3.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 23% 수준에 그칩니다.
+448,news_event,growth_event_12m_count,1.0,-1.7,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 25% 수준에 그칩니다.
+449,industry,industry_employee_growth_1y,0.0774,2.8,positive,소속 산업 고용 성장률이 전체 산업 대비 상위 8% 수준입니다.
+449,financial,operating_margin,0.0566,2.5,positive,영업이익률이 동일 산업 내 상위 12% 수준입니다.
+449,industry,industry_revenue_growth_1y,0.073,2.5,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 25% 수준입니다.
+449,patent,patent_momentum,0.4286,-3.3,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 32% 수준에 그칩니다.
+449,patent,registered_ratio_mature,0.5,-2.8,negative,특허 등록 전환율이 동일 산업 내 하위 19% 수준에 그칩니다.
+449,industry,industry_company_growth_1y,-0.0463,-1.3,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 25% 수준에 그칩니다.
+450,employment,employee_growth_6m,0.6667,5.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+450,financial,operating_margin,0.0565,4.3,positive,영업이익률이 동일 산업 내 상위 14% 수준입니다.
+450,employment,net_hiring_rate_6m,0.4412,4.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 3% 수준입니다.
+450,financial,revenue_cagr_best,0.0538,-8.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+450,patent,patent_momentum,0.0,-6.5,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+450,patent,patent_count_3y,1.0,-4.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+528,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+528,patent,patent_count_3y,4.0,1.4,positive,최근 3년 특허 출원이 동일 산업 내 상위 39% 수준입니다.
+528,employment,employee_volatility,0.0437,1.4,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+528,financial,revenue_growth_1y,-0.9645,-7.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 3% 수준에 그칩니다.
+528,financial,revenue_cagr_best,-0.7254,-6.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 2% 수준에 그칩니다.
+528,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+551,financial,liabilities_to_assets,0.3142,9.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+551,employment,net_hiring_rate_6m,0.1395,3.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 12% 수준입니다.
+551,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+551,financial,operating_margin,-2.0965,-8.3,negative,영업이익률이 동일 산업 내 하위 11% 수준에 그칩니다.
+551,news_event,growth_event_12m_count,0.0,-1.9,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+551,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+552,financial,revenue_growth_1y,2.6802,7.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 3% 수준입니다.
+552,financial,operating_margin_change_1y,9.5573,4.9,positive,영업이익률 개선폭이 동일 산업 내 상위 1% 수준입니다.
+552,financial,liabilities_to_assets,0.1376,4.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+552,patent,patent_momentum,0.0,-4.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+552,financial,operating_margin,-5.3619,-2.9,negative,영업이익률이 동일 산업 내 하위 7% 수준에 그칩니다.
+552,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+553,financial,liabilities_to_assets,0.3563,4.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+553,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+553,news_event,growth_event_12m_count,24.0,3.0,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 6% 수준입니다.
+553,financial,revenue_cagr_best,-0.1765,-9.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+553,patent,patent_count_3y,0.0,-6.7,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+553,patent,registered_ratio_mature,0.6667,-3.7,negative,특허 등록 전환율이 동일 산업 내 하위 19% 수준에 그칩니다.
+554,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+554,employment,employee_growth_acceleration,0.325,2.6,positive,고용 증가 가속도가 동일 산업 내 상위 1% 수준입니다.
+554,patent,patent_momentum,0.0,-4.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+554,financial,revenue_growth_1y,-0.1394,-3.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+554,employment,net_hiring_rate_6m,-0.2182,-3.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 9% 수준에 그칩니다.
+555,financial,revenue_growth_1y,1.2718,4.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+555,financial,revenue_cagr_best,0.9823,3.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+555,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+555,financial,liabilities_to_assets,0.9576,-3.5,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+555,patent,registered_ratio_mature,0.25,-3.5,negative,특허 등록 전환율이 동일 산업 내 하위 1% 수준에 그칩니다.
+555,news_event,growth_event_12m_count,0.0,-2.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+556,patent,patent_count_3y,24.0,5.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+556,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+556,financial,operating_margin_change_1y,0.0607,2.2,positive,영업이익률 개선폭이 동일 산업 내 상위 23% 수준입니다.
+556,patent,registered_ratio_mature,0.5,-2.9,negative,특허 등록 전환율이 동일 산업 내 하위 10% 수준에 그칩니다.
+556,news_event,growth_event_12m_count,0.0,-1.9,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+556,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+557,patent,patent_momentum,3.0,4.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+557,financial,asset_growth_1y,3.8396,4.7,positive,최근 1년 자산 성장률이 동일 산업 내 상위 3% 수준입니다.
+557,financial,liabilities_to_assets,0.1966,4.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+557,financial,operating_margin_change_1y,-2.3943,-4.5,negative,영업이익률 개선폭이 동일 산업 내 하위 6% 수준에 그칩니다.
+557,financial,operating_margin,-18.6294,-3.2,negative,영업이익률이 동일 산업 내 하위 3% 수준에 그칩니다.
+557,financial,revenue_growth_1y,0.076,-3.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 31% 수준에 그칩니다.
+558,employment,employee_growth_6m,0.4058,6.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+558,employment,net_hiring_rate_6m,0.3009,5.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+558,financial,operating_margin_change_1y,0.4101,4.0,positive,영업이익률 개선폭이 동일 산업 내 상위 8% 수준입니다.
+558,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+558,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+558,industry,industry_startup_rate_latest,0.0573,-2.0,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+559,patent,patent_momentum,3.0,4.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+559,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+559,news_event,growth_event_12m_count,3.0,1.9,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 22% 수준입니다.
+559,financial,revenue_growth_1y,0.0775,-2.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 34% 수준에 그칩니다.
+559,financial,operating_margin_change_1y,-0.1271,-2.3,negative,영업이익률 개선폭이 동일 산업 내 하위 27% 수준에 그칩니다.
+559,employment,employee_growth_6m,-0.0417,-2.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 31% 수준에 그칩니다.
+560,employment,employee_growth_6m,0.2361,4.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 10% 수준입니다.
+560,financial,revenue_cagr_best,1.1817,4.1,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 12% 수준입니다.
+560,employment,net_hiring_rate_6m,0.2105,3.9,positive,최근 6개월 순채용률이 동일 산업 내 상위 7% 수준입니다.
+560,patent,registered_ratio_mature,0.2857,-3.3,negative,특허 등록 전환율이 동일 산업 내 하위 4% 수준에 그칩니다.
+560,financial,liabilities_to_assets,0.8962,-3.1,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+560,employment,employee_growth_acceleration,-0.2361,-2.1,negative,고용 증가 가속도가 동일 산업 내 하위 12% 수준에 그칩니다.
+561,patent,patent_momentum,4.0,7.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 9% 수준입니다.
+561,patent,patent_count_3y,12.0,5.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+561,industry,industry_revenue_growth_1y,0.1096,4.2,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+561,financial,liabilities_to_assets,0.828,-13.2,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+561,financial,operating_margin,-0.5442,-7.6,negative,영업이익률이 동일 산업 내 하위 22% 수준에 그칩니다.
+561,news_event,growth_event_12m_count,0.0,-2.3,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+562,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+562,financial,liabilities_to_assets,0.2374,3.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+562,financial,revenue_cagr_best,0.8312,2.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 25% 수준입니다.
+562,financial,asset_growth_1y,-0.0917,-2.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+562,financial,operating_margin_change_1y,-0.5973,-2.8,negative,영업이익률 개선폭이 동일 산업 내 하위 15% 수준에 그칩니다.
+562,news_event,growth_event_12m_count,0.0,-1.9,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+563,patent,patent_count_3y,12.0,4.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+563,financial,revenue_cagr_best,1.1093,3.8,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+563,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+563,patent,registered_ratio_mature,0.6923,-1.7,negative,특허 등록 전환율이 동일 산업 내 하위 27% 수준에 그칩니다.
+563,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+563,industry,industry_startup_rate_latest,0.0573,-1.7,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+564,financial,asset_growth_1y,6.4446,8.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 1% 수준입니다.
+564,financial,liabilities_to_assets,0.2544,6.4,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+564,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+564,financial,revenue_growth_1y,-1.0,-14.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+564,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+564,patent,registered_ratio_mature,0.6667,-2.6,negative,특허 등록 전환율이 동일 산업 내 하위 19% 수준에 그칩니다.
+565,patent,patent_count_3y,12.0,5.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+565,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+565,financial,liabilities_to_assets,0.2561,3.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+565,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+565,patent,registered_ratio_mature,0.6897,-2.2,negative,특허 등록 전환율이 동일 산업 내 하위 24% 수준에 그칩니다.
+565,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+566,patent,patent_count_3y,10.0,3.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 14% 수준입니다.
+566,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+566,financial,liabilities_to_assets,0.3438,2.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+566,employment,employee_growth_6m,-0.2105,-4.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 10% 수준에 그칩니다.
+566,employment,net_hiring_rate_6m,-0.1748,-3.5,negative,최근 6개월 순채용률이 동일 산업 내 하위 11% 수준에 그칩니다.
+566,patent,patent_momentum,0.3333,-2.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 35% 수준에 그칩니다.
+567,financial,revenue_cagr_best,2.0883,5.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 2% 수준입니다.
+567,employment,employee_growth_6m,0.3459,5.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+567,employment,net_hiring_rate_6m,0.2842,4.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 3% 수준입니다.
+567,patent,patent_momentum,0.0,-4.8,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+567,financial,revenue_growth_1y,-0.184,-4.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+567,financial,asset_growth_1y,-0.3923,-4.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+568,employment,employee_growth_6m,0.3077,5.7,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 5% 수준입니다.
+568,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+568,financial,asset_growth_1y,1.5911,3.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 13% 수준입니다.
+568,patent,patent_count_3y,0.0,-11.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+568,financial,liabilities_to_assets,0.7909,-2.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+568,patent,new_ipc_count_1y,0.0,-2.2,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 29% 수준에 그칩니다.
+569,financial,revenue_growth_1y,1.8789,5.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 10% 수준입니다.
+569,financial,revenue_cagr_best,1.2526,4.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 5% 수준입니다.
+569,financial,liabilities_to_assets,0.1359,3.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+569,financial,asset_growth_1y,-0.0393,-1.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 27% 수준에 그칩니다.
+569,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+569,industry,industry_startup_rate_latest,0.0573,-1.7,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+570,patent,patent_momentum,7.0,10.3,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 1% 수준입니다.
+570,patent,patent_count_3y,10.0,5.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 14% 수준입니다.
+570,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+570,financial,revenue_growth_1y,-0.201,-6.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+570,financial,liabilities_to_assets,0.8438,-4.4,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+570,financial,asset_growth_1y,-0.0677,-3.3,negative,최근 1년 자산 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+571,financial,revenue_growth_1y,1.6212,6.5,positive,최근 1년 매출 성장률이 동일 산업 내 상위 17% 수준입니다.
+571,financial,liabilities_to_assets,0.0267,5.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+571,financial,operating_margin_change_1y,0.9564,5.5,positive,영업이익률 개선폭이 동일 산업 내 상위 4% 수준입니다.
+571,financial,operating_margin,-1.5474,-2.7,negative,영업이익률이 동일 산업 내 하위 16% 수준에 그칩니다.
+571,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+571,industry,industry_startup_rate_latest,0.0573,-2.0,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+572,patent,patent_momentum,6.6,6.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 4% 수준입니다.
+572,patent,patent_count_3y,15.0,5.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+572,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+572,employment,employee_growth_slope,-0.0342,-2.9,negative,고용 증가 추세가 동일 산업 내 하위 9% 수준에 그칩니다.
+572,financial,revenue_growth_1y,-0.0178,-2.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+572,financial,revenue_cagr_best,0.0933,-2.7,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+573,financial,revenue_growth_1y,1.6557,5.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 15% 수준입니다.
+573,financial,operating_margin_change_1y,0.16,3.7,positive,영업이익률 개선폭이 동일 산업 내 상위 13% 수준입니다.
+573,financial,asset_growth_1y,1.5525,3.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 15% 수준입니다.
+573,patent,patent_count_3y,0.0,-10.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+573,employment,net_hiring_rate_6m,-0.1323,-5.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 19% 수준에 그칩니다.
+573,patent,new_ipc_count_1y,0.0,-1.9,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 29% 수준에 그칩니다.
+574,financial,revenue_growth_1y,1.957,7.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 8% 수준입니다.
+574,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+574,employment,employee_growth_acceleration,0.2308,2.3,positive,고용 증가 가속도가 동일 산업 내 상위 7% 수준입니다.
+574,patent,patent_momentum,0.0,-6.0,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+574,financial,liabilities_to_assets,1.2162,-4.8,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+574,employment,employee_growth_6m,-0.2308,-4.8,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 5% 수준에 그칩니다.
+575,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+575,patent,patent_momentum,1.8,2.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 33% 수준입니다.
+575,financial,operating_margin,0.1807,2.3,positive,영업이익률이 동일 산업 내 상위 7% 수준입니다.
+575,patent,registered_ratio_mature,0.6364,-2.6,negative,특허 등록 전환율이 동일 산업 내 하위 14% 수준에 그칩니다.
+575,financial,revenue_cagr_best,0.0993,-2.0,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 32% 수준에 그칩니다.
+575,employment,employee_growth_acceleration,-0.2205,-2.0,negative,고용 증가 가속도가 동일 산업 내 하위 14% 수준에 그칩니다.
+576,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+576,employment,employee_growth_6m,0.1538,3.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 20% 수준입니다.
+576,employment,net_hiring_rate_6m,0.1379,3.5,positive,최근 6개월 순채용률이 동일 산업 내 상위 17% 수준입니다.
+576,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+576,patent,patent_count_3y,1.0,-2.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 31% 수준에 그칩니다.
+576,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+577,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+577,patent,patent_momentum,2.0,3.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 28% 수준입니다.
+577,financial,liabilities_to_assets,0.4091,1.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+577,financial,revenue_growth_1y,-0.5471,-7.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+577,financial,asset_growth_1y,-0.1945,-4.2,negative,최근 1년 자산 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+577,employment,employee_growth_6m,-0.129,-3.7,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 16% 수준에 그칩니다.
+578,employment,employee_growth_6m,0.2258,4.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 12% 수준입니다.
+578,patent,registered_ratio_mature,1.0,3.7,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+578,employment,employee_growth_slope,0.0407,3.5,positive,고용 증가 추세가 동일 산업 내 상위 1% 수준입니다.
+578,patent,patent_count_3y,0.0,-6.7,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+578,news_event,growth_event_12m_count,0.0,-2.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+578,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+579,patent,registered_ratio_mature,1.0,4.3,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+579,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+579,financial,revenue_cagr_best,0.5509,1.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 35% 수준입니다.
+579,patent,patent_count_3y,0.0,-7.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+579,employment,employee_growth_6m,-0.2222,-5.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 7% 수준에 그칩니다.
+579,employment,employee_growth_slope,-0.051,-3.8,negative,고용 증가 추세가 동일 산업 내 하위 5% 수준에 그칩니다.
+580,patent,patent_momentum,3.0,5.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+580,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+580,employment,employee_growth_6m,0.1111,2.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 28% 수준입니다.
+580,employment,employee_growth_acceleration,-0.3131,-2.8,negative,고용 증가 가속도가 동일 산업 내 하위 5% 수준에 그칩니다.
+580,financial,liabilities_to_assets,0.7711,-2.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+580,patent,patent_count_3y,1.0,-2.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 31% 수준에 그칩니다.
+581,financial,revenue_growth_1y,4.9972,9.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+581,patent,patent_momentum,3.0,7.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+581,financial,asset_growth_1y,3.2311,5.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+581,employment,employee_growth_acceleration,-0.2143,-2.1,negative,고용 증가 가속도가 동일 산업 내 하위 17% 수준에 그칩니다.
+581,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+581,industry,industry_startup_rate_latest,0.0573,-2.0,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+582,employment,employee_growth_6m,0.25,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 7% 수준입니다.
+582,employment,net_hiring_rate_6m,0.2449,4.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 5% 수준입니다.
+582,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+582,patent,patent_count_3y,0.0,-10.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+582,news_event,growth_event_12m_count,0.0,-2.1,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+582,patent,new_ipc_count_1y,0.0,-1.9,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 29% 수준에 그칩니다.
+583,patent,patent_count_3y,11.0,4.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 11% 수준입니다.
+583,employment,employee_growth_6m,0.2237,3.9,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+583,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+583,financial,revenue_growth_1y,-0.6595,-6.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+583,financial,revenue_cagr_best,-0.2173,-4.5,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+583,financial,operating_margin_change_1y,-0.6152,-3.0,negative,영업이익률 개선폭이 동일 산업 내 하위 13% 수준에 그칩니다.
+584,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+584,patent,patent_count_3y,5.0,1.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 33% 수준입니다.
+584,employment,employee_growth_acceleration,0.0833,1.5,positive,고용 증가 가속도가 동일 산업 내 상위 22% 수준입니다.
+584,financial,revenue_cagr_best,-0.1155,-3.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+584,employment,employee_growth_6m,-0.0833,-3.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 22% 수준에 그칩니다.
+584,financial,asset_growth_1y,-0.0749,-2.6,negative,최근 1년 자산 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+586,financial,revenue_growth_1y,2.3824,7.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+586,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+586,employment,employee_growth_6m,0.1333,3.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 24% 수준입니다.
+586,patent,patent_count_3y,0.0,-11.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+586,patent,new_ipc_count_1y,0.0,-2.2,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 29% 수준에 그칩니다.
+586,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+587,financial,revenue_cagr_best,1.216,10.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 8% 수준입니다.
+587,financial,operating_margin,0.2792,5.6,positive,영업이익률이 동일 산업 내 상위 3% 수준입니다.
+587,patent,patent_momentum,2.4,3.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 24% 수준입니다.
+587,patent,registered_ratio_mature,0.5,-2.9,negative,특허 등록 전환율이 동일 산업 내 하위 10% 수준에 그칩니다.
+587,industry,industry_company_growth_1y,-0.0547,-1.7,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+587,industry,industry_startup_rate_latest,0.0573,-1.7,negative,소속 산업 창업률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+588,patent,patent_momentum,3.0,4.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 17% 수준입니다.
+588,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+588,employment,employee_growth_acceleration,0.2833,2.5,positive,고용 증가 가속도가 동일 산업 내 상위 3% 수준입니다.
+588,financial,revenue_growth_1y,-0.4917,-5.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 10% 수준에 그칩니다.
+588,financial,revenue_cagr_best,-0.2609,-4.9,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 5% 수준에 그칩니다.
+588,employment,employee_growth_6m,-0.1333,-3.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 14% 수준에 그칩니다.
+589,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+589,financial,revenue_growth_1y,0.7525,3.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 29% 수준입니다.
+589,patent,registered_ratio_mature,1.0,2.6,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+589,employment,employee_growth_6m,-0.4118,-5.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+589,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+589,employment,net_hiring_rate_6m,-0.809,-5.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+590,industry,industry_revenue_growth_1y,0.1096,6.1,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+590,employment,employee_growth_slope,0.0179,5.8,positive,고용 증가 추세가 동일 산업 내 상위 26% 수준입니다.
+590,employment,employee_volatility,0.0399,4.1,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+590,employment,net_hiring_rate_6m,-0.7143,-13.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+590,patent,patent_count_3y,0.0,-12.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+590,patent,registered_ratio_mature,0.3,-9.5,negative,특허 등록 전환율이 동일 산업 내 하위 6% 수준에 그칩니다.
+591,financial,operating_margin_change_1y,0.4469,4.2,positive,영업이익률 개선폭이 동일 산업 내 상위 6% 수준입니다.
+591,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+591,employment,employee_growth_6m,0.1,2.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 34% 수준입니다.
+591,patent,patent_count_3y,0.0,-11.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+591,financial,revenue_growth_1y,-0.3816,-5.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+591,financial,revenue_cagr_best,-0.1626,-4.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+592,financial,liabilities_to_assets,0.1276,5.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+592,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+592,financial,operating_margin,0.1103,2.4,positive,영업이익률이 동일 산업 내 상위 20% 수준입니다.
+592,patent,patent_count_3y,0.0,-11.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+592,employment,employee_growth_slope,-0.0111,-2.4,negative,고용 증가 추세가 동일 산업 내 하위 21% 수준에 그칩니다.
+592,patent,new_ipc_count_1y,0.0,-2.2,negative,신규 기술분야(IPC) 진출이 동일 산업 내 하위 29% 수준에 그칩니다.
+593,patent,registered_ratio_mature,1.0,4.3,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+593,financial,asset_growth_1y,3.2012,4.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+593,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+593,financial,revenue_growth_1y,-0.1781,-4.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+593,patent,patent_count_3y,1.0,-4.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 31% 수준에 그칩니다.
+593,financial,revenue_cagr_best,0.0037,-3.6,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+594,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+594,employment,employee_growth_6m,0.1111,2.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 28% 수준입니다.
+594,patent,registered_ratio_mature,1.0,2.6,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+594,financial,liabilities_to_assets,0.7104,-7.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+594,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+594,patent,patent_count_3y,0.0,-4.7,negative,최근 3년 특허 출원이 동일 산업 내 하위 13% 수준에 그칩니다.
+595,financial,revenue_growth_1y,1.163,4.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 22% 수준입니다.
+595,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+595,financial,operating_margin_change_1y,0.1629,3.7,positive,영업이익률 개선폭이 동일 산업 내 상위 11% 수준입니다.
+595,financial,liabilities_to_assets,0.7869,-2.5,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+595,employment,employee_growth_6m,-0.04,-2.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 33% 수준에 그칩니다.
+595,financial,asset_growth_1y,-0.0231,-2.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+596,financial,revenue_growth_1y,1.7124,6.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+596,industry,industry_revenue_growth_1y,0.1096,3.4,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+596,financial,asset_growth_1y,0.5836,2.6,positive,최근 1년 자산 성장률이 동일 산업 내 상위 24% 수준입니다.
+596,employment,net_hiring_rate_6m,-0.1395,-2.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 17% 수준에 그칩니다.
+596,employment,employee_growth_6m,-0.0455,-2.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 29% 수준에 그칩니다.
+596,news_event,growth_event_12m_count,0.0,-1.9,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 22% 수준에 그칩니다.
+597,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+597,financial,operating_margin,0.1251,2.9,positive,영업이익률이 동일 산업 내 상위 14% 수준입니다.
+597,patent,registered_ratio_mature,1.0,2.6,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+597,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+597,employment,employee_growth_6m,-0.1176,-4.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 18% 수준에 그칩니다.
+597,employment,employee_growth_slope,-0.0248,-3.1,negative,고용 증가 추세가 동일 산업 내 하위 13% 수준에 그칩니다.
+598,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+598,patent,registered_ratio_mature,1.0,2.6,positive,특허 등록 전환율이 동일 산업 내 상위 19% 수준입니다.
+598,financial,liabilities_to_assets,0.9541,-15.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+598,employment,employee_growth_6m,-0.75,-6.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+598,patent,patent_momentum,0.0,-5.6,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 17% 수준에 그칩니다.
+599,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+599,patent,patent_momentum,1.5,2.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 38% 수준입니다.
+599,employment,employee_growth_slope,0.0147,1.7,positive,고용 증가 추세가 동일 산업 내 상위 30% 수준입니다.
+599,financial,revenue_growth_1y,-0.0359,-4.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 24% 수준에 그칩니다.
+599,financial,liabilities_to_assets,0.7772,-2.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+599,industry,industry_company_growth_1y,-0.0547,-2.0,negative,소속 산업 기업 수 증가율이 전체 산업 대비 하위 8% 수준에 그칩니다.
+600,patent,patent_momentum,6.0,9.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 6% 수준입니다.
+600,industry,industry_revenue_growth_1y,0.1096,4.0,positive,소속 산업 매출 성장률이 전체 산업 대비 상위 8% 수준입니다.
+600,employment,employee_growth_slope,0.0248,3.1,positive,고용 증가 추세가 동일 산업 내 상위 13% 수준입니다.
+600,employment,employee_growth_6m,-0.15,-4.9,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 12% 수준에 그칩니다.
+600,financial,revenue_cagr_best,0.0943,-2.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+600,employment,net_hiring_rate_6m,-0.1091,-2.6,negative,최근 6개월 순채용률이 동일 산업 내 하위 26% 수준에 그칩니다.
+601,patent,patent_momentum,2.0,5.0,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 22% 수준입니다.
+601,financial,revenue_growth_1y,0.3928,2.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 29% 수준입니다.
+601,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+601,financial,revenue_cagr_best,-0.185,-4.3,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 10% 수준에 그칩니다.
+601,financial,liabilities_to_assets,2.5059,-4.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+601,financial,asset_growth_1y,-0.3571,-3.6,negative,최근 1년 자산 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+625,employment,employee_growth_6m,0.625,5.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+625,financial,revenue_cagr_best,11.4834,5.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+625,employment,net_hiring_rate_6m,0.4511,4.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+625,patent,patent_momentum,0.0,-6.5,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+625,patent,patent_count_3y,1.0,-5.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+625,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+701,financial,revenue_growth_1y,2.062,6.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+701,patent,patent_count_3y,23.0,5.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+701,financial,operating_margin_change_1y,49.6539,4.9,positive,영업이익률 개선폭이 동일 산업 내 상위 1% 수준입니다.
+701,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+701,financial,operating_margin,-41.9388,-3.2,negative,영업이익률이 동일 산업 내 하위 3% 수준에 그칩니다.
+701,employment,net_hiring_rate_6m,-0.1353,-2.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 17% 수준에 그칩니다.
+702,employment,employee_growth_slope,0.0269,3.1,positive,고용 증가 추세가 동일 산업 내 상위 7% 수준입니다.
+702,financial,operating_margin_change_1y,0.3139,2.5,positive,영업이익률 개선폭이 동일 산업 내 상위 19% 수준입니다.
+702,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+702,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+702,patent,patent_count_3y,1.0,-4.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+702,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+703,patent,patent_count_3y,19.0,4.4,positive,최근 3년 특허 출원이 동일 산업 내 상위 9% 수준입니다.
+703,patent,patent_momentum,1.8571,3.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 24% 수준입니다.
+703,employment,employee_growth_6m,0.0909,3.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 17% 수준입니다.
+703,financial,operating_margin_change_1y,-1.5295,-3.9,negative,영업이익률 개선폭이 동일 산업 내 하위 1% 수준에 그칩니다.
+703,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+703,financial,revenue_cagr_best,-0.1331,-3.3,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 19% 수준에 그칩니다.
+704,patent,patent_momentum,6.0,6.9,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 2% 수준입니다.
+704,financial,revenue_growth_1y,0.9545,3.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 22% 수준입니다.
+704,financial,asset_growth_1y,0.797,2.6,positive,최근 1년 자산 성장률이 동일 산업 내 상위 18% 수준입니다.
+704,employment,employee_growth_slope,-0.0319,-4.0,negative,고용 증가 추세가 동일 산업 내 하위 20% 수준에 그칩니다.
+704,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+704,employment,net_hiring_rate_6m,-0.0638,-1.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 42% 수준에 그칩니다.
+705,financial,asset_growth_1y,1.5526,13.2,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+705,financial,liabilities_to_assets,0.3599,7.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+705,patent,patent_momentum,1.5,3.8,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 32% 수준입니다.
+705,employment,net_hiring_rate_6m,-0.2,-4.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 9% 수준에 그칩니다.
+705,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+705,employment,employee_growth_6m,-0.0952,-1.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 39% 수준에 그칩니다.
+706,financial,revenue_growth_1y,1.3247,4.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 14% 수준입니다.
+706,financial,revenue_cagr_best,0.8505,4.3,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 10% 수준입니다.
+706,patent,patent_count_3y,15.0,3.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 19% 수준입니다.
+706,financial,asset_growth_1y,-0.4642,-4.0,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+706,financial,liabilities_to_assets,0.9199,-3.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+706,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+707,patent,patent_momentum,2.5,5.0,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 20% 수준입니다.
+707,employment,employee_growth_6m,0.05,3.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 23% 수준입니다.
+707,employment,net_hiring_rate_6m,0.0492,2.8,positive,최근 6개월 순채용률이 동일 산업 내 상위 23% 수준입니다.
+707,financial,revenue_growth_1y,-0.7639,-7.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+707,financial,revenue_cagr_best,-0.2688,-5.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 7% 수준에 그칩니다.
+707,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+708,patent,patent_momentum,3.0,5.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+708,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+708,financial,asset_growth_1y,0.4944,1.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 27% 수준입니다.
+708,financial,revenue_growth_1y,-0.4588,-5.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+708,financial,revenue_cagr_best,-0.3014,-5.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+708,financial,operating_margin_change_1y,-1.2611,-3.7,negative,영업이익률 개선폭이 동일 산업 내 하위 4% 수준에 그칩니다.
+709,financial,liabilities_to_assets,0.0448,4.7,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+709,industry,industry_rd_growth_1y,0.3068,2.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+709,employment,net_hiring_rate_6m,0.0,2.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 38% 수준입니다.
+709,patent,patent_momentum,0.0,-7.7,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+709,financial,revenue_cagr_best,-0.294,-5.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+709,financial,revenue_growth_1y,-0.3461,-5.7,negative,최근 1년 매출 성장률이 동일 산업 내 하위 14% 수준에 그칩니다.
+710,financial,revenue_growth_1y,1.5,6.5,positive,최근 1년 매출 성장률이 동일 산업 내 상위 12% 수준입니다.
+710,financial,asset_growth_1y,3.947,4.7,positive,최근 1년 자산 성장률이 동일 산업 내 상위 4% 수준입니다.
+710,financial,operating_margin_change_1y,8.7,4.4,positive,영업이익률 개선폭이 동일 산업 내 상위 6% 수준입니다.
+710,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+710,employment,net_hiring_rate_6m,-0.1412,-3.1,negative,최근 6개월 순채용률이 동일 산업 내 하위 15% 수준에 그칩니다.
+710,financial,operating_margin,-30.9667,-3.0,negative,영업이익률이 동일 산업 내 하위 5% 수준에 그칩니다.
+711,financial,liabilities_to_assets,0.3423,2.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+711,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+711,industry,industry_company_growth_1y,0.2054,1.7,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 8% 수준입니다.
+711,financial,revenue_growth_1y,-0.4353,-5.5,negative,최근 1년 매출 성장률이 동일 산업 내 하위 9% 수준에 그칩니다.
+711,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+711,financial,operating_margin_change_1y,-0.4858,-2.9,negative,영업이익률 개선폭이 동일 산업 내 하위 14% 수준에 그칩니다.
+712,financial,revenue_growth_1y,0.6189,3.5,positive,최근 1년 매출 성장률이 동일 산업 내 상위 24% 수준입니다.
+712,employment,employee_growth_slope,0.0259,2.9,positive,고용 증가 추세가 동일 산업 내 상위 9% 수준입니다.
+712,financial,operating_margin_change_1y,0.3971,2.7,positive,영업이익률 개선폭이 동일 산업 내 상위 17% 수준입니다.
+712,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+712,employment,employee_growth_acceleration,-0.1822,-2.0,negative,고용 증가 가속도가 동일 산업 내 하위 12% 수준에 그칩니다.
+712,financial,liabilities_to_assets,0.5707,-1.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+713,employment,net_hiring_rate_6m,0.1714,3.5,positive,최근 6개월 순채용률이 동일 산업 내 상위 11% 수준입니다.
+713,employment,employee_growth_6m,0.0833,3.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 19% 수준입니다.
+713,financial,revenue_cagr_best,0.2983,2.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 25% 수준입니다.
+713,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+713,employment,employee_growth_slope,-0.047,-3.1,negative,고용 증가 추세가 동일 산업 내 하위 7% 수준에 그칩니다.
+713,financial,asset_growth_1y,-0.1043,-2.4,negative,최근 1년 자산 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+714,patent,patent_momentum,3.0,5.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+714,financial,revenue_cagr_best,1.9463,4.6,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 7% 수준입니다.
+714,financial,asset_growth_1y,2.6233,3.6,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+714,employment,employee_growth_6m,-0.1538,-3.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 17% 수준에 그칩니다.
+714,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+714,financial,liabilities_to_assets,0.7695,-3.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+715,financial,liabilities_to_assets,0.3555,5.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+715,patent,patent_count_3y,20.0,4.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 6% 수준입니다.
+715,news_event,investment_event_24m_count,6.0,2.6,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 1% 수준입니다.
+715,financial,operating_margin,-84.5385,-6.6,negative,영업이익률이 동일 산업 내 하위 1% 수준에 그칩니다.
+715,employment,employee_growth_6m,-0.1429,-3.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 19% 수준에 그칩니다.
+715,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+716,financial,liabilities_to_assets,0.232,13.2,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+716,news_event,investment_event_24m_count,2.0,2.5,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 4% 수준입니다.
+716,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+716,financial,operating_margin,-1.0,-6.4,negative,영업이익률이 동일 산업 내 하위 20% 수준에 그칩니다.
+716,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+716,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+717,financial,revenue_growth_1y,0.3836,2.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 32% 수준입니다.
+717,patent,patent_count_3y,10.0,2.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 29% 수준입니다.
+717,news_event,investment_event_24m_count,1.0,2.3,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 7% 수준입니다.
+717,employment,employee_growth_6m,-0.2273,-4.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 12% 수준에 그칩니다.
+717,employment,net_hiring_rate_6m,-0.2791,-4.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+717,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+718,financial,operating_margin,0.188,3.2,positive,영업이익률이 동일 산업 내 상위 3% 수준입니다.
+718,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+718,financial,operating_margin_change_1y,0.1153,1.8,positive,영업이익률 개선폭이 동일 산업 내 상위 32% 수준입니다.
+718,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+718,patent,patent_count_3y,0.0,-5.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 2% 수준에 그칩니다.
+718,financial,revenue_growth_1y,-0.2065,-4.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 24% 수준에 그칩니다.
+719,financial,revenue_growth_1y,5.873,12.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+719,patent,patent_momentum,3.0,8.0,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+719,financial,operating_margin_change_1y,26.8682,7.2,positive,영업이익률 개선폭이 동일 산업 내 상위 4% 수준입니다.
+719,financial,asset_growth_1y,-0.1524,-5.4,negative,최근 1년 자산 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+719,industry,industry_revenue_growth_1y,0.0171,-5.2,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+719,financial,operating_margin,-8.3682,-4.4,negative,영업이익률이 동일 산업 내 하위 7% 수준에 그칩니다.
+720,employment,employee_growth_6m,0.3636,5.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+720,employment,net_hiring_rate_6m,0.2195,3.9,positive,최근 6개월 순채용률이 동일 산업 내 상위 7% 수준입니다.
+720,financial,liabilities_to_assets,0.3852,3.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+720,patent,patent_count_3y,1.0,-10.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+720,financial,revenue_cagr_best,-0.0683,-5.3,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+720,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+721,employment,employee_growth_6m,0.1538,5.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 12% 수준입니다.
+721,employment,employee_growth_slope,0.0324,4.8,positive,고용 증가 추세가 동일 산업 내 상위 3% 수준입니다.
+721,employment,net_hiring_rate_6m,0.129,4.5,positive,최근 6개월 순채용률이 동일 산업 내 상위 15% 수준입니다.
+721,patent,patent_count_3y,0.0,-12.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 2% 수준에 그칩니다.
+721,industry,industry_revenue_growth_1y,0.0171,-4.8,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+721,employment,employee_growth_acceleration,-0.2933,-3.6,negative,고용 증가 가속도가 동일 산업 내 하위 3% 수준에 그칩니다.
+723,financial,liabilities_to_assets,0.2441,3.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+723,financial,revenue_cagr_best,0.3792,3.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 22% 수준입니다.
+723,financial,asset_growth_1y,1.2541,3.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 13% 수준입니다.
+723,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+723,employment,employee_growth_acceleration,-0.0744,-1.2,negative,고용 증가 가속도가 동일 산업 내 하위 28% 수준에 그칩니다.
+723,patent,patent_momentum,0.75,-1.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 43% 수준에 그칩니다.
+724,financial,asset_growth_1y,7.7072,9.9,positive,최근 1년 자산 성장률이 동일 산업 내 상위 1% 수준입니다.
+724,financial,liabilities_to_assets,0.0715,9.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+724,patent,patent_momentum,3.0,6.5,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+724,financial,operating_margin,-4.6612,-5.2,negative,영업이익률이 동일 산업 내 하위 12% 수준에 그칩니다.
+724,employment,employee_growth_6m,-0.1667,-3.8,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 14% 수준에 그칩니다.
+724,employment,net_hiring_rate_6m,-0.1875,-3.5,negative,최근 6개월 순채용률이 동일 산업 내 하위 11% 수준에 그칩니다.
+725,financial,revenue_growth_1y,2.1537,5.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+725,financial,operating_margin_change_1y,1.1561,2.9,positive,영업이익률 개선폭이 동일 산업 내 상위 14% 수준입니다.
+725,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+725,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+725,news_event,growth_event_12m_count,0.0,-2.4,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 18% 수준에 그칩니다.
+725,employment,net_hiring_rate_6m,-0.1091,-1.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 32% 수준에 그칩니다.
+726,financial,revenue_cagr_best,0.5135,3.7,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 16% 수준입니다.
+726,news_event,growth_event_12m_count,28.0,2.8,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 9% 수준입니다.
+726,patent,patent_count_3y,13.0,2.7,positive,최근 3년 특허 출원이 동일 산업 내 상위 25% 수준입니다.
+726,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+726,financial,liabilities_to_assets,0.7269,-2.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+726,employment,employee_growth_acceleration,-0.3282,-2.6,negative,고용 증가 가속도가 동일 산업 내 하위 1% 수준에 그칩니다.
+727,patent,patent_count_3y,18.0,4.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 12% 수준입니다.
+727,employment,employee_growth_acceleration,0.334,2.3,positive,고용 증가 가속도가 동일 산업 내 상위 8% 수준입니다.
+727,news_event,growth_event_12m_count,8.0,2.2,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 17% 수준입니다.
+727,employment,employee_growth_6m,-0.4286,-5.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+727,employment,net_hiring_rate_6m,-0.65,-4.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 1% 수준에 그칩니다.
+727,financial,revenue_growth_1y,-0.2388,-4.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 19% 수준에 그칩니다.
+728,financial,operating_margin,0.1317,4.6,positive,영업이익률이 동일 산업 내 상위 12% 수준입니다.
+728,employment,employee_growth_6m,0.119,3.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+728,financial,revenue_cagr_best,0.2086,3.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 37% 수준입니다.
+728,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+728,industry,industry_startup_rate_latest,0.0624,-1.0,negative,소속 산업 창업률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+728,news_event,high_intensity_event_12m_count,0.0,-0.4,negative,고강도 성장 이벤트가 동일 산업 내 하위 41% 수준에 그칩니다.
+729,employment,net_hiring_rate_6m,0.2553,4.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 3% 수준입니다.
+729,patent,patent_momentum,1.75,3.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 29% 수준입니다.
+729,employment,employee_growth_6m,0.0667,3.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 21% 수준입니다.
+729,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+729,patent,registered_ratio_mature,0.6111,-2.1,negative,특허 등록 전환율이 동일 산업 내 하위 21% 수준에 그칩니다.
+729,financial,revenue_growth_1y,0.0284,-1.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 42% 수준에 그칩니다.
+730,financial,revenue_growth_1y,5.0144,6.2,positive,최근 1년 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+730,financial,revenue_cagr_best,5.0275,4.9,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+730,patent,patent_count_3y,18.0,4.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 12% 수준입니다.
+730,employment,employee_growth_6m,-0.2647,-4.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 10% 수준에 그칩니다.
+730,employment,net_hiring_rate_6m,-0.2609,-3.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 7% 수준에 그칩니다.
+730,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+731,financial,liabilities_to_assets,0.2534,3.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+731,patent,patent_momentum,1.5,3.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 32% 수준입니다.
+731,industry,industry_rd_growth_1y,0.3068,2.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+731,financial,revenue_growth_1y,-0.3327,-5.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+731,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+731,financial,revenue_cagr_best,-0.0793,-3.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 25% 수준에 그칩니다.
+732,employment,employee_growth_6m,0.2308,5.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 6% 수준입니다.
+732,employment,net_hiring_rate_6m,0.1978,4.3,positive,최근 6개월 순채용률이 동일 산업 내 상위 9% 수준입니다.
+732,industry,industry_rd_growth_1y,0.3068,2.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+732,patent,patent_momentum,0.0,-6.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+732,patent,patent_count_3y,1.0,-5.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+732,financial,revenue_cagr_best,-0.1631,-4.3,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 16% 수준에 그칩니다.
+733,patent,patent_count_3y,14.0,3.0,positive,최근 3년 특허 출원이 동일 산업 내 상위 22% 수준입니다.
+733,employment,employee_growth_6m,0.0286,2.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 28% 수준입니다.
+733,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+733,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+733,financial,revenue_growth_1y,-0.0613,-2.1,negative,최근 1년 매출 성장률이 동일 산업 내 하위 35% 수준에 그칩니다.
+733,financial,operating_margin_change_1y,-0.0153,-1.7,negative,영업이익률 개선폭이 동일 산업 내 하위 29% 수준에 그칩니다.
+734,patent,patent_count_3y,20.0,8.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 6% 수준입니다.
+734,employment,employee_growth_slope,0.0284,5.9,positive,고용 증가 추세가 동일 산업 내 상위 5% 수준입니다.
+734,employment,employee_growth_6m,0.0385,4.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 26% 수준입니다.
+734,industry,industry_revenue_growth_1y,0.0171,-6.1,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+734,patent,registered_ratio_mature,0.6923,-3.5,negative,특허 등록 전환율이 동일 산업 내 하위 23% 수준에 그칩니다.
+734,employment,employee_volatility,0.1535,-2.0,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+735,patent,patent_momentum,4.2,6.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 7% 수준입니다.
+735,employment,employee_growth_6m,0.1667,4.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 10% 수준입니다.
+735,financial,liabilities_to_assets,0.2075,3.5,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+735,financial,revenue_cagr_best,-0.1797,-4.0,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+735,financial,asset_growth_1y,-0.3739,-3.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+735,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+736,financial,operating_margin,0.2016,3.3,positive,영업이익률이 동일 산업 내 상위 1% 수준입니다.
+736,industry,industry_rd_growth_1y,0.3068,2.8,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+736,news_event,growth_event_12m_count,5.0,2.2,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 24% 수준입니다.
+736,industry,industry_revenue_growth_1y,0.0171,-4.2,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+736,financial,liabilities_to_assets,0.6243,-2.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+736,industry,industry_startup_rate_latest,0.0624,-1.3,negative,소속 산업 창업률이 전체 산업 대비 하위 25% 수준에 그칩니다.
+737,patent,patent_momentum,4.5,6.4,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 5% 수준입니다.
+737,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+737,financial,revenue_growth_1y,0.2022,1.7,positive,최근 1년 매출 성장률이 동일 산업 내 상위 40% 수준입니다.
+737,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+737,patent,registered_ratio_mature,0.2,-3.3,negative,특허 등록 전환율이 동일 산업 내 하위 4% 수준에 그칩니다.
+737,news_event,growth_event_12m_count,0.0,-2.4,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 18% 수준에 그칩니다.
+738,financial,asset_growth_1y,1.14,4.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 15% 수준입니다.
+738,industry,industry_rd_growth_1y,0.3068,2.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+738,industry,industry_company_growth_1y,0.2054,2.0,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 8% 수준입니다.
+738,patent,patent_momentum,0.0,-6.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+738,financial,operating_margin_change_1y,-0.6993,-5.2,negative,영업이익률 개선폭이 동일 산업 내 하위 6% 수준에 그칩니다.
+738,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+739,patent,patent_count_3y,16.0,3.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+739,news_event,growth_event_12m_count,78.0,3.3,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 1% 수준입니다.
+739,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+739,financial,liabilities_to_assets,1.3985,-15.2,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+739,financial,operating_margin,-1.9889,-6.9,negative,영업이익률이 동일 산업 내 하위 18% 수준에 그칩니다.
+739,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+740,employment,employee_growth_acceleration,0.5595,3.0,positive,고용 증가 가속도가 동일 산업 내 상위 3% 수준입니다.
+740,industry,industry_rd_growth_1y,0.3068,2.6,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+740,financial,revenue_growth_1y,0.2442,2.0,positive,최근 1년 매출 성장률이 동일 산업 내 상위 37% 수준입니다.
+740,patent,patent_momentum,0.0,-6.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+740,employment,employee_growth_6m,-0.3333,-5.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 6% 수준에 그칩니다.
+740,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+741,patent,patent_momentum,6.0,10.1,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 2% 수준입니다.
+741,financial,operating_margin,0.0847,7.6,positive,영업이익률이 동일 산업 내 상위 20% 수준입니다.
+741,financial,liabilities_to_assets,0.4187,6.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+741,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+741,patent,patent_count_3y,3.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 28% 수준에 그칩니다.
+741,employment,employee_growth_6m,-0.12,-3.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 26% 수준에 그칩니다.
+742,employment,employee_growth_6m,0.025,2.2,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 30% 수준입니다.
+742,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+742,news_event,growth_event_12m_count,5.0,1.8,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 24% 수준입니다.
+742,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+742,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+742,patent,registered_ratio_mature,0.3333,-3.1,negative,특허 등록 전환율이 동일 산업 내 하위 7% 수준에 그칩니다.
+744,employment,employee_growth_6m,0.1765,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 8% 수준입니다.
+744,financial,revenue_growth_1y,1.2251,4.5,positive,최근 1년 매출 성장률이 동일 산업 내 상위 17% 수준입니다.
+744,financial,revenue_cagr_best,0.8042,4.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+744,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+744,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+744,patent,patent_count_3y,2.0,-3.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+745,financial,liabilities_to_assets,0.2749,3.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+745,financial,asset_growth_1y,0.61,3.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 20% 수준입니다.
+745,financial,operating_margin,0.1351,3.2,positive,영업이익률이 동일 산업 내 상위 10% 수준입니다.
+745,patent,patent_momentum,0.0,-6.1,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+745,patent,patent_count_3y,1.0,-5.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+745,industry,industry_revenue_growth_1y,0.0171,-4.0,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+746,patent,patent_count_3y,27.0,5.3,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+746,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+746,industry,industry_company_growth_1y,0.2054,1.7,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 8% 수준입니다.
+746,financial,revenue_growth_1y,-0.3948,-5.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 12% 수준에 그칩니다.
+746,employment,employee_growth_6m,-0.3396,-5.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+746,employment,net_hiring_rate_6m,-0.3673,-4.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+747,patent,patent_momentum,3.0,7.7,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+747,employment,employee_growth_acceleration,0.5065,2.8,positive,고용 증가 가속도가 동일 산업 내 상위 6% 수준입니다.
+747,financial,operating_margin,0.164,2.7,positive,영업이익률이 동일 산업 내 상위 7% 수준입니다.
+747,financial,revenue_growth_1y,-0.4896,-7.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+747,employment,employee_growth_6m,-0.2727,-5.4,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 8% 수준에 그칩니다.
+747,patent,patent_count_3y,2.0,-4.8,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+748,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+748,industry,industry_company_growth_1y,0.2054,1.7,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 8% 수준입니다.
+748,financial,operating_margin,0.0759,1.5,positive,영업이익률이 동일 산업 내 상위 22% 수준입니다.
+748,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+748,patent,patent_count_3y,1.0,-4.3,negative,최근 3년 특허 출원이 동일 산업 내 하위 10% 수준에 그칩니다.
+748,financial,revenue_growth_1y,-0.2312,-3.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+749,financial,revenue_cagr_best,0.4558,7.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 19% 수준입니다.
+749,patent,new_ipc_count_1y,2.0,2.2,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 26% 수준입니다.
+749,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+749,patent,patent_count_3y,2.0,-8.1,negative,최근 3년 특허 출원이 동일 산업 내 하위 20% 수준에 그칩니다.
+749,financial,liabilities_to_assets,0.7623,-6.2,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+749,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+750,employment,employee_volatility,0.0,3.1,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+750,news_event,growth_event_12m_count,16.0,2.6,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 12% 수준입니다.
+750,industry,industry_rd_growth_1y,0.3068,2.2,positive,소속 산업 R&D 투자 성장률이 전체 산업 대비 상위 8% 수준입니다.
+750,patent,patent_momentum,0.0,-5.2,negative,최근 특허 활동 모멘텀이 동일 산업 내 하위 14% 수준에 그칩니다.
+750,industry,industry_revenue_growth_1y,0.0171,-3.4,negative,소속 산업 매출 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+750,employment,net_hiring_rate_6m,-0.1111,-3.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 30% 수준에 그칩니다.
+842,financial,revenue_growth_1y,2.1058,5.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+842,financial,operating_margin_change_1y,0.817,3.3,positive,영업이익률 개선폭이 동일 산업 내 상위 9% 수준입니다.
+842,financial,liabilities_to_assets,0.1099,2.9,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+842,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+842,financial,asset_growth_1y,-0.1504,-2.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 15% 수준에 그칩니다.
+842,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+843,patent,patent_count_3y,10.0,6.0,positive,최근 3년 특허 출원이 동일 산업 내 상위 3% 수준입니다.
+843,financial,asset_growth_1y,2.6621,5.5,positive,최근 1년 자산 성장률이 동일 산업 내 상위 3% 수준입니다.
+843,financial,liabilities_to_assets,0.1033,4.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+843,financial,revenue_growth_1y,-0.4186,-7.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+843,financial,operating_margin_change_1y,-4.9988,-5.8,negative,영업이익률 개선폭이 동일 산업 내 하위 1% 수준에 그칩니다.
+843,employment,employee_growth_6m,-0.1905,-4.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 19% 수준에 그칩니다.
+844,news_event,growth_event_12m_count,23.0,4.4,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 5% 수준입니다.
+844,news_event,investment_event_24m_count,20.0,3.7,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 2% 수준입니다.
+844,news_event,high_intensity_event_12m_count,14.0,2.8,positive,고강도 성장 이벤트가 동일 산업 내 상위 2% 수준입니다.
+844,employment,net_hiring_rate_6m,-0.4,-11.4,negative,최근 6개월 순채용률이 동일 산업 내 하위 19% 수준에 그칩니다.
+844,patent,patent_count_3y,0.0,-4.2,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+844,employment,employee_volatility,0.2121,-4.2,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+845,employment,employee_growth_acceleration,0.5385,4.4,positive,고용 증가 가속도가 동일 산업 내 상위 6% 수준입니다.
+845,industry,industry_startup_rate_latest,0.1722,3.1,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+845,industry,industry_company_growth_1y,0.066,1.8,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+845,employment,employee_growth_6m,-0.5385,-9.2,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 3% 수준에 그칩니다.
+845,employment,net_hiring_rate_6m,-0.8571,-6.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 9% 수준에 그칩니다.
+845,employment,employee_growth_slope,-0.1827,-5.8,negative,고용 증가 추세가 동일 산업 내 하위 5% 수준에 그칩니다.
+846,employment,employee_growth_6m,0.5833,8.7,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 6% 수준입니다.
+846,employment,net_hiring_rate_6m,0.36,7.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 7% 수준입니다.
+846,employment,employee_growth_slope,0.0533,6.4,positive,고용 증가 추세가 동일 산업 내 상위 1% 수준입니다.
+846,patent,patent_count_3y,0.0,-5.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+846,industry,industry_employee_growth_1y,-0.0311,-4.1,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+846,industry,industry_rd_growth_1y,0.0125,-4.1,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+847,financial,liabilities_to_assets,0.0652,6.3,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+847,employment,employee_growth_6m,0.9333,5.3,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 1% 수준입니다.
+847,employment,net_hiring_rate_6m,0.5217,4.2,positive,최근 6개월 순채용률이 동일 산업 내 상위 3% 수준입니다.
+847,financial,revenue_growth_1y,-1.0,-12.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+847,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+847,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+848,industry,industry_startup_rate_latest,0.1722,2.6,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+848,industry,industry_company_growth_1y,0.066,1.6,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+848,financial,asset_growth_1y,0.1595,0.7,positive,최근 1년 자산 성장률이 동일 산업 내 상위 45% 수준입니다.
+848,financial,revenue_growth_1y,-0.7523,-11.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+848,financial,liabilities_to_assets,0.9882,-5.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+848,patent,patent_count_3y,0.0,-4.6,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+849,patent,patent_momentum,1.5,5.2,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 14% 수준입니다.
+849,patent,patent_count_3y,1.0,3.6,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+849,news_event,growth_event_12m_count,11.0,2.8,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 8% 수준입니다.
+849,employment,net_hiring_rate_6m,-1.4538,-7.7,negative,최근 6개월 순채용률이 동일 산업 내 하위 3% 수준에 그칩니다.
+849,employment,employee_growth_slope,-0.75,-6.1,negative,고용 증가 추세가 동일 산업 내 하위 3% 수준에 그칩니다.
+849,employment,employee_volatility,0.866,-3.1,negative,고용 변동성이 동일 산업 내 높은 편입니다(위험 요인).
+850,financial,revenue_growth_1y,3.6626,6.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 4% 수준입니다.
+850,financial,revenue_cagr_best,1.2607,4.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 9% 수준입니다.
+850,employment,employee_growth_6m,0.276,3.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 14% 수준입니다.
+850,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+850,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+850,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+851,news_event,growth_event_12m_count,25.0,3.3,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 2% 수준입니다.
+851,financial,operating_margin_change_1y,0.3716,2.7,positive,영업이익률 개선폭이 동일 산업 내 상위 24% 수준입니다.
+851,industry,industry_startup_rate_latest,0.1722,1.7,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+851,financial,asset_growth_1y,-0.3942,-4.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 1% 수준에 그칩니다.
+851,financial,liabilities_to_assets,10.4365,-4.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+851,financial,revenue_growth_1y,-0.2123,-4.5,negative,최근 1년 매출 성장률이 동일 산업 내 하위 23% 수준에 그칩니다.
+852,financial,asset_growth_1y,1.2784,10.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 13% 수준입니다.
+852,news_event,investment_event_24m_count,1.0,2.4,positive,최근 24개월 투자 유치 이벤트가 동일 산업 내 상위 5% 수준입니다.
+852,news_event,growth_event_12m_count,7.0,2.3,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 16% 수준입니다.
+852,employment,net_hiring_rate_6m,-2.4667,-8.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 1% 수준에 그칩니다.
+852,employment,employee_growth_slope,-1.2667,-6.4,negative,고용 증가 추세가 동일 산업 내 하위 1% 수준에 그칩니다.
+852,financial,liabilities_to_assets,0.7091,-4.0,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+853,financial,revenue_growth_1y,0.552,4.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 18% 수준입니다.
+853,financial,asset_growth_1y,2.1944,3.6,positive,최근 1년 자산 성장률이 동일 산업 내 상위 6% 수준입니다.
+853,financial,revenue_cagr_best,0.7367,3.2,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 20% 수준입니다.
+853,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+853,news_event,growth_event_12m_count,0.0,-2.2,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 21% 수준에 그칩니다.
+853,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+854,financial,revenue_cagr_best,7.2283,6.1,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 2% 수준입니다.
+854,financial,asset_growth_1y,1.6503,4.0,positive,최근 1년 자산 성장률이 동일 산업 내 상위 8% 수준입니다.
+854,financial,liabilities_to_assets,0.122,3.2,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+854,employment,employee_growth_6m,-0.1875,-3.7,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 21% 수준에 그칩니다.
+854,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+854,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+855,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+855,industry,industry_company_growth_1y,0.066,1.2,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+855,financial,liabilities_to_assets,0.4114,1.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+855,financial,revenue_growth_1y,-0.2392,-4.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 21% 수준에 그칩니다.
+855,financial,revenue_cagr_best,-0.0885,-4.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+855,financial,asset_growth_1y,-0.2118,-3.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 10% 수준에 그칩니다.
+856,financial,revenue_cagr_best,1.0986,4.0,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+856,financial,asset_growth_1y,1.1026,2.8,positive,최근 1년 자산 성장률이 동일 산업 내 상위 15% 수준입니다.
+856,industry,industry_startup_rate_latest,0.1722,1.7,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+856,employment,employee_growth_6m,-0.3846,-4.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 8% 수준에 그칩니다.
+856,employment,net_hiring_rate_6m,-0.4762,-3.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 15% 수준에 그칩니다.
+856,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+857,financial,revenue_growth_1y,0.5898,5.8,positive,최근 1년 매출 성장률이 동일 산업 내 상위 16% 수준입니다.
+857,financial,asset_growth_1y,3.7036,4.9,positive,최근 1년 자산 성장률이 동일 산업 내 상위 1% 수준입니다.
+857,financial,operating_margin_change_1y,0.5224,3.2,positive,영업이익률 개선폭이 동일 산업 내 상위 19% 수준입니다.
+857,financial,liabilities_to_assets,1.2016,-3.7,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+857,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+857,news_event,growth_event_12m_count,0.0,-2.2,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 21% 수준에 그칩니다.
+858,financial,revenue_growth_1y,0.4296,3.6,positive,최근 1년 매출 성장률이 동일 산업 내 상위 23% 수준입니다.
+858,employment,net_hiring_rate_6m,0.1423,2.6,positive,최근 6개월 순채용률이 동일 산업 내 상위 21% 수준입니다.
+858,employment,employee_growth_6m,0.1624,2.4,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 28% 수준입니다.
+858,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+858,financial,liabilities_to_assets,0.8756,-2.4,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+858,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+859,financial,operating_margin,0.1038,2.4,positive,영업이익률이 동일 산업 내 상위 12% 수준입니다.
+859,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+859,financial,liabilities_to_assets,0.4044,1.2,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+859,financial,revenue_growth_1y,-0.3962,-5.4,negative,최근 1년 매출 성장률이 동일 산업 내 하위 16% 수준에 그칩니다.
+859,employment,employee_growth_6m,-0.375,-5.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 10% 수준에 그칩니다.
+859,financial,revenue_cagr_best,-0.0192,-3.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+860,financial,liabilities_to_assets,0.0797,4.1,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+860,employment,employee_growth_slope,0.0394,3.2,positive,고용 증가 추세가 동일 산업 내 상위 5% 수준입니다.
+860,employment,employee_growth_6m,0.2,3.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 22% 수준입니다.
+860,financial,operating_margin_change_1y,-0.2435,-3.2,negative,영업이익률 개선폭이 동일 산업 내 하위 19% 수준에 그칩니다.
+860,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+860,financial,revenue_growth_1y,-0.1427,-2.9,negative,최근 1년 매출 성장률이 동일 산업 내 하위 33% 수준에 그칩니다.
+861,financial,liabilities_to_assets,0.2045,2.4,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+861,industry,industry_startup_rate_latest,0.1722,1.7,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+861,employment,employee_growth_slope,0.0104,1.4,positive,고용 증가 추세가 동일 산업 내 상위 31% 수준입니다.
+861,financial,revenue_growth_1y,-0.7625,-7.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 4% 수준에 그칩니다.
+861,financial,operating_margin_change_1y,-3.3357,-4.7,negative,영업이익률 개선폭이 동일 산업 내 하위 4% 수준에 그칩니다.
+861,financial,asset_growth_1y,-0.2035,-3.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+862,financial,revenue_growth_1y,1.2671,4.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 13% 수준입니다.
+862,financial,liabilities_to_assets,0.0339,3.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+862,financial,operating_margin_change_1y,0.3965,2.3,positive,영업이익률 개선폭이 동일 산업 내 상위 21% 수준입니다.
+862,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+862,financial,asset_growth_1y,-0.0615,-2.3,negative,최근 1년 자산 성장률이 동일 산업 내 하위 22% 수준에 그칩니다.
+862,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+863,employment,employee_growth_acceleration,0.3718,2.2,positive,고용 증가 가속도가 동일 산업 내 상위 10% 수준입니다.
+863,industry,industry_startup_rate_latest,0.1722,1.7,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+863,industry,industry_company_growth_1y,0.066,1.0,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+863,employment,employee_growth_6m,-0.6154,-5.3,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 1% 수준에 그칩니다.
+863,employment,net_hiring_rate_6m,-1.1163,-4.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 5% 수준에 그칩니다.
+863,financial,asset_growth_1y,-0.3265,-3.8,negative,최근 1년 자산 성장률이 동일 산업 내 하위 3% 수준에 그칩니다.
+864,employment,employee_growth_6m,0.4737,4.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 8% 수준입니다.
+864,employment,net_hiring_rate_6m,0.2981,3.7,positive,최근 6개월 순채용률이 동일 산업 내 상위 9% 수준입니다.
+864,employment,employee_growth_slope,0.042,3.4,positive,고용 증가 추세가 동일 산업 내 상위 3% 수준입니다.
+864,financial,operating_margin_change_1y,-0.7631,-3.5,negative,영업이익률 개선폭이 동일 산업 내 하위 6% 수준에 그칩니다.
+864,financial,revenue_growth_1y,-0.2072,-3.0,negative,최근 1년 매출 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+864,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+865,financial,revenue_growth_1y,2.1615,7.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+865,financial,operating_margin_change_1y,1.0801,4.4,positive,영업이익률 개선폭이 동일 산업 내 상위 6% 수준입니다.
+865,employment,employee_growth_acceleration,0.9048,2.5,positive,고용 증가 가속도가 동일 산업 내 상위 3% 수준입니다.
+865,employment,employee_growth_6m,-0.4286,-4.8,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 6% 수준에 그칩니다.
+865,financial,liabilities_to_assets,6.1928,-4.5,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+865,financial,asset_growth_1y,-0.0718,-3.1,negative,최근 1년 자산 성장률이 동일 산업 내 하위 20% 수준에 그칩니다.
+866,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+866,employment,employee_volatility,0.0269,1.9,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+866,industry,industry_company_growth_1y,0.066,1.2,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+866,financial,revenue_cagr_best,-0.1331,-10.5,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 13% 수준에 그칩니다.
+866,financial,liabilities_to_assets,1.4653,-8.6,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+866,financial,operating_margin,-1.4652,-5.0,negative,영업이익률이 동일 산업 내 하위 15% 수준에 그칩니다.
+867,patent,patent_count_3y,1.0,8.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+867,patent,new_ipc_count_1y,2.0,4.1,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 4% 수준입니다.
+867,financial,liabilities_to_assets,0.3943,2.7,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+867,financial,revenue_cagr_best,-0.1561,-9.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 9% 수준에 그칩니다.
+867,employment,employee_growth_6m,-0.3571,-4.1,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 12% 수준에 그칩니다.
+867,employment,net_hiring_rate_6m,-0.6364,-3.3,negative,최근 6개월 순채용률이 동일 산업 내 하위 13% 수준에 그칩니다.
+868,financial,revenue_growth_1y,26.7866,8.2,positive,최근 1년 매출 성장률이 동일 산업 내 상위 1% 수준입니다.
+868,financial,operating_margin_change_1y,12.3794,4.9,positive,영업이익률 개선폭이 동일 산업 내 상위 1% 수준입니다.
+868,employment,net_hiring_rate_6m,0.1579,2.8,positive,최근 6개월 순채용률이 동일 산업 내 상위 19% 수준입니다.
+868,financial,liabilities_to_assets,2.3951,-4.3,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+868,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+868,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+869,financial,revenue_cagr_best,1.9435,4.8,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 6% 수준입니다.
+869,financial,liabilities_to_assets,0.0404,3.6,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+869,financial,revenue_growth_1y,0.2701,2.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 33% 수준입니다.
+869,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+869,financial,operating_margin,-3.2567,-2.5,negative,영업이익률이 동일 산업 내 하위 3% 수준에 그칩니다.
+869,employment,employee_growth_6m,-0.1429,-2.5,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 27% 수준에 그칩니다.
+870,patent,patent_count_3y,3.0,5.5,positive,최근 3년 특허 출원이 동일 산업 내 상위 7% 수준입니다.
+870,financial,revenue_growth_1y,0.2734,4.4,positive,최근 1년 매출 성장률이 동일 산업 내 상위 28% 수준입니다.
+870,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+870,financial,operating_margin_change_1y,-0.2614,-4.0,negative,영업이익률 개선폭이 동일 산업 내 하위 16% 수준에 그칩니다.
+870,patent,registered_ratio_mature,0.0,-3.6,negative,특허 등록 전환율이 동일 산업 내 하위 7% 수준에 그칩니다.
+870,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+871,financial,revenue_growth_1y,0.3363,4.1,positive,최근 1년 매출 성장률이 동일 산업 내 상위 26% 수준입니다.
+871,financial,operating_margin_change_1y,0.6924,3.9,positive,영업이익률 개선폭이 동일 산업 내 상위 11% 수준입니다.
+871,financial,liabilities_to_assets,0.1461,2.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+871,employment,net_hiring_rate_6m,-0.1818,-2.2,negative,최근 6개월 순채용률이 동일 산업 내 하위 25% 수준에 그칩니다.
+871,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+871,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+872,employment,net_hiring_rate_6m,0.1967,3.6,positive,최근 6개월 순채용률이 동일 산업 내 상위 16% 수준입니다.
+872,employment,employee_growth_6m,0.2,3.5,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 22% 수준입니다.
+872,employment,employee_growth_acceleration,0.4333,2.7,positive,고용 증가 가속도가 동일 산업 내 상위 8% 수준입니다.
+872,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+872,industry,industry_rd_growth_1y,0.0125,-2.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+872,financial,asset_growth_1y,-0.0359,-2.5,negative,최근 1년 자산 성장률이 동일 산업 내 하위 29% 수준에 그칩니다.
+873,employment,employee_growth_6m,0.2041,4.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 19% 수준입니다.
+873,employment,net_hiring_rate_6m,0.2025,3.9,positive,최근 6개월 순채용률이 동일 산업 내 상위 13% 수준입니다.
+873,employment,employee_growth_slope,0.0194,2.7,positive,고용 증가 추세가 동일 산업 내 상위 18% 수준입니다.
+873,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+873,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+873,industry,industry_rd_growth_1y,0.0125,-2.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+874,financial,revenue_cagr_best,0.4536,2.4,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 31% 수준입니다.
+874,financial,revenue_growth_1y,0.2353,2.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 35% 수준입니다.
+874,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+874,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+874,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+874,industry,industry_rd_growth_1y,0.0125,-2.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+875,patent,patent_count_3y,2.0,10.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 10% 수준입니다.
+875,patent,new_ipc_count_1y,3.0,4.4,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 1% 수준입니다.
+875,financial,revenue_cagr_best,0.4817,2.8,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 24% 수준입니다.
+875,financial,asset_growth_1y,-0.2462,-3.4,negative,최근 1년 자산 성장률이 동일 산업 내 하위 8% 수준에 그칩니다.
+875,financial,liabilities_to_assets,1.16,-2.8,negative,자산 대비 부채 비율이 동일 산업 내 높은 편입니다(위험 요인).
+875,employment,employee_growth_acceleration,-0.3007,-2.3,negative,고용 증가 가속도가 동일 산업 내 하위 8% 수준에 그칩니다.
+876,patent,patent_count_3y,1.0,8.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+876,patent,new_ipc_count_1y,2.0,4.1,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 4% 수준입니다.
+876,news_event,growth_event_12m_count,3.0,1.9,positive,최근 12개월 성장 이벤트가 동일 산업 내 상위 23% 수준입니다.
+876,financial,revenue_growth_1y,-0.2536,-4.3,negative,최근 1년 매출 성장률이 동일 산업 내 하위 18% 수준에 그칩니다.
+876,employment,net_hiring_rate_6m,-0.9091,-3.9,negative,최근 6개월 순채용률이 동일 산업 내 하위 7% 수준에 그칩니다.
+876,financial,asset_growth_1y,-0.2483,-3.6,negative,최근 1년 자산 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+877,financial,operating_margin,0.2584,2.5,positive,영업이익률이 동일 산업 내 상위 3% 수준입니다.
+877,employment,employee_growth_slope,0.0147,2.0,positive,고용 증가 추세가 동일 산업 내 상위 22% 수준입니다.
+877,financial,liabilities_to_assets,0.2307,1.7,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+877,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+877,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+877,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+878,financial,liabilities_to_assets,0.0304,5.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+878,financial,revenue_growth_1y,0.5137,4.9,positive,최근 1년 매출 성장률이 동일 산업 내 상위 21% 수준입니다.
+878,financial,operating_margin_change_1y,0.5765,3.7,positive,영업이익률 개선폭이 동일 산업 내 상위 14% 수준입니다.
+878,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+878,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+878,employment,employee_growth_acceleration,-0.2054,-1.9,negative,고용 증가 가속도가 동일 산업 내 하위 14% 수준에 그칩니다.
+879,financial,asset_growth_1y,0.8332,6.1,positive,최근 1년 자산 성장률이 동일 산업 내 상위 20% 수준입니다.
+879,employment,net_hiring_rate_6m,0.3896,4.0,positive,최근 6개월 순채용률이 동일 산업 내 상위 5% 수준입니다.
+879,employment,employee_growth_6m,0.25,3.6,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 17% 수준입니다.
+879,financial,operating_margin,-0.6104,-4.1,negative,영업이익률이 동일 산업 내 하위 19% 수준에 그칩니다.
+879,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+879,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+880,industry,industry_startup_rate_latest,0.1722,1.7,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+880,industry,industry_company_growth_1y,0.066,1.0,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+880,employment,employee_volatility,0.0925,0.4,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+880,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+880,financial,revenue_cagr_best,-0.005,-2.8,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 24% 수준에 그칩니다.
+880,financial,revenue_growth_1y,-0.1493,-2.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 30% 수준에 그칩니다.
+881,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+881,financial,operating_margin,0.042,1.5,positive,영업이익률이 동일 산업 내 상위 26% 수준입니다.
+881,financial,asset_growth_1y,0.2718,1.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 36% 수준입니다.
+881,financial,revenue_growth_1y,-0.5566,-6.6,negative,최근 1년 매출 성장률이 동일 산업 내 하위 9% 수준에 그칩니다.
+881,financial,revenue_cagr_best,-0.5996,-6.1,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 2% 수준에 그칩니다.
+881,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+882,employment,employee_growth_6m,0.75,5.0,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 3% 수준입니다.
+882,employment,net_hiring_rate_6m,1.0737,4.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 1% 수준입니다.
+882,employment,employee_growth_slope,0.0394,3.1,positive,고용 증가 추세가 동일 산업 내 상위 7% 수준입니다.
+882,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+882,news_event,growth_event_12m_count,0.0,-2.2,negative,최근 12개월 성장 이벤트가 동일 산업 내 하위 21% 수준에 그칩니다.
+882,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+883,patent,patent_count_3y,5.0,6.1,positive,최근 3년 특허 출원이 동일 산업 내 상위 5% 수준입니다.
+883,employment,employee_volatility,0.024,5.0,positive,고용 변동성이 동일 산업 내 낮은 편입니다(안정 요인).
+883,financial,operating_margin,0.0594,1.7,positive,영업이익률이 동일 산업 내 상위 19% 수준입니다.
+883,financial,revenue_cagr_best,0.0293,-2.4,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 28% 수준에 그칩니다.
+883,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+883,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+884,industry,industry_startup_rate_latest,0.1722,3.1,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+884,industry,industry_company_growth_1y,0.066,1.8,positive,소속 산업 기업 수 증가율이 전체 산업 대비 상위 25% 수준입니다.
+884,employment,employee_growth_6m,-0.3333,-7.0,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 14% 수준에 그칩니다.
+884,patent,patent_count_3y,0.0,-5.4,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+884,employment,employee_growth_acceleration,-0.8333,-4.8,negative,고용 증가 가속도가 동일 산업 내 하위 1% 수준에 그칩니다.
+885,financial,liabilities_to_assets,0.1296,2.8,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+885,employment,employee_growth_6m,0.125,2.5,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 30% 수준입니다.
+885,employment,net_hiring_rate_6m,0.1194,2.4,positive,최근 6개월 순채용률이 동일 산업 내 상위 27% 수준입니다.
+885,financial,revenue_growth_1y,-0.5042,-6.2,negative,최근 1년 매출 성장률이 동일 산업 내 하위 11% 수준에 그칩니다.
+885,financial,revenue_cagr_best,-0.1661,-5.6,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 6% 수준에 그칩니다.
+885,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+886,patent,patent_momentum,5.25,9.6,positive,최근 특허 활동 모멘텀이 동일 산업 내 상위 5% 수준입니다.
+886,patent,patent_count_3y,11.0,7.8,positive,최근 3년 특허 출원이 동일 산업 내 상위 1% 수준입니다.
+886,financial,asset_growth_1y,0.7033,3.3,positive,최근 1년 자산 성장률이 동일 산업 내 상위 22% 수준입니다.
+886,financial,operating_margin_change_1y,-0.2826,-4.6,negative,영업이익률 개선폭이 동일 산업 내 하위 11% 수준에 그칩니다.
+886,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+886,industry,industry_rd_growth_1y,0.0125,-2.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+887,patent,patent_count_3y,1.0,5.2,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+887,employment,employee_growth_6m,0.4286,5.1,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 10% 수준입니다.
+887,employment,net_hiring_rate_6m,0.1967,3.6,positive,최근 6개월 순채용률이 동일 산업 내 상위 16% 수준입니다.
+887,financial,operating_margin_change_1y,-0.3517,-4.9,negative,영업이익률 개선폭이 동일 산업 내 하위 9% 수준에 그칩니다.
+887,financial,revenue_growth_1y,-0.2107,-4.8,negative,최근 1년 매출 성장률이 동일 산업 내 하위 26% 수준에 그칩니다.
+887,employment,employee_growth_acceleration,-0.6623,-3.0,negative,고용 증가 가속도가 동일 산업 내 하위 3% 수준에 그칩니다.
+888,financial,liabilities_to_assets,0.1596,3.0,positive,자산 대비 부채 비율이 동일 산업 내 낮은 편입니다(안정 요인).
+888,employment,employee_growth_slope,0.0116,2.0,positive,고용 증가 추세가 동일 산업 내 상위 27% 수준입니다.
+888,industry,industry_startup_rate_latest,0.1722,2.0,positive,소속 산업 창업률이 전체 산업 대비 상위 8% 수준입니다.
+888,financial,asset_growth_1y,-0.1463,-3.9,negative,최근 1년 자산 성장률이 동일 산업 내 하위 17% 수준에 그칩니다.
+888,patent,patent_count_3y,0.0,-3.5,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+888,financial,operating_margin_change_1y,-0.1931,-3.1,negative,영업이익률 개선폭이 동일 산업 내 하위 24% 수준에 그칩니다.
+889,patent,patent_count_3y,2.0,6.4,positive,최근 3년 특허 출원이 동일 산업 내 상위 10% 수준입니다.
+889,employment,employee_growth_6m,0.3636,4.8,positive,최근 6개월 고용 증가율이 동일 산업 내 상위 12% 수준입니다.
+889,employment,employee_growth_slope,0.0149,2.5,positive,고용 증가 추세가 동일 산업 내 상위 20% 수준입니다.
+889,industry,industry_employee_growth_1y,-0.0311,-2.6,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+889,industry,industry_rd_growth_1y,0.0125,-2.6,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+889,employment,employee_growth_acceleration,-0.2013,-2.1,negative,고용 증가 가속도가 동일 산업 내 하위 17% 수준에 그칩니다.
+890,financial,revenue_growth_1y,1.3971,5.3,positive,최근 1년 매출 성장률이 동일 산업 내 상위 11% 수준입니다.
+890,financial,revenue_cagr_best,1.0502,3.6,positive,중기(CAGR) 매출 성장률이 동일 산업 내 상위 17% 수준입니다.
+890,financial,operating_margin_change_1y,0.3161,1.9,positive,영업이익률 개선폭이 동일 산업 내 상위 26% 수준입니다.
+890,employment,employee_growth_6m,-0.3,-3.6,negative,최근 6개월 고용 증가율이 동일 산업 내 하위 17% 수준에 그칩니다.
+890,patent,patent_count_3y,0.0,-3.0,negative,최근 3년 특허 출원이 동일 산업 내 하위 39% 수준에 그칩니다.
+890,employment,net_hiring_rate_6m,-0.4255,-3.0,negative,최근 6개월 순채용률이 동일 산업 내 하위 17% 수준에 그칩니다.
+891,patent,patent_count_3y,1.0,8.9,positive,최근 3년 특허 출원이 동일 산업 내 상위 17% 수준입니다.
+891,patent,new_ipc_count_1y,1.0,3.8,positive,신규 기술분야(IPC) 진출이 동일 산업 내 상위 8% 수준입니다.
+891,employment,employee_growth_slope,0.0211,2.5,positive,고용 증가 추세가 동일 산업 내 상위 16% 수준입니다.
+891,industry,industry_employee_growth_1y,-0.0311,-2.2,negative,소속 산업 고용 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+891,industry,industry_rd_growth_1y,0.0125,-2.2,negative,소속 산업 R&D 투자 성장률이 전체 산업 대비 하위 8% 수준에 그칩니다.
+891,financial,revenue_cagr_best,0.1465,-1.2,negative,중기(CAGR) 매출 성장률이 동일 산업 내 하위 39% 수준에 그칩니다.

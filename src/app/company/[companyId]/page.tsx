@@ -17,6 +17,7 @@ export default async function CompanyDashboard({ params }: { params: Promise<{ c
   const dashboard = await getDashboard(Number(companyId));
   if (!dashboard) notFound();
   const { company, score } = dashboard;
+  const coveragePercent = Math.round(score.coverageScore * 100);
 
   return (
     <main>
@@ -33,7 +34,7 @@ export default async function CompanyDashboard({ params }: { params: Promise<{ c
               <span>업력 <strong>{company.companyAge ? `${company.companyAge.toFixed(1)}년` : "-"}</strong></span>
               <span>벤처 유형 <strong>{company.ventureType ?? "-"}</strong></span>
               <span>지역 <strong>{company.region ?? "-"}</strong></span>
-              <Badge tone="green">Data Confidence A</Badge>
+              <Badge tone="green">데이터 커버리지 {coveragePercent}%</Badge>
             </div>
           </div>
         </div>
@@ -47,7 +48,7 @@ export default async function CompanyDashboard({ params }: { params: Promise<{ c
           <FeatureDetail details={dashboard.featureDetails} />
           <IndustryComparison comparison={dashboard.industryComparison} />
           <GrowthEventTimeline events={dashboard.growthEvents} />
-          <DataConfidenceCard items={dashboard.dataConfidence} />
+          <DataConfidenceCard items={dashboard.dataConfidence} coverageScore={score.coverageScore} />
         </section>
         <footer className={styles.footer}>Growth Score 및 지표는 내부 알고리즘과 공공 데이터를 기반으로 산출되며, 투자 권유가 아닙니다.</footer>
       </div>

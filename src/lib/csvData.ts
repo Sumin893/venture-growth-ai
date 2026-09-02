@@ -10,10 +10,10 @@ import type {
   GrowthEvent,
   GrowthScore,
   GrowthScoreFactor,
-  IndustryTopGroup,
   IndustryRankingRow,
-  ScoreDirection,
-  ScoreCategory
+  IndustryTopGroup,
+  ScoreCategory,
+  ScoreDirection
 } from "@/types/company";
 import { categoryDescriptions, EVENT_CONFIDENCE_THRESHOLD, FEATURE_UNAVAILABLE, featureMetadata } from "@/constants/featureMetadata";
 import { formatFeatureValue, normalizeSearchName, toNullableNumber } from "@/utils/format";
@@ -34,7 +34,7 @@ let rawEventCache: Map<number, GrowthEvent[]> | null = null;
 
 export const TOP_INDUSTRY_GROUPS = [
   { industryName: "ICT·AI·SW", dataNames: ["ICT·AI·SW"] },
-  { industryName: "로보틱스·모빌리티·첨단제조", dataNames: ["로보틱스·모빌리티·첨단제조", "로봇·모빌리티·첨단제조"] },
+  { industryName: "로봇·모빌리티·첨단제조", dataNames: ["로봇·모빌리티·첨단제조"] },
   { industryName: "바이오·헬스케어", dataNames: ["바이오·헬스케어"] },
   { industryName: "반도체·ICT HW", dataNames: ["반도체·ICT HW"] },
   { industryName: "에너지·클라이밋테크", dataNames: ["에너지·클라이밋테크", "에너지·Climate Tech"] },
@@ -50,17 +50,23 @@ function readCsv(fileName: string): CsvRow[] {
 
 function latestByCompany(rows: CsvRow[]): Map<number, CsvRow> {
   const map = new Map<number, CsvRow>();
+
   for (const row of rows) {
     const companyId = Number(row.company_id);
     if (!Number.isFinite(companyId)) continue;
+
     const current = map.get(companyId);
-    if (!current || Number(row.feature_year ?? 0) >= Number(current.feature_year ?? 0)) map.set(companyId, row);
+    if (!current || Number(row.feature_year ?? 0) >= Number(current.feature_year ?? 0)) {
+      map.set(companyId, row);
+    }
   }
+
   return map;
 }
 
 function loadData() {
   if (cache) return cache;
+
   const selected = readCsv("companies_300.csv");
   const basic = latestByCompany(readCsv("company_basic_features.csv"));
   const rows: Record<ScoreCategory, Map<number, CsvRow>> = {
@@ -73,28 +79,35 @@ function loadData() {
 
   const companies = selected
     .map((row) => {
-      const companyId = Number(row["선정번호"]);
+      const companyId = Number(row.company_id);
       if (!Number.isFinite(companyId)) return null;
+
       const basicRow = basic.get(companyId);
       const company: CompanyDetail = {
         companyId,
-        companyName: row["업체명"] || `기업 ${companyId}`,
-        industry: basicRow?.industry || row["산업"] || null,
-        subIndustry: basicRow?.sub_industry || row["세부산업"] || null,
-        region: basicRow?.region || row["지역"] || null,
-        ventureType: basicRow?.venture_type || row["벤처확인유형"] || null,
-        foundedYear: toNullableNumber(basicRow?.founded_year ?? row["설립연도"]),
-        companyAge: toNullableNumber(basicRow?.company_age ?? row["기업연령"]),
-        ventureRenewal: basicRow?.venture_renewal || row["신규_재확인"] || null,
-        macroRegion: basicRow?.macro_region || row["권역"] || null,
-        idConfidence: basicRow?.id_confidence || row["상호식별성"] || null,
+        companyName: row.company_name || `기업 ${companyId}`,
+        industry: basicRow?.industry || row.industry || null,
+        subIndustry: basicRow?.sub_industry || row.sub_industry || null,
+        region: basicRow?.region || row.region || null,
+        ventureType: basicRow?.venture_type || row.venture_type || null,
+        foundedYear: toNullableNumber(basicRow?.founded_year ?? row.founded_year),
+        companyAge: toNullableNumber(basicRow?.company_age ?? row.company_age),
+        ventureRenewal: basicRow?.venture_renewal || row.venture_renewal || null,
+        macroRegion: basicRow?.macro_region || row.macro_region || null,
+        idConfidence: basicRow?.id_confidence || row.name_uniqueness || null,
         hasDart: basicRow?.has_dart ? basicRow.has_dart === "1" : null
       };
+
       return company;
     })
     .filter((company): company is CompanyDetail => company !== null);
 
-  cache = { companies, byId: new Map(companies.map((company) => [company.companyId, company])), rows };
+  cache = {
+    companies,
+    byId: new Map(companies.map((company) => [company.companyId, company])),
+    rows
+  };
+
   return cache;
 }
 
@@ -108,8 +121,22 @@ function scoreForRaw(companyId: number): number {
   return parts[0] * 0.28 + parts[1] * 0.2 + parts[2] * 0.2 + parts[3] * 0.18 + parts[4] * 0.14;
 }
 
+function valueOf(row: CsvRow | undefined, key: string): string | null {
+  const value = row?.[key];
+  return value === undefined || value === "" ? null : value;
+}
+
 function scoreFor(company: CompanyDetail): GrowthScore {
   const data = loadData();
+  const financial = data.rows.financial.get(company.companyId);
+  const patent = data.rows.patent.get(company.companyId);
+  const employment = data.rows.employment.get(company.companyId);
+  const news = data.rows.news_event.get(company.companyId);
+  const financialDataAvailable = Boolean(financial && valueOf(financial, "has_financial") === "1");
+  const patentDataAvailable = Boolean(patent && valueOf(patent, "has_patent") === "1");
+  const employmentDataAvailable = Boolean(employment);
+  const newsEventDataAvailable = Boolean(news && valueOf(news, "news_observability_flag") === "1");
+  const industryDataAvailable = Boolean(company.industry);
   const financialScore = Math.round(45 + seeded(company.companyId, 1) * 50);
   const patentScore = Math.round(45 + seeded(company.companyId, 2) * 50);
   const employmentScore = Math.round(45 + seeded(company.companyId, 3) * 50);
@@ -135,19 +162,27 @@ function scoreFor(company: CompanyDetail): GrowthScore {
     employmentScore,
     newsEventScore,
     industryScore,
+    financialDataAvailable,
+    patentDataAvailable,
+    employmentDataAvailable,
+    newsEventDataAvailable,
+    industryDataAvailable,
+    coverageScore: [
+      financialDataAvailable,
+      patentDataAvailable,
+      employmentDataAvailable,
+      newsEventDataAvailable,
+      industryDataAvailable
+    ].filter(Boolean).length / 5,
     modelVersion: "mock-v1",
     calculatedAt: new Date().toISOString(),
     isMock: true
   };
 }
 
-function valueOf(row: CsvRow | undefined, key: string): string | null {
-  const value = row?.[key];
-  return value === undefined || value === "" ? null : value;
-}
-
 function featureRow(row: CsvRow | undefined, key: string): FeatureRow {
   const metadata = featureMetadata[key];
+
   return {
     label: metadata?.label ?? key,
     description: metadata?.description ?? "해당 Feature의 관측값입니다.",
@@ -165,10 +200,12 @@ function signal(
   const modelDirection: ScoreDirection = contribution > 0 ? "positive" : contribution < 0 ? "negative" : "positive";
   const direction = classifyFactorSignal(featureName, featureValue, modelDirection, contribution);
   if (!direction) return null;
+
   const metadata = featureMetadata[featureName];
   const valueText = formatFeatureValue(featureName, featureValue);
   const label = metadata?.label ?? featureName;
   const description = valueText === FEATURE_UNAVAILABLE ? "관측 가능한 값이 충분하지 않습니다." : `${label} ${valueText}`;
+
   return {
     category,
     featureName,
@@ -187,14 +224,46 @@ function factorsFor(companyId: number, score: GrowthScore): GrowthScoreFactor[] 
   const patent = data.rows.patent.get(companyId);
   const employment = data.rows.employment.get(companyId);
   const news = data.rows.news_event.get(companyId);
+  const byScore = (
+    category: ScoreCategory,
+    featureName: string,
+    featureValue: string | number | null,
+    scoreValue: number | null,
+    baseline: number,
+    displayOrder: number,
+    invert = false
+  ) => {
+    if (scoreValue === null) return null;
+    const contribution = invert ? baseline - scoreValue : scoreValue - baseline;
+    return signal(category, featureName, featureValue, contribution, displayOrder);
+  };
+
   return [
-    signal("financial", "revenue_growth_1y", valueOf(financial, "revenue_growth_1y"), score.financialScore - 65, 1),
-    signal("patent", "patent_count_3y", valueOf(patent, "patent_count_3y"), score.patentScore - 65, 2),
-    signal("employment", "employee_growth_6m", valueOf(employment, "employee_growth_6m"), score.employmentScore - 65, 3),
-    signal("news_event", "investment_event_24m_count", valueOf(news, "investment_event_24m_count"), score.newsEventScore - 65, 4),
-    signal("financial", "liabilities_to_assets", valueOf(financial, "liabilities_to_assets"), 65 - score.financialScore, 5),
-    signal("financial", "operating_margin_change_1y", valueOf(financial, "operating_margin_change_1y"), score.financialScore - 72, 6)
+    byScore("financial", "revenue_growth_1y", valueOf(financial, "revenue_growth_1y"), score.financialScore, 65, 1),
+    byScore("patent", "patent_count_3y", valueOf(patent, "patent_count_3y"), score.patentScore, 65, 2),
+    byScore("employment", "employee_growth_6m", valueOf(employment, "employee_growth_6m"), score.employmentScore, 65, 3),
+    byScore("news_event", "investment_event_24m_count", valueOf(news, "investment_event_24m_count"), score.newsEventScore, 65, 4),
+    byScore("financial", "liabilities_to_assets", valueOf(financial, "liabilities_to_assets"), score.financialScore, 65, 5, true),
+    byScore("financial", "operating_margin_change_1y", valueOf(financial, "operating_margin_change_1y"), score.financialScore, 72, 6)
   ].filter((item): item is GrowthScoreFactor => item !== null);
+}
+
+function coverageItems(score: GrowthScore): DashboardData["dataConfidence"] {
+  return [
+    coverageItem("재무", score.financialDataAvailable, score.financialScore),
+    coverageItem("특허", score.patentDataAvailable, score.patentScore),
+    coverageItem("고용", score.employmentDataAvailable, score.employmentScore),
+    coverageItem("뉴스", score.newsEventDataAvailable, score.newsEventScore),
+    coverageItem("산업", score.industryDataAvailable, score.industryScore)
+  ];
+}
+
+function coverageItem(label: string, available: boolean, score: number | null) {
+  return {
+    label,
+    value: available ? (score === null ? "유효 데이터 부족" : "평가 반영") : "데이터 미관측",
+    ok: available && score !== null
+  };
 }
 
 function buildRankings(company: CompanyDetail): { rows: IndustryRankingRow[]; averageScore: number | null; topScore: number | null } {
@@ -209,6 +278,7 @@ function buildRankings(company: CompanyDetail): { rows: IndustryRankingRow[]; av
   const topRows = peers.slice(0, 3).map((item, index) => rankingRow(item.company, item.score, index + 1, item.company.companyId === company.companyId));
   const current = peers[currentRank - 1];
   const rows = currentRank > 3 && current ? [...topRows, rankingRow(current.company, current.score, currentRank, true)] : topRows;
+
   return { rows, averageScore, topScore };
 }
 
@@ -222,12 +292,14 @@ function truthy(value: string | undefined): boolean {
 
 function loadRawEvents(): Map<number, GrowthEvent[]> {
   if (rawEventCache) return rawEventCache;
+
   rawEventCache = new Map();
   const filePath = path.join(sourceDir, rawNewsFile);
   if (!fs.existsSync(filePath)) return rawEventCache;
 
   for (const row of readCsv(rawNewsFile)) {
     if (!isValidEvent(row)) continue;
+
     const companyId = Number(row.company_id);
     const event: GrowthEvent = {
       eventId: `${companyId}-${row.published_at}-${row.original_link || row.naver_link || row.news_title}`,
@@ -260,6 +332,7 @@ function loadRawEvents(): Map<number, GrowthEvent[]> {
 
 function isValidEvent(row: CsvRow): boolean {
   const confidence = toNullableNumber(row.event_confidence);
+
   return (
     truthy(row.valid_news_flag) &&
     truthy(row.company_match) &&
@@ -279,7 +352,10 @@ export async function searchCsvCompanies(search: string): Promise<CompanySummary
   const data = loadData();
   const normalized = normalizeSearchName(search);
   if (normalized.length < 2) return data.companies.slice(0, 6);
-  return data.companies.filter((company) => normalizeSearchName(company.companyName).includes(normalized)).slice(0, 50);
+
+  return data.companies
+    .filter((company) => normalizeSearchName(company.companyName).includes(normalized))
+    .slice(0, 50);
 }
 
 export async function getCsvFeaturedCompanies(limit: number): Promise<CompanySummary[]> {
@@ -292,6 +368,7 @@ export async function getCsvCompany(companyId: number): Promise<CompanyDetail | 
 
 export async function getCsvIndustryTopGroups(limit: number): Promise<IndustryTopGroup[]> {
   const data = loadData();
+
   return TOP_INDUSTRY_GROUPS.map(({ industryName, dataNames }) => {
     const companies = data.companies
       .filter((company) => Boolean(company.industry && dataNames.includes(company.industry)))
@@ -306,6 +383,7 @@ export async function getCsvIndustryTopGroups(limit: number): Promise<IndustryTo
         modelVersion: score.modelVersion,
         isMock: score.isMock
       }));
+
     return { industryName, companies };
   });
 }
@@ -314,6 +392,7 @@ export async function getCsvDashboard(companyId: number): Promise<DashboardData 
   const data = loadData();
   const company = data.byId.get(companyId);
   if (!company) return null;
+
   const score = scoreFor(company);
   const financial = data.rows.financial.get(companyId);
   const patent = data.rows.patent.get(companyId);
@@ -343,13 +422,7 @@ export async function getCsvDashboard(companyId: number): Promise<DashboardData 
       rankings: ranking.rows
     },
     growthEvents: loadRawEvents().get(companyId) ?? [],
-    dataConfidence: [
-      { label: "기업 식별 신뢰도", value: company.idConfidence ?? "확인 불가", ok: Boolean(company.idConfidence) },
-      { label: "DART 데이터", value: company.hasDart ? "보유" : "없음", ok: Boolean(company.hasDart) },
-      { label: "재무 데이터", value: valueOf(financial, "n_financial_years") ? `${valueOf(financial, "n_financial_years")}개년` : "확인 불가", ok: Boolean(valueOf(financial, "has_financial") === "1") },
-      { label: "업력", value: company.companyAge ? `${company.companyAge.toFixed(1)}년` : "확인 불가", ok: Boolean(company.companyAge) },
-      { label: "뉴스 관측", value: valueOf(news, "news_observability_flag") === "1" ? "가능" : "없음", ok: valueOf(news, "news_observability_flag") === "1" }
-    ]
+    dataConfidence: coverageItems(score)
   };
 }
 

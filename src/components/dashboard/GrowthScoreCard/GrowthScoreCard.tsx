@@ -7,12 +7,13 @@ import styles from "./GrowthScoreCard.module.css";
 export function GrowthScoreCard({ score }: { score: GrowthScore }) {
   const circumference = 2 * Math.PI * 82;
   const filled = Math.min(circumference, Math.max(0, (score.growthScore / 100) * circumference));
+
   return (
     <Card className={styles.card}>
       <div className={styles.title}>
         <h2>Growth Score</h2>
         <InfoTooltip label="Growth Score 설명">
-          Growth Score는 재무 성장성, 특허·기술, 조직·고용, Growth Event, 산업·시장 등 5개 차원의 성장 신호를 종합하여 0~100점으로 산출한 성장 가능성 지표입니다.
+          Growth Score는 재무 성장성 30%, 특허·기술 20%, 조직·고용 20%, 뉴스·Growth Event 15%, 산업·시장 15%를 종합해 분석 대상 기업군 내 상대 성장 모멘텀을 나타내는 점수입니다.
           {score.isMock ? " 현재 화면의 점수는 서비스 검증용 Mock Score입니다." : ""}
         </InfoTooltip>
       </div>
@@ -27,10 +28,10 @@ export function GrowthScoreCard({ score }: { score: GrowthScore }) {
         </div>
         <div className={styles.ranks}>
           <span>전체 상위</span>
-          <strong>{score.growthPercentile}%</strong>
+          <strong>{Math.round(score.growthPercentile)}%</strong>
           <span>동일 산업 상위</span>
-          <strong>{score.industryGrowthPercentile ?? "-"}%</strong>
-          {score.isMock ? <Badge tone="blue">Mock {score.modelVersion}</Badge> : null}
+          <strong>{score.industryGrowthPercentile === null ? "-" : Math.round(score.industryGrowthPercentile)}%</strong>
+          {score.isMock ? <Badge tone="blue">Mock {score.modelVersion}</Badge> : <Badge tone="green">Model {score.modelVersion}</Badge>}
         </div>
       </div>
     </Card>

@@ -25,13 +25,24 @@ export interface GrowthScore {
   growthGrade: string;
   growthRank: number;
   growthPercentile: number;
+
   industryGrowthRank: number | null;
   industryGrowthPercentile: number | null;
-  financialScore: number;
-  patentScore: number;
-  employmentScore: number;
-  newsEventScore: number;
-  industryScore: number;
+
+  financialScore: number | null;
+  patentScore: number | null;
+  employmentScore: number | null;
+  newsEventScore: number | null;
+  industryScore: number | null;
+
+  financialDataAvailable: boolean;
+  patentDataAvailable: boolean;
+  employmentDataAvailable: boolean;
+  newsEventDataAvailable: boolean;
+  industryDataAvailable: boolean;
+
+  coverageScore: number;
+
   modelVersion: string;
   calculatedAt: string;
   isMock: boolean;

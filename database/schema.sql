@@ -127,23 +127,39 @@ CREATE TABLE IF NOT EXISTS industry_features (
 CREATE TABLE IF NOT EXISTS growth_scores (
   score_id BIGINT AUTO_INCREMENT PRIMARY KEY,
   company_id INT NOT NULL,
+
   growth_score DECIMAL(5,2) NOT NULL,
   growth_grade VARCHAR(5) NOT NULL,
   growth_rank INT NOT NULL,
-  growth_percentile INT NOT NULL,
+  growth_percentile DECIMAL(5,2) NOT NULL,
+
   industry_growth_rank INT NULL,
-  industry_growth_percentile INT NULL,
-  financial_score DECIMAL(5,2) NOT NULL,
-  patent_score DECIMAL(5,2) NOT NULL,
-  employment_score DECIMAL(5,2) NOT NULL,
-  news_event_score DECIMAL(5,2) NOT NULL,
-  industry_score DECIMAL(5,2) NOT NULL,
+  industry_growth_percentile DECIMAL(5,2) NULL,
+
+  financial_score DECIMAL(5,2) NULL,
+  patent_score DECIMAL(5,2) NULL,
+  employment_score DECIMAL(5,2) NULL,
+  news_event_score DECIMAL(5,2) NULL,
+  industry_score DECIMAL(5,2) NULL,
+
+  financial_data_available TINYINT NULL,
+  patent_data_available TINYINT NULL,
+  employment_data_available TINYINT NULL,
+  news_event_data_available TINYINT NULL,
+  industry_data_available TINYINT NULL,
+
+  coverage_score DECIMAL(6,4) NULL,
+
   model_version VARCHAR(50) NOT NULL,
   calculated_at DATETIME NOT NULL,
   is_mock BOOLEAN NOT NULL DEFAULT FALSE,
+
   UNIQUE KEY uq_growth_scores_company_model (company_id, model_version),
   INDEX idx_growth_scores_latest (company_id, is_mock, calculated_at),
-  CONSTRAINT fk_growth_scores_company FOREIGN KEY (company_id) REFERENCES companies(company_id)
+
+  CONSTRAINT fk_growth_scores_company
+    FOREIGN KEY (company_id)
+    REFERENCES companies(company_id)
 );
 
 CREATE TABLE IF NOT EXISTS growth_score_factors (
