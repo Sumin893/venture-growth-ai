@@ -49,7 +49,7 @@ export async function searchCompanies(search: string): Promise<CompanySummary[]>
        FROM companies
       WHERE (:search = '' OR search_name LIKE :pattern OR company_name LIKE :pattern)
       ORDER BY company_name
-      LIMIT 10`,
+      LIMIT 50`,
     { search, pattern: `%${search}%` }
   );
   return rows.map(mapSummary);

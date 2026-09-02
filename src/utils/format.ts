@@ -4,6 +4,12 @@ export function normalizeSearchName(value: string): string {
   return value.trim().replace(/\s+/g, "").toLowerCase();
 }
 
+export function formatCompanyDisplayName(value: string): string {
+  const trimmed = value.trim();
+  const displayName = trimmed.replace(/^(?:주식회사\s*|\(주\)\s*|㈜\s*)/, "").trim();
+  return displayName || trimmed;
+}
+
 export function formatNumber(value: number | string | null | undefined, digits = 1): string {
   if (value === null || value === undefined || value === "") return "-";
   const number = typeof value === "number" ? value : Number(value);

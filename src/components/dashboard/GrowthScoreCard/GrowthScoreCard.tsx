@@ -1,6 +1,6 @@
-import { Info } from "@phosphor-icons/react/dist/ssr";
 import { Card } from "@/components/common/Card/Card";
 import { Badge } from "@/components/common/Badge/Badge";
+import { InfoTooltip } from "@/components/common/InfoTooltip/InfoTooltip";
 import type { GrowthScore } from "@/types/company";
 import styles from "./GrowthScoreCard.module.css";
 
@@ -11,7 +11,10 @@ export function GrowthScoreCard({ score }: { score: GrowthScore }) {
     <Card className={styles.card}>
       <div className={styles.title}>
         <h2>Growth Score</h2>
-        <Info size={18} weight="duotone" />
+        <InfoTooltip label="Growth Score 설명">
+          Growth Score는 재무 성장성, 특허·기술, 조직·고용, Growth Event, 산업·시장 등 5개 차원의 성장 신호를 종합하여 0~100점으로 산출한 성장 가능성 지표입니다.
+          {score.isMock ? " 현재 화면의 점수는 서비스 검증용 Mock Score입니다." : ""}
+        </InfoTooltip>
       </div>
       <div className={styles.body}>
         <div className={styles.gauge}>

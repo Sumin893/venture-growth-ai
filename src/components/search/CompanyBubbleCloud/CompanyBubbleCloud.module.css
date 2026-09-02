@@ -98,18 +98,16 @@
     min-height: 34px;
   }
 
-  .bubble:nth-of-type(n + 9) {
+  .bubble:nth-of-type(n + 7) {
     display: none;
   }
 
   .bubble0 { left: 2%; top: 10%; }
   .bubble1 { left: 62%; top: 12%; }
-  .bubble2 { left: 61%; top: 82%; }
+  .bubble2 { left: 58%; top: 84%; }
   .bubble3 { left: 4%; top: 82%; }
-  .bubble4 { left: 72%; top: 48%; }
-  .bubble5 { left: 5%; top: 48%; }
-  .bubble6 { left: 42%; top: 4%; }
-  .bubble7 { left: 35%; top: 90%; }
+  .bubble4 { left: 42%; top: 4%; }
+  .bubble5 { left: 34%; top: 91%; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react";
 import { useCompanySearch } from "@/hooks/useCompanySearch";
+import { formatCompanyDisplayName } from "@/utils/format";
 import styles from "./CompanySearch.module.css";
 
 export function CompanySearch() {
@@ -31,8 +32,8 @@ export function CompanySearch() {
           {canShowResults && error ? <p className={styles.state}>{error}</p> : null}
           {canShowResults && !loading && !error && results.map((company) => (
             <Link key={company.companyId} href={`/company/${company.companyId}`} className={styles.result}>
-              <span className={styles.avatar}>{company.companyName.slice(0, 1)}</span>
-              <strong>{company.companyName}</strong>
+              <span className={styles.avatar}>{formatCompanyDisplayName(company.companyName).slice(0, 1)}</span>
+              <strong>{formatCompanyDisplayName(company.companyName)}</strong>
               <span className={styles.industry}>{company.industry ?? "미분류"}</span>
               <span className={styles.action}>분석 보기 <ArrowRight size={18} weight="bold" /></span>
             </Link>

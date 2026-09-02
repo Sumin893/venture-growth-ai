@@ -67,7 +67,23 @@
   border-radius: 8px;
   background: #fff;
   box-shadow: var(--shadow);
-  overflow: hidden;
+  max-height: min(430px, calc(100vh - 320px));
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.results::-webkit-scrollbar {
+  width: 8px;
+}
+
+.results::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #c9d8ef;
+}
+
+.results::-webkit-scrollbar-track {
+  background: #f5f9ff;
 }
 
 .result {
@@ -166,5 +182,9 @@
   .industry,
   .action {
     grid-column: 2;
+  }
+
+  .results {
+    max-height: min(360px, calc(100vh - 220px));
   }
 }

@@ -54,6 +54,7 @@
   display: grid;
   grid-template-columns: 1.05fr 1.1fr 0.78fr 0.74fr;
   gap: 18px;
+  min-width: 0;
 }
 
 .bottomGrid {
@@ -61,6 +62,7 @@
   grid-template-columns: 1.3fr 0.8fr 0.8fr 0.8fr;
   gap: 18px;
   margin-top: 18px;
+  min-width: 0;
 }
 
 .footer {
@@ -76,7 +78,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .page {
     padding: 20px;
   }

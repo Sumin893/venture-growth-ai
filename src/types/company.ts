@@ -62,6 +62,20 @@ export interface IndustryRankingRow {
   isCurrent: boolean;
 }
 
+export interface IndustryTopCompany {
+  rank: number;
+  companyId: number;
+  companyName: string;
+  growthScore: number;
+  modelVersion: string;
+  isMock: boolean;
+}
+
+export interface IndustryTopGroup {
+  industryName: string;
+  companies: IndustryTopCompany[];
+}
+
 export interface IndustryComparison {
   industryName: string;
   rank: number | null;

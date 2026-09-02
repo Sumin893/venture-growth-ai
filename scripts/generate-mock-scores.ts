@@ -1,4 +1,5 @@
 import { getPool, nullable, readCsv, upsert } from "./shared";
+import type { RowDataPacket } from "mysql2";
 
 type FactorCategory =
   | "financial"
@@ -14,6 +15,17 @@ type Factor = [
   description: string,
   contributionBase: number
 ];
+
+interface FeatureValueRow extends RowDataPacket {
+  revenue_growth_1y: string | number | null;
+  patent_count_3y: string | number | null;
+  employee_growth_6m: string | number | null;
+  investment_event_24m_count: string | number | null;
+}
+
+interface IndustryFeatureRow extends RowDataPacket {
+  industry_revenue_growth_1y: string | number | null;
+}
 
 const industryCodeMap: Record<string, string> = {
   "ICT·AI·SW": "ict_ai_sw",
@@ -145,7 +157,7 @@ async function main() {
        * Growth Signal / Risk Signal에 표시할 실제 Feature 값을
        * 각 Feature 테이블에서 조회한다.
        */
-      const [featureRows] = await connection.execute<any[]>(
+      const [featureRows] = await connection.execute<FeatureValueRow[]>(
         `
         SELECT
           (
@@ -197,7 +209,7 @@ async function main() {
       let actualIndustryRevenueGrowth: string | number | null = null;
 
       if (industryCode) {
-        const [industryRows] = await connection.execute<any[]>(
+        const [industryRows] = await connection.execute<IndustryFeatureRow[]>(
           `
           SELECT industry_revenue_growth_1y
           FROM industry_features

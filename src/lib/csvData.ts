@@ -10,11 +10,14 @@ import type {
   GrowthEvent,
   GrowthScore,
   GrowthScoreFactor,
+  IndustryTopGroup,
   IndustryRankingRow,
+  ScoreDirection,
   ScoreCategory
 } from "@/types/company";
 import { categoryDescriptions, EVENT_CONFIDENCE_THRESHOLD, FEATURE_UNAVAILABLE, featureMetadata } from "@/constants/featureMetadata";
 import { formatFeatureValue, normalizeSearchName, toNullableNumber } from "@/utils/format";
+import { classifyFactorSignal } from "@/utils/signals";
 
 type CsvRow = Record<string, string>;
 
@@ -28,6 +31,17 @@ let cache: {
 } | null = null;
 
 let rawEventCache: Map<number, GrowthEvent[]> | null = null;
+
+export const TOP_INDUSTRY_GROUPS = [
+  { industryName: "ICT·AI·SW", dataNames: ["ICT·AI·SW"] },
+  { industryName: "로보틱스·모빌리티·첨단제조", dataNames: ["로보틱스·모빌리티·첨단제조", "로봇·모빌리티·첨단제조"] },
+  { industryName: "바이오·헬스케어", dataNames: ["바이오·헬스케어"] },
+  { industryName: "반도체·ICT HW", dataNames: ["반도체·ICT HW"] },
+  { industryName: "에너지·클라이밋테크", dataNames: ["에너지·클라이밋테크", "에너지·Climate Tech"] },
+  { industryName: "콘텐츠·미디어", dataNames: ["콘텐츠·미디어"] }
+];
+
+export const TOP_INDUSTRIES = TOP_INDUSTRY_GROUPS.map((group) => group.industryName);
 
 function readCsv(fileName: string): CsvRow[] {
   const content = fs.readFileSync(path.join(sourceDir, fileName), "utf8");
@@ -146,10 +160,11 @@ function signal(
   featureName: string,
   featureValue: string | number | null,
   contribution: number,
-  displayOrder: number,
-  direction: "positive" | "negative"
+  displayOrder: number
 ): GrowthScoreFactor | null {
-  if (featureValue === null || featureValue === "") return null;
+  const modelDirection: ScoreDirection = contribution > 0 ? "positive" : contribution < 0 ? "negative" : "positive";
+  const direction = classifyFactorSignal(featureName, featureValue, modelDirection, contribution);
+  if (!direction) return null;
   const metadata = featureMetadata[featureName];
   const valueText = formatFeatureValue(featureName, featureValue);
   const label = metadata?.label ?? featureName;
@@ -172,31 +187,14 @@ function factorsFor(companyId: number, score: GrowthScore): GrowthScoreFactor[] 
   const patent = data.rows.patent.get(companyId);
   const employment = data.rows.employment.get(companyId);
   const news = data.rows.news_event.get(companyId);
-  const employeeGrowth = toNullableNumber(valueOf(employment, "employee_growth_6m"));
-  const operatingMarginChange = toNullableNumber(valueOf(financial, "operating_margin_change_1y"));
   return [
-    signal("financial", "revenue_growth_1y", valueOf(financial, "revenue_growth_1y"), score.financialScore - 65, 1, valueDirection(valueOf(financial, "revenue_growth_1y"))),
-    signal("patent", "patent_count_3y", valueOf(patent, "patent_count_3y"), score.patentScore - 65, 2, positiveWhenPresent(valueOf(patent, "patent_count_3y"))),
-    signal("employment", "employee_growth_6m", valueOf(employment, "employee_growth_6m"), score.employmentScore - 65, 3, employeeGrowth !== null && employeeGrowth < 0 ? "negative" : "positive"),
-    signal("news_event", "investment_event_24m_count", valueOf(news, "investment_event_24m_count"), score.newsEventScore - 65, 4, positiveWhenPresent(valueOf(news, "investment_event_24m_count"))),
-    signal("financial", "liabilities_to_assets", valueOf(financial, "liabilities_to_assets"), 65 - score.financialScore, 5, liabilityDirection(valueOf(financial, "liabilities_to_assets"))),
-    signal("financial", "operating_margin_change_1y", valueOf(financial, "operating_margin_change_1y"), score.financialScore - 72, 6, operatingMarginChange !== null && operatingMarginChange < 0 ? "negative" : "positive")
+    signal("financial", "revenue_growth_1y", valueOf(financial, "revenue_growth_1y"), score.financialScore - 65, 1),
+    signal("patent", "patent_count_3y", valueOf(patent, "patent_count_3y"), score.patentScore - 65, 2),
+    signal("employment", "employee_growth_6m", valueOf(employment, "employee_growth_6m"), score.employmentScore - 65, 3),
+    signal("news_event", "investment_event_24m_count", valueOf(news, "investment_event_24m_count"), score.newsEventScore - 65, 4),
+    signal("financial", "liabilities_to_assets", valueOf(financial, "liabilities_to_assets"), 65 - score.financialScore, 5),
+    signal("financial", "operating_margin_change_1y", valueOf(financial, "operating_margin_change_1y"), score.financialScore - 72, 6)
   ].filter((item): item is GrowthScoreFactor => item !== null);
-}
-
-function valueDirection(value: string | null): "positive" | "negative" {
-  const number = toNullableNumber(value);
-  return number !== null && number < 0 ? "negative" : "positive";
-}
-
-function positiveWhenPresent(value: string | null): "positive" | "negative" {
-  const number = toNullableNumber(value);
-  return number !== null && number > 0 ? "positive" : "negative";
-}
-
-function liabilityDirection(value: string | null): "positive" | "negative" {
-  const number = toNullableNumber(value);
-  return number !== null && number >= 0.7 ? "negative" : "positive";
 }
 
 function buildRankings(company: CompanyDetail): { rows: IndustryRankingRow[]; averageScore: number | null; topScore: number | null } {
@@ -281,7 +279,7 @@ export async function searchCsvCompanies(search: string): Promise<CompanySummary
   const data = loadData();
   const normalized = normalizeSearchName(search);
   if (normalized.length < 2) return data.companies.slice(0, 6);
-  return data.companies.filter((company) => normalizeSearchName(company.companyName).includes(normalized)).slice(0, 10);
+  return data.companies.filter((company) => normalizeSearchName(company.companyName).includes(normalized)).slice(0, 50);
 }
 
 export async function getCsvFeaturedCompanies(limit: number): Promise<CompanySummary[]> {
@@ -290,6 +288,26 @@ export async function getCsvFeaturedCompanies(limit: number): Promise<CompanySum
 
 export async function getCsvCompany(companyId: number): Promise<CompanyDetail | null> {
   return loadData().byId.get(companyId) ?? null;
+}
+
+export async function getCsvIndustryTopGroups(limit: number): Promise<IndustryTopGroup[]> {
+  const data = loadData();
+  return TOP_INDUSTRY_GROUPS.map(({ industryName, dataNames }) => {
+    const companies = data.companies
+      .filter((company) => Boolean(company.industry && dataNames.includes(company.industry)))
+      .map((company) => ({ company, score: scoreFor(company) }))
+      .sort((a, b) => b.score.growthScore - a.score.growthScore || a.company.companyId - b.company.companyId)
+      .slice(0, limit)
+      .map(({ company, score }, index) => ({
+        rank: index + 1,
+        companyId: company.companyId,
+        companyName: company.companyName,
+        growthScore: score.growthScore,
+        modelVersion: score.modelVersion,
+        isMock: score.isMock
+      }));
+    return { industryName, companies };
+  });
 }
 
 export async function getCsvDashboard(companyId: number): Promise<DashboardData | null> {

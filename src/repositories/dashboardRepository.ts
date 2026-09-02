@@ -1,9 +1,10 @@
 import { getPool, hasDbConfig, shouldUseCsvFallback } from "@/lib/db";
-import { getCsvDashboard } from "@/lib/csvData";
-import type { DashboardData, GrowthEvent, GrowthScore, GrowthScoreFactor, IndustryRankingRow, ScoreCategory } from "@/types/company";
+import { getCsvDashboard, getCsvIndustryTopGroups, TOP_INDUSTRY_GROUPS } from "@/lib/csvData";
+import type { DashboardData, GrowthEvent, GrowthScore, GrowthScoreFactor, IndustryRankingRow, IndustryTopGroup, ScoreCategory } from "@/types/company";
 import { getCompany } from "@/repositories/companyRepository";
 import { featureMetadata, EVENT_CONFIDENCE_THRESHOLD } from "@/constants/featureMetadata";
 import { formatFeatureValue } from "@/utils/format";
+import { classifyFactorSignal } from "@/utils/signals";
 import type { RowDataPacket } from "mysql2";
 
 interface ScoreRow extends RowDataPacket {
@@ -41,6 +42,16 @@ interface RankingRow extends RowDataPacket {
   growth_score: number;
 }
 
+interface IndustryTopRow extends RowDataPacket {
+  industry: string;
+  rank_position: number;
+  company_id: number;
+  company_name: string;
+  growth_score: number;
+  model_version: string;
+  is_mock: number;
+}
+
 interface EventRow extends RowDataPacket {
   event_id: number;
   published_at: Date | string | null;
@@ -75,7 +86,9 @@ function mapScore(row: ScoreRow): GrowthScore {
   };
 }
 
-function mapFactor(row: FactorRow): GrowthScoreFactor {
+function mapFactor(row: FactorRow): GrowthScoreFactor | null {
+  const direction = classifyFactorSignal(row.feature_name, row.feature_value, row.direction, Number(row.contribution));
+  if (!direction) return null;
   const valueText = formatFeatureValue(row.feature_name, row.feature_value);
   const label = featureMetadata[row.feature_name]?.label ?? row.feature_name;
   return {
@@ -83,23 +96,11 @@ function mapFactor(row: FactorRow): GrowthScoreFactor {
     featureName: row.feature_name,
     featureValue: row.feature_value,
     contribution: Number(row.contribution),
-    direction: deriveSignalDirection(row.feature_name, row.feature_value, row.direction),
+    direction,
     description: `${label} ${valueText}`,
     valueText,
     displayOrder: row.display_order
   };
-}
-
-function deriveSignalDirection(featureName: string, value: string | number | null, fallback: "positive" | "negative") {
-  if (value === null || value === "") return fallback;
-  const number = Number(value);
-  if (!Number.isFinite(number)) return fallback;
-  if (featureName === "liabilities_to_assets") return number >= 0.7 ? "negative" : "positive";
-  if (featureName === "employee_growth_6m" || featureName === "revenue_growth_1y" || featureName === "operating_margin_change_1y") {
-    return number < 0 ? "negative" : "positive";
-  }
-  if (featureName.includes("_count")) return number > 0 ? "positive" : "negative";
-  return fallback;
 }
 
 export async function getDashboard(companyId: number): Promise<DashboardData | null> {
@@ -125,7 +126,7 @@ export async function getDashboard(companyId: number): Promise<DashboardData | n
       ORDER BY display_order ASC`,
     { companyId, modelVersion: score.modelVersion }
   );
-  const factors = factorRows.map(mapFactor);
+  const factors = factorRows.map(mapFactor).filter((item): item is GrowthScoreFactor => item !== null);
 
   const industryData = await getIndustryComparison(company.industry, companyId);
   return {
@@ -195,24 +196,23 @@ async function getDataConfidence(companyId: number, company: NonNullable<Awaited
 async function getIndustryComparison(industry: string | null, companyId: number): Promise<{ averageScore: number | null; topScore: number | null; rankings: IndustryRankingRow[] }> {
   if (!industry) return { averageScore: null, topScore: null, rankings: [] };
   const [rows] = await getPool().execute<RankingRow[]>(
-    `WITH latest_scores AS (
-       SELECT gs.*
-         FROM growth_scores gs
-         JOIN (
-           SELECT company_id,
-                  COALESCE(
-                    MAX(CASE WHEN is_mock = 0 THEN calculated_at END),
-                    MAX(CASE WHEN is_mock = 1 THEN calculated_at END)
-                  ) AS calculated_at
-             FROM growth_scores
-            GROUP BY company_id
-         ) picked ON picked.company_id = gs.company_id AND picked.calculated_at = gs.calculated_at
+    `WITH picked_scores AS (
+       SELECT ranked_scores.*
+         FROM (
+           SELECT gs.*,
+                  ROW_NUMBER() OVER (
+                    PARTITION BY gs.company_id
+                    ORDER BY gs.is_mock ASC, gs.calculated_at DESC, gs.model_version DESC
+                  ) AS score_pick
+             FROM growth_scores gs
+         ) ranked_scores
+        WHERE ranked_scores.score_pick = 1
       ),
       ranked AS (
-        SELECT c.company_id, c.company_name, latest_scores.growth_score,
-               ROW_NUMBER() OVER (ORDER BY latest_scores.growth_score DESC) AS rank_position
+        SELECT c.company_id, c.company_name, picked_scores.growth_score,
+               ROW_NUMBER() OVER (ORDER BY picked_scores.growth_score DESC, c.company_id ASC) AS rank_position
           FROM companies c
-          JOIN latest_scores ON latest_scores.company_id = c.company_id
+          JOIN picked_scores ON picked_scores.company_id = c.company_id
          WHERE c.industry = :industry
       )
       SELECT rank_position, company_id, company_name, growth_score
@@ -222,22 +222,21 @@ async function getIndustryComparison(industry: string | null, companyId: number)
     { industry, companyId }
   );
   const [stats] = await getPool().execute<Array<RowDataPacket & { average_score: number | null; top_score: number | null }>>(
-    `WITH latest_scores AS (
-       SELECT gs.*
-         FROM growth_scores gs
-         JOIN (
-           SELECT company_id,
-                  COALESCE(
-                    MAX(CASE WHEN is_mock = 0 THEN calculated_at END),
-                    MAX(CASE WHEN is_mock = 1 THEN calculated_at END)
-                  ) AS calculated_at
-             FROM growth_scores
-            GROUP BY company_id
-         ) picked ON picked.company_id = gs.company_id AND picked.calculated_at = gs.calculated_at
+    `WITH picked_scores AS (
+       SELECT ranked_scores.*
+         FROM (
+           SELECT gs.*,
+                  ROW_NUMBER() OVER (
+                    PARTITION BY gs.company_id
+                    ORDER BY gs.is_mock ASC, gs.calculated_at DESC, gs.model_version DESC
+                  ) AS score_pick
+             FROM growth_scores gs
+         ) ranked_scores
+        WHERE ranked_scores.score_pick = 1
       )
-      SELECT AVG(latest_scores.growth_score) AS average_score, MAX(latest_scores.growth_score) AS top_score
+      SELECT AVG(picked_scores.growth_score) AS average_score, MAX(picked_scores.growth_score) AS top_score
         FROM companies c
-        JOIN latest_scores ON latest_scores.company_id = c.company_id
+        JOIN picked_scores ON picked_scores.company_id = c.company_id
        WHERE c.industry = :industry`,
     { industry }
   );
@@ -252,6 +251,58 @@ async function getIndustryComparison(industry: string | null, companyId: number)
       isCurrent: row.company_id === companyId
     }))
   };
+}
+
+export async function getIndustryTopGroups(limit = 5): Promise<IndustryTopGroup[]> {
+  if (!hasDbConfig() && shouldUseCsvFallback()) return getCsvIndustryTopGroups(limit);
+
+  const dataNames = TOP_INDUSTRY_GROUPS.flatMap((group) => group.dataNames);
+  const [rows] = await getPool().query<IndustryTopRow[]>(
+    `WITH picked_scores AS (
+       SELECT ranked_scores.*
+         FROM (
+           SELECT gs.*,
+                  ROW_NUMBER() OVER (
+                    PARTITION BY gs.company_id
+                    ORDER BY gs.is_mock ASC, gs.calculated_at DESC, gs.model_version DESC
+                  ) AS score_pick
+             FROM growth_scores gs
+         ) ranked_scores
+        WHERE ranked_scores.score_pick = 1
+      ),
+      ranked AS (
+        SELECT c.industry, c.company_id, c.company_name, picked_scores.growth_score,
+               picked_scores.model_version, picked_scores.is_mock,
+               ROW_NUMBER() OVER (
+                 PARTITION BY c.industry
+                 ORDER BY picked_scores.growth_score DESC, c.company_id ASC
+               ) AS rank_position
+          FROM companies c
+          JOIN picked_scores ON picked_scores.company_id = c.company_id
+         WHERE c.industry IN (?)
+      )
+      SELECT industry, rank_position, company_id, company_name, growth_score, model_version, is_mock
+        FROM ranked
+       WHERE rank_position <= ?
+       ORDER BY industry, rank_position`,
+    [dataNames, limit]
+  );
+
+  return TOP_INDUSTRY_GROUPS.map(({ industryName, dataNames: aliases }) => {
+    const companies = rows
+      .filter((row) => aliases.includes(row.industry))
+      .sort((a, b) => Number(b.growth_score) - Number(a.growth_score) || a.company_id - b.company_id)
+      .slice(0, limit)
+      .map((row, index) => ({
+        rank: index + 1,
+        companyId: row.company_id,
+        companyName: row.company_name,
+        growthScore: Number(row.growth_score),
+        modelVersion: row.model_version,
+        isMock: Boolean(row.is_mock)
+      }));
+    return { industryName, companies };
+  });
 }
 
 async function getGrowthEvents(companyId: number): Promise<GrowthEvent[]> {

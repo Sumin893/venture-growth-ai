@@ -23,7 +23,7 @@ export function DimensionScoreList({ score }: { score: GrowthScore }) {
             <div key={category} className={styles.row}>
               <span className={styles.label}><ChartLineUp size={18} weight="duotone" />{categoryLabels[category]}</span>
               <progress className={styles.track} value={value} max={100} aria-label={`${categoryLabels[category]} ${value}점`} />
-              <strong>{value}</strong><span>/ 100</span>
+              <span className={styles.score}><strong>{value}</strong> / 100</span>
             </div>
           );
         })}

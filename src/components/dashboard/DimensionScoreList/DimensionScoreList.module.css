@@ -1,5 +1,6 @@
 .card {
   padding: 26px;
+  min-width: 0;
 }
 
 .card h2 {
@@ -14,15 +15,17 @@
 
 .row {
   display: grid;
-  grid-template-columns: 150px minmax(110px, 1fr) 34px 48px;
+  grid-template-columns: minmax(96px, 150px) minmax(64px, 1fr) minmax(72px, auto);
   align-items: center;
   gap: 12px;
+  min-width: 0;
 }
 
 .label {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
   font-weight: 700;
 }
 
@@ -49,19 +52,19 @@
   background: var(--primary);
 }
 
-.row strong {
-  color: var(--primary);
+.score {
+  color: var(--muted);
   text-align: right;
+  white-space: nowrap;
 }
 
-.row > span:last-child {
-  color: var(--muted);
-  white-space: nowrap;
+.score strong {
+  color: var(--primary);
 }
 
 @media (max-width: 720px) {
   .row {
-    grid-template-columns: 1fr 48px;
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .track {

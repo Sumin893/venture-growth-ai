@@ -2,12 +2,14 @@ import { ChartBar, FileText, Gauge } from "@phosphor-icons/react/dist/ssr";
 import { Header } from "@/components/layout/Header/Header";
 import { CompanySearch } from "@/components/search/CompanySearch/CompanySearch";
 import { CompanyBubbleCloud } from "@/components/search/CompanyBubbleCloud/CompanyBubbleCloud";
+import { IndustryTopSection } from "@/components/home/IndustryTopSection/IndustryTopSection";
 import { Card } from "@/components/common/Card/Card";
 import { getFeaturedCompanies } from "@/repositories/companyRepository";
+import { getIndustryTopGroups } from "@/repositories/dashboardRepository";
 import styles from "./page.module.css";
 
 export default async function Home() {
-  const companies = await getFeaturedCompanies(30);
+  const [companies, industryTopGroups] = await Promise.all([getFeaturedCompanies(30), getIndustryTopGroups(5)]);
   return (
     <main>
       <Header />
@@ -22,6 +24,7 @@ export default async function Home() {
           <CompanySearch />
         </div>
       </section>
+      <IndustryTopSection groups={industryTopGroups} />
       <section className={styles.featureBand}>
         <Card className={styles.featureCard}>
           <Gauge size={54} weight="duotone" />
