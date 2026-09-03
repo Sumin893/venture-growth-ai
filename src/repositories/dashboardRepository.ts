@@ -50,6 +50,8 @@ interface RankingRow extends RowDataPacket {
   company_id: number;
   company_name: string;
   growth_score: number | string;
+  average_score: number | string | null;
+  top_score: number | string | null;
 }
 
 interface IndustryTopRow extends RowDataPacket {
@@ -137,36 +139,51 @@ function mapFactor(row: FactorRow): GrowthScoreFactor {
 export async function getDashboard(companyId: number): Promise<DashboardData | null> {
   if (!hasDbConfig() && shouldUseCsvFallback()) return getCsvDashboard(companyId);
 
-  const company = await getCompany(companyId);
-  if (!company) return null;
-
-  const [scoreRows] = await getPool().execute<ScoreRow[]>(
-    `SELECT *
+  const companyPromise = getCompany(companyId);
+  const scorePromise = getPool().execute<ScoreRow[]>(
+    `SELECT company_id, growth_score, growth_grade, growth_rank, growth_percentile,
+            industry_growth_rank, industry_growth_percentile,
+            financial_score, patent_score, employment_score, news_event_score, industry_score,
+            financial_data_available, patent_data_available, employment_data_available,
+            news_event_data_available, industry_data_available,
+            coverage_score, model_version, calculated_at, is_mock
        FROM growth_scores
       WHERE company_id = :companyId
       ORDER BY is_mock ASC, calculated_at DESC
       LIMIT 1`,
     { companyId }
   );
+
+  const [company, [scoreRows]] = await Promise.all([companyPromise, scorePromise]);
+  if (!company) return null;
   if (!scoreRows[0]) return null;
 
   const score = mapScore(scoreRows[0]);
-  const [factorRows] = await getPool().execute<FactorRow[]>(
+  const factorsPromise = getPool().execute<FactorRow[]>(
     `SELECT category, feature_name, feature_value, contribution, direction, description, display_order
        FROM growth_score_factors
       WHERE company_id = :companyId AND model_version = :modelVersion
       ORDER BY display_order ASC`,
     { companyId, modelVersion: score.modelVersion }
   );
+  const industryDataPromise = getIndustryComparison(company.industry, companyId);
+  const featureDetailsPromise = getFeatureDetails(companyId);
+  const growthEventsPromise = getGrowthEvents(companyId);
+
+  const [[factorRows], industryData, featureDetails, growthEvents] = await Promise.all([
+    factorsPromise,
+    industryDataPromise,
+    featureDetailsPromise,
+    growthEventsPromise
+  ]);
   const factors = factorRows.map(mapFactor);
-  const industryData = await getIndustryComparison(company.industry, companyId);
 
   return {
     company,
     score,
     positiveFactors: factors.filter((item) => item.direction === "positive").slice(0, 3),
     negativeFactors: factors.filter((item) => item.direction === "negative").slice(0, 3),
-    featureDetails: await getFeatureDetails(companyId),
+    featureDetails,
     industryComparison: {
       industryName: company.industry ?? "미분류",
       rank: score.industryGrowthRank,
@@ -175,43 +192,60 @@ export async function getDashboard(companyId: number): Promise<DashboardData | n
       topScore: industryData.topScore,
       rankings: industryData.rankings
     },
-    growthEvents: await getGrowthEvents(companyId),
+    growthEvents,
     dataConfidence: getDataCoverage(score)
   };
 }
 
 async function getFeatureDetails(companyId: number): Promise<DashboardData["featureDetails"]> {
   const pool = getPool();
-  const [financial] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
-    `SELECT *
-       FROM financial_features
-      WHERE company_id = :companyId
-      ORDER BY
-        CASE
-          WHEN revenue_growth_1y IS NOT NULL
-            OR operating_margin IS NOT NULL
-            OR operating_margin_change_1y IS NOT NULL
-            OR liabilities_to_assets IS NOT NULL
-            OR current_ratio IS NOT NULL
-          THEN 0
-          ELSE 1
-        END,
-        feature_year DESC
-      LIMIT 1`,
-    { companyId }
-  );
-  const [patent] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
-    "SELECT * FROM patent_features WHERE company_id = :companyId ORDER BY feature_year DESC LIMIT 1",
-    { companyId }
-  );
-  const [employment] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
-    "SELECT * FROM employment_features WHERE company_id = :companyId LIMIT 1",
-    { companyId }
-  );
-  const [news] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
-    "SELECT * FROM news_event_features WHERE company_id = :companyId LIMIT 1",
-    { companyId }
-  );
+  const [financialResult, patentResult, employmentResult, newsResult] = await Promise.all([
+    pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
+      `SELECT revenue_growth_1y, operating_margin, operating_margin_change_1y,
+              liabilities_to_assets, current_ratio
+         FROM financial_features
+        WHERE company_id = :companyId
+        ORDER BY
+          CASE
+            WHEN revenue_growth_1y IS NOT NULL
+              OR operating_margin IS NOT NULL
+              OR operating_margin_change_1y IS NOT NULL
+              OR liabilities_to_assets IS NOT NULL
+              OR current_ratio IS NOT NULL
+            THEN 0
+            ELSE 1
+          END,
+          feature_year DESC
+        LIMIT 1`,
+      { companyId }
+    ),
+    pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
+      `SELECT patent_count_3y, patent_count_1y, unique_ipc_count, patent_momentum
+         FROM patent_features
+        WHERE company_id = :companyId
+        ORDER BY feature_year DESC
+        LIMIT 1`,
+      { companyId }
+    ),
+    pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
+      `SELECT employee_count_latest, employee_growth_6m, net_hiring_rate_6m, employee_growth_slope
+         FROM employment_features
+        WHERE company_id = :companyId
+        LIMIT 1`,
+      { companyId }
+    ),
+    pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
+      `SELECT growth_event_12m_count, investment_event_24m_count, contract_event_12m_count, recent_growth_event_days
+         FROM news_event_features
+        WHERE company_id = :companyId
+        LIMIT 1`,
+      { companyId }
+    )
+  ]);
+  const [financial] = financialResult;
+  const [patent] = patentResult;
+  const [employment] = employmentResult;
+  const [news] = newsResult;
 
   return {
     financial: rows(financial[0], ["revenue_growth_1y", "operating_margin", "operating_margin_change_1y", "liabilities_to_assets", "current_ratio"]),
@@ -266,40 +300,24 @@ async function getIndustryComparison(industry: string | null, companyId: number)
       ),
       ranked AS (
         SELECT c.company_id, c.company_name, picked_scores.growth_score,
-               ROW_NUMBER() OVER (ORDER BY picked_scores.growth_score DESC, c.company_id ASC) AS rank_position
+               ROW_NUMBER() OVER (ORDER BY picked_scores.growth_score DESC, c.company_id ASC) AS rank_position,
+               AVG(picked_scores.growth_score) OVER () AS average_score,
+               MAX(picked_scores.growth_score) OVER () AS top_score
           FROM companies c
           JOIN picked_scores ON picked_scores.company_id = c.company_id
          WHERE c.industry = :industry
       )
-      SELECT rank_position, company_id, company_name, growth_score
+      SELECT rank_position, company_id, company_name, growth_score, average_score, top_score
         FROM ranked
        WHERE rank_position <= 3 OR company_id = :companyId
        ORDER BY rank_position`,
     { industry, companyId }
   );
-  const [stats] = await getPool().execute<Array<RowDataPacket & { average_score: number | string | null; top_score: number | string | null }>>(
-    `WITH picked_scores AS (
-       SELECT ranked_scores.*
-         FROM (
-           SELECT gs.*,
-                  ROW_NUMBER() OVER (
-                    PARTITION BY gs.company_id
-                    ORDER BY gs.is_mock ASC, gs.calculated_at DESC, gs.model_version DESC
-                  ) AS score_pick
-             FROM growth_scores gs
-         ) ranked_scores
-        WHERE ranked_scores.score_pick = 1
-      )
-      SELECT AVG(picked_scores.growth_score) AS average_score, MAX(picked_scores.growth_score) AS top_score
-        FROM companies c
-        JOIN picked_scores ON picked_scores.company_id = c.company_id
-       WHERE c.industry = :industry`,
-    { industry }
-  );
+  const stats = rows[0];
 
   return {
-    averageScore: nullableNumber(stats[0]?.average_score ?? null) === null ? null : Number(Number(stats[0]?.average_score).toFixed(1)),
-    topScore: nullableNumber(stats[0]?.top_score ?? null) === null ? null : Number(Number(stats[0]?.top_score).toFixed(1)),
+    averageScore: nullableNumber(stats?.average_score ?? null) === null ? null : Number(Number(stats?.average_score).toFixed(1)),
+    topScore: nullableNumber(stats?.top_score ?? null) === null ? null : Number(Number(stats?.top_score).toFixed(1)),
     rankings: rows.map((row) => ({
       rank: row.rank_position,
       companyId: row.company_id,
