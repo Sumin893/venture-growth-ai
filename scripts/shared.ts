@@ -4,7 +4,9 @@ import { parse } from "csv-parse/sync";
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 
-dotenv.config({ path: ".env.local" });
+const envFile = process.env.ENV_FILE ?? ".env.local";
+
+dotenv.config({ path: envFile });
 dotenv.config();
 
 export type CsvRow = Record<string, string>;
@@ -38,6 +40,13 @@ export function normalizeSearchName(value: string): string {
 }
 
 export function getPool(database = process.env.DB_NAME): mysql.Pool {
+  const ssl =
+    process.env.DB_SSL === "true"
+      ? {
+          ca: process.env.DB_SSL_CA?.replace(/\\n/g, "\n")
+        }
+      : undefined;
+
   return mysql.createPool({
     host: process.env.DB_HOST,
     port: Number(process.env.DB_PORT ?? 3306),
@@ -45,7 +54,8 @@ export function getPool(database = process.env.DB_NAME): mysql.Pool {
     password: process.env.DB_PASSWORD,
     database,
     waitForConnections: true,
-    connectionLimit: 4
+    connectionLimit: 4,
+    ssl
   });
 }
 
