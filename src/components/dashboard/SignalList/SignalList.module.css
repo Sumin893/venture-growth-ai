@@ -1,5 +1,8 @@
 .card {
   padding: 26px;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .card h2 {
@@ -8,6 +11,8 @@
   gap: 10px;
   margin: 0 0 26px;
   font-size: 20px;
+  min-width: 0;
+  line-height: 1.3;
 }
 
 .positiveTitle {
@@ -24,6 +29,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  min-width: 0;
 }
 
 .list li {
@@ -31,6 +37,7 @@
   grid-template-columns: 26px 1fr;
   gap: 12px;
   align-items: start;
+  min-width: 0;
 }
 
 .list svg {
@@ -40,6 +47,9 @@
 .list strong {
   display: block;
   margin-bottom: 6px;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .list span,
@@ -47,6 +57,9 @@
   margin: 0;
   color: var(--muted);
   line-height: 1.45;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .positive {

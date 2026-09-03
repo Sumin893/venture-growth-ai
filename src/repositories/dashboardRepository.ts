@@ -183,7 +183,21 @@ export async function getDashboard(companyId: number): Promise<DashboardData | n
 async function getFeatureDetails(companyId: number): Promise<DashboardData["featureDetails"]> {
   const pool = getPool();
   const [financial] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(
-    "SELECT * FROM financial_features WHERE company_id = :companyId ORDER BY feature_year DESC LIMIT 1",
+    `SELECT *
+       FROM financial_features
+      WHERE company_id = :companyId
+      ORDER BY
+        CASE
+          WHEN revenue_growth_1y IS NOT NULL
+            OR operating_margin IS NOT NULL
+            OR operating_margin_change_1y IS NOT NULL
+            OR liabilities_to_assets IS NOT NULL
+            OR current_ratio IS NOT NULL
+          THEN 0
+          ELSE 1
+        END,
+        feature_year DESC
+      LIMIT 1`,
     { companyId }
   );
   const [patent] = await pool.execute<Array<RowDataPacket & Record<string, string | number | null>>>(

@@ -9,12 +9,16 @@
   justify-content: space-between;
   margin-bottom: 24px;
   color: #6b7b99;
+  gap: 12px;
+  min-width: 0;
 }
 
 .title h2 {
   margin: 0;
   color: var(--primary);
   font-size: 24px;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .body {
@@ -76,15 +80,18 @@
   display: grid;
   gap: 8px;
   min-width: 0;
+  max-width: 100%;
 }
 
 .ranks span {
   color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 .ranks strong {
   margin-bottom: 12px;
   font-size: 34px;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 1180px) {
