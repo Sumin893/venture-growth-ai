@@ -1,7 +1,11 @@
 import { getPool, hasDbConfig, shouldUseCsvFallback } from "@/lib/db";
 import { getCsvCompany, getCsvFeaturedCompanies, searchCsvCompanies } from "@/lib/csvData";
 import type { CompanyDetail, CompanySummary } from "@/types/company";
+import { cacheLife, cacheTag } from "next/cache";
 import type { RowDataPacket } from "mysql2";
+
+const PUBLIC_COMPANY_CACHE_REVALIDATE_SECONDS = 600;
+const PUBLIC_COMPANY_CACHE_EXPIRE_SECONDS = 1800;
 
 interface CompanyRow extends RowDataPacket {
   company_id: number;
@@ -69,6 +73,13 @@ export async function getCompany(companyId: number): Promise<CompanyDetail | nul
 }
 
 export async function getFeaturedCompanies(limit = 30): Promise<CompanySummary[]> {
+  "use cache: remote";
+  cacheTag("featured-companies");
+  cacheLife({
+    revalidate: PUBLIC_COMPANY_CACHE_REVALIDATE_SECONDS,
+    expire: PUBLIC_COMPANY_CACHE_EXPIRE_SECONDS
+  });
+
   if (!hasDbConfig() && shouldUseCsvFallback()) return getCsvFeaturedCompanies(limit);
   const [rows] = await getPool().execute<CompanyRow[]>(
     `SELECT company_id, company_name, industry, sub_industry, region, venture_type,

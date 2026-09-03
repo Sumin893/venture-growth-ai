@@ -4,7 +4,19 @@ import type { DashboardData, GrowthEvent, GrowthScore, GrowthScoreFactor, Indust
 import { getCompany } from "@/repositories/companyRepository";
 import { EVENT_CONFIDENCE_THRESHOLD, featureMetadata } from "@/constants/featureMetadata";
 import { formatFeatureValue } from "@/utils/format";
+import { cacheLife, cacheTag } from "next/cache";
 import type { RowDataPacket } from "mysql2";
+
+const DASHBOARD_CACHE_REVALIDATE_SECONDS = 600;
+const DASHBOARD_CACHE_EXPIRE_SECONDS = 1800;
+const shouldLogDashboardCache = process.env.PROFILE_DASHBOARD_CACHE === "true";
+
+class DashboardNotFoundError extends Error {
+  constructor(companyId: number) {
+    super(`Dashboard not found: ${companyId}`);
+    this.name = "DashboardNotFoundError";
+  }
+}
 
 interface ScoreRow extends RowDataPacket {
   company_id: number;
@@ -137,6 +149,31 @@ function mapFactor(row: FactorRow): GrowthScoreFactor {
 }
 
 export async function getDashboard(companyId: number): Promise<DashboardData | null> {
+  try {
+    return await getCachedDashboard(companyId);
+  } catch (error) {
+    if (error instanceof DashboardNotFoundError) return null;
+    throw error;
+  }
+}
+
+async function getCachedDashboard(companyId: number): Promise<DashboardData> {
+  "use cache: remote";
+  cacheTag("company-dashboard");
+  cacheTag(`company-dashboard:${companyId}`);
+  cacheLife({
+    revalidate: DASHBOARD_CACHE_REVALIDATE_SECONDS,
+    expire: DASHBOARD_CACHE_EXPIRE_SECONDS
+  });
+
+  const dashboard = await getDashboardUncached(companyId);
+  if (!dashboard) throw new DashboardNotFoundError(companyId);
+  return dashboard;
+}
+
+export async function getDashboardUncached(companyId: number): Promise<DashboardData | null> {
+  if (shouldLogDashboardCache) console.log(`[dashboard-cache] MISS companyId=${companyId}`);
+
   if (!hasDbConfig() && shouldUseCsvFallback()) return getCsvDashboard(companyId);
 
   const companyPromise = getCompany(companyId);
@@ -329,6 +366,13 @@ async function getIndustryComparison(industry: string | null, companyId: number)
 }
 
 export async function getIndustryTopGroups(limit = 5): Promise<IndustryTopGroup[]> {
+  "use cache: remote";
+  cacheTag("industry-top-groups");
+  cacheLife({
+    revalidate: DASHBOARD_CACHE_REVALIDATE_SECONDS,
+    expire: DASHBOARD_CACHE_EXPIRE_SECONDS
+  });
+
   if (!hasDbConfig() && shouldUseCsvFallback()) return getCsvIndustryTopGroups(limit);
 
   const dataNames = TOP_INDUSTRY_GROUPS.flatMap((group) => group.dataNames);

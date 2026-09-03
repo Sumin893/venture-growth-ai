@@ -12,6 +12,8 @@ import { SignalList } from "@/components/dashboard/SignalList/SignalList";
 import { getDashboard } from "@/repositories/dashboardRepository";
 import styles from "./page.module.css";
 
+export const instant = false;
+
 export default async function CompanyDashboard({ params }: { params: Promise<{ companyId: string }> }) {
   const { companyId } = await params;
   const dashboard = await getDashboard(Number(companyId));
