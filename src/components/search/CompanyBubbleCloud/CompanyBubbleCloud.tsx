@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { CompanySummary } from "@/types/company";
 import { formatCompanyDisplayName } from "@/utils/format";
 import styles from "./CompanyBubbleCloud.module.css";
@@ -9,14 +10,14 @@ export function CompanyBubbleCloud({ companies }: { companies: CompanySummary[] 
         const displayName = formatCompanyDisplayName(company.companyName);
 
         return (
-          <a
+          <Link
             key={company.companyId}
             href={`/company/${company.companyId}`}
             className={`${styles.bubble} ${styles[`bubble${index}`] ?? ""}`}
           >
             <span>{(displayName || company.companyName).slice(0, 1)}</span>
             <strong>{displayName}</strong>
-          </a>
+          </Link>
         );
       })}
     </div>

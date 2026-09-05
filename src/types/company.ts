@@ -25,9 +25,11 @@ export interface GrowthScore {
   growthGrade: string;
   growthRank: number;
   growthPercentile: number;
+  growthRankTotal: number | null;
 
   industryGrowthRank: number | null;
   industryGrowthPercentile: number | null;
+  industryGrowthRankTotal: number | null;
 
   financialScore: number | null;
   patentScore: number | null;

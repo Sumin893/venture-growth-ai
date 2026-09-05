@@ -62,8 +62,13 @@ interface RankingRow extends RowDataPacket {
   company_id: number;
   company_name: string;
   growth_score: number | string;
+  company_count: number;
   average_score: number | string | null;
   top_score: number | string | null;
+}
+
+interface CountRow extends RowDataPacket {
+  count: number;
 }
 
 interface IndustryTopRow extends RowDataPacket {
@@ -109,9 +114,11 @@ function mapScore(row: ScoreRow): GrowthScore {
     growthGrade: row.growth_grade,
     growthRank: row.growth_rank,
     growthPercentile: Number(row.growth_percentile),
+    growthRankTotal: null,
 
     industryGrowthRank: row.industry_growth_rank,
     industryGrowthPercentile: nullableNumber(row.industry_growth_percentile),
+    industryGrowthRankTotal: null,
 
     financialScore: nullableNumber(row.financial_score),
     patentScore: nullableNumber(row.patent_score),
@@ -203,12 +210,14 @@ export async function getDashboardUncached(companyId: number): Promise<Dashboard
       ORDER BY display_order ASC`,
     { companyId, modelVersion: score.modelVersion }
   );
+  const totalCountPromise = getGrowthScoreCompanyCount();
   const industryDataPromise = getIndustryComparison(company.industry, companyId);
   const featureDetailsPromise = getFeatureDetails(companyId);
   const growthEventsPromise = getGrowthEvents(companyId);
 
-  const [[factorRows], industryData, featureDetails, growthEvents] = await Promise.all([
+  const [[factorRows], totalCount, industryData, featureDetails, growthEvents] = await Promise.all([
     factorsPromise,
+    totalCountPromise,
     industryDataPromise,
     featureDetailsPromise,
     growthEventsPromise
@@ -217,7 +226,11 @@ export async function getDashboardUncached(companyId: number): Promise<Dashboard
 
   return {
     company,
-    score,
+    score: {
+      ...score,
+      growthRankTotal: totalCount,
+      industryGrowthRankTotal: industryData.companyCount
+    },
     positiveFactors: factors.filter((item) => item.direction === "positive").slice(0, 3),
     negativeFactors: factors.filter((item) => item.direction === "negative").slice(0, 3),
     featureDetails,
@@ -319,8 +332,25 @@ function coverageItem(label: string, available: boolean, score: number | null) {
   };
 }
 
-async function getIndustryComparison(industry: string | null, companyId: number): Promise<{ averageScore: number | null; topScore: number | null; rankings: IndustryRankingRow[] }> {
-  if (!industry) return { averageScore: null, topScore: null, rankings: [] };
+async function getGrowthScoreCompanyCount(): Promise<number | null> {
+  const [rows] = await getPool().execute<CountRow[]>(
+    `SELECT COUNT(*) AS count
+       FROM (
+         SELECT gs.company_id,
+                ROW_NUMBER() OVER (
+                  PARTITION BY gs.company_id
+                  ORDER BY gs.is_mock ASC, gs.calculated_at DESC, gs.model_version DESC
+                ) AS score_pick
+           FROM growth_scores gs
+       ) picked_scores
+      WHERE picked_scores.score_pick = 1`
+  );
+
+  return rows[0]?.count ?? null;
+}
+
+async function getIndustryComparison(industry: string | null, companyId: number): Promise<{ averageScore: number | null; topScore: number | null; companyCount: number | null; rankings: IndustryRankingRow[] }> {
+  if (!industry) return { averageScore: null, topScore: null, companyCount: null, rankings: [] };
 
   const [rows] = await getPool().execute<RankingRow[]>(
     `WITH picked_scores AS (
@@ -338,13 +368,14 @@ async function getIndustryComparison(industry: string | null, companyId: number)
       ranked AS (
         SELECT c.company_id, c.company_name, picked_scores.growth_score,
                ROW_NUMBER() OVER (ORDER BY picked_scores.growth_score DESC, c.company_id ASC) AS rank_position,
+               COUNT(*) OVER () AS company_count,
                AVG(picked_scores.growth_score) OVER () AS average_score,
                MAX(picked_scores.growth_score) OVER () AS top_score
           FROM companies c
           JOIN picked_scores ON picked_scores.company_id = c.company_id
          WHERE c.industry = :industry
       )
-      SELECT rank_position, company_id, company_name, growth_score, average_score, top_score
+      SELECT rank_position, company_id, company_name, growth_score, company_count, average_score, top_score
         FROM ranked
        WHERE rank_position <= 3 OR company_id = :companyId
        ORDER BY rank_position`,
@@ -355,6 +386,7 @@ async function getIndustryComparison(industry: string | null, companyId: number)
   return {
     averageScore: nullableNumber(stats?.average_score ?? null) === null ? null : Number(Number(stats?.average_score).toFixed(1)),
     topScore: nullableNumber(stats?.top_score ?? null) === null ? null : Number(Number(stats?.top_score).toFixed(1)),
+    companyCount: stats?.company_count ?? null,
     rankings: rows.map((row) => ({
       rank: row.rank_position,
       companyId: row.company_id,

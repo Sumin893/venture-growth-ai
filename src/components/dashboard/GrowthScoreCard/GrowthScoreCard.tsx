@@ -4,9 +4,23 @@ import { InfoTooltip } from "@/components/common/InfoTooltip/InfoTooltip";
 import type { GrowthScore } from "@/types/company";
 import styles from "./GrowthScoreCard.module.css";
 
+function formatTopPercentage(rank: number | null, total: number | null, percentile: number | null): string {
+  if (rank !== null && total !== null && Number.isFinite(rank) && Number.isFinite(total) && rank > 0 && total > 0) {
+    return `${Math.min(100, Math.max(1, Math.ceil((rank / total) * 100)))}%`;
+  }
+
+  if (percentile !== null && Number.isFinite(percentile)) {
+    return `${Math.min(100, Math.max(1, Math.ceil(100 - percentile)))}%`;
+  }
+
+  return "-";
+}
+
 export function GrowthScoreCard({ score }: { score: GrowthScore }) {
   const circumference = 2 * Math.PI * 82;
   const filled = Math.min(circumference, Math.max(0, (score.growthScore / 100) * circumference));
+  const overallTopPercentage = formatTopPercentage(score.growthRank, score.growthRankTotal, score.growthPercentile);
+  const industryTopPercentage = formatTopPercentage(score.industryGrowthRank, score.industryGrowthRankTotal, score.industryGrowthPercentile);
 
   return (
     <Card className={styles.card}>
@@ -28,9 +42,9 @@ export function GrowthScoreCard({ score }: { score: GrowthScore }) {
         </div>
         <div className={styles.ranks}>
           <span>전체 상위</span>
-          <strong>{Math.round(score.growthPercentile)}%</strong>
+          <strong>{overallTopPercentage}</strong>
           <span>동일 산업 상위</span>
-          <strong>{score.industryGrowthPercentile === null ? "-" : Math.round(score.industryGrowthPercentile)}%</strong>
+          <strong>{industryTopPercentage}</strong>
           {score.isMock ? <Badge tone="blue">Mock {score.modelVersion}</Badge> : <Badge tone="green">Model {score.modelVersion}</Badge>}
         </div>
       </div>
